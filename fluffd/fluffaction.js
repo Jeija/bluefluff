@@ -64,25 +64,6 @@ commands["setname"] = {
 	}
 }
 
-commands["dlc_delete"] = {
-	run : function(fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x74, params.slot]), callback);
-	},
-	readable : "Delete DLC",
-	description : "Delete DLC from slot with ID",
-	params : {
-		slot : "Slot to be deleted (number)"
-	}
-}
-
-commands["dlc_activate"] = {
-	run : function(fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x61, params.slot]), callback);
-	},
-	readable : "Activate DLC",
-	description : "Activate DLC (?????)"
-}
-
 commands["custom"] = {
 	run : function(fluff, params, callback) {
 		fluff.generalPlusWrite(new Buffer(params.cmd, "hex"), callback);
@@ -122,7 +103,7 @@ commands["moodmeter"] = {
 }
 
 /*** Nordic Actions ***/
-commands["custom_nordic"] = {
+commands["nordic_custom"] = {
 	run : function(fluff, params, callback) {
 		fluff.nordicWrite(new Buffer(params.cmd, "hex"), callback);
 	},
@@ -133,16 +114,31 @@ commands["custom_nordic"] = {
 	}
 }
 
+commands["nordic_packetack"] = {
+	run : function(fluff, params, callback) {
+		fluff.nordicWrite(new Buffer([0x09, params.state, 0x00]), callback);
+	},
+	readable : "Set Nordic Packet ACK",
+	description : "Enable / disable nordic packet ACK messages for file writing",
+	params : {
+		state : "0 for off, 1 for on"
+	}
+}
 
+/*** DLC-related Actions ***/
+commands["dlc_delete"] = {
+	run : function(fluff, params, callback) {
+		fluff.generalPlusWrite(new Buffer([0x74, params.slot]), callback);
+	},
+	readable : "Delete DLC",
+	description : "Delete DLC from slot with ID",
+	params : {
+		slot : "Slot to be deleted (number)"
+	}
+}
 
-/*** FileWrite Actions ***/
 commands["flashdlc"] = {
 	run : function(fluff, params, callback) {
-		//dlcfile = "/home/florian/Furby/fakedlcs/twilightlicious.dlc";
-		//dlcfile = "/home/florian/Furby/apk/assets/data/phygital/fu001680.dlc";
-		// Set filename and some other data (what exactly??) TU003410.DLC
-		//fluff.generalPlusWrite(new Buffer([0x50, 0x00, 0x11, 0x3d, 0xd6, 0x02, 0x54, 0x55, 0x30, 0x30, 0x33, 0x34, 0x31, 0x30, 0x2e, 0x44, 0x4c, 0x43, 0x00, 0x00]), callback);
-
 		dlcsize = fs.statSync(params.dlcfile)["size"]
 
 		// Not sure what buf_slot does?? Is it really the DLC slot??
@@ -181,21 +177,31 @@ commands["flashdlc"] = {
 		});
 	},
 	readable : "Flash DLC file",
-	description : "Flash DLC file to slot on Furby, TODO: params",
+	description : "Flash DLC file to slot on Furby",
 	params : {
 		filename : "DLC filename, e.g. TU003410.DLC",
-		dlcfile : "Path to DLC file"
+		dlcfile : "Path to DLC file on fluffd server"
 	}
 }
 
-/*** Broken Write Actions (what do they do??) ***/
-/*commands["bodycam"] = function(fluff) {
-	fluff.generalPlusWrite(new Buffer([0xbc, 0xf0]));
+commands["dlc_load"] = {
+	run : function(fluff, params, callback) {
+		fluff.generalPlusWrite(new Buffer([0x60, params.slot]), callback);
+	},
+	readable : "Load DLC",
+	description : "Load DLC for activation",
+	params : {
+		slot : "DLC slot to be loaded (number)"
+	}
 }
 
-commands["audiocontrol"] = function(fluff) {
-	fluff.generalPlusWrite(new Buffer([0x0b, 0x00]));
-}*/
+commands["dlc_activate"] = {
+	run : function(fluff, params, callback) {
+		fluff.generalPlusWrite(new Buffer([0x61]), callback);
+	},
+	readable : "Activate DLC",
+	description : "Activate loaded DLC - use after 'Load DLC'"
+}
 
 module.exports = {
 	execute : function(fluff, cmd, params, callback) {
