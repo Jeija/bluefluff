@@ -203,6 +203,17 @@ commands["dlc_activate"] = {
 	description : "Activate loaded DLC - use after 'Load DLC'"
 }
 
+commands["dlc_deactivate"] = {
+	run : function(fluff, params, callback) {
+		fluff.generalPlusWrite(new Buffer([0x62, params.slot]), callback);
+	},
+	readable : "Deactivate DLC",
+	description : "Deactivate DLC slot without deleting it",
+	params : {
+		slot : "DLC slot to be deactivated (number)"
+	}
+}
+
 module.exports = {
 	execute : function(fluff, cmd, params, callback) {
 		if (!commands[cmd])

@@ -1,5 +1,5 @@
 # Nordic Commands and Responses
-Just like with the GeneralPlus characteristics, the first byte in the array determines the type of action / information while the other bytes are the actual content of that information. The following lists are incomplete!
+Just like with the GeneralPlus characteristics, the first byte in the array determines the type of action / information while the other bytes are the actual content of the packet. The following lists are incomplete!
 
 ## Commands
 Commands are sent from the App to Furby's NordicWrite characteristic. The following list has been compiled from information in Furby Connect World's `libFluff.so`, by sniffing BLE traffic and by trial and error:

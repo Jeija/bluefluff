@@ -42,9 +42,8 @@ This project mostly constists of documentation of Furby's protocol, his peculiar
 ## Documentation
 This project contains reverse engineered documentation for different elements of Furby Connect:
 * [**Furby's Bluetooth**](doc/bluetooth.md): Furby Connect uses Bluetooth Low Energy to transmit commands, sensor data and updates to and from the Furby Connect World App.
-* [**Bluetooth Commands**](doc/commands.md): Commands that make Furby say and do things, change his antenna color or mood.
+* [**GeneralPlus bluetooth commands / responses**](doc/generalplus.md): Commands that make Furby say and do things, change his antenna color or mood and responses to those commands as well as sensor data reports.
 * [**Action Sequences**](doc/actions.md): Information on actions and an organized list of Furby's thousands of different actions (incomplete for now).
-* [**Bluetooth Responses**](doc/responses.md): Furby reports sensor data and responds to commands. This is a list of answers.
 * [**Nordic Bluetooth Commands / Responses**](doc/nordic.md): List of commands and responses of the Nordic Semiconductor microprocessor
 * [**App Reverse Engineering**](doc/connectworld.md): The Android / iOS app downloads videos and updates for Furby in the background. This is how to capture Network traffic of the App.
 * [**The Audio Codec**](doc/bluetooth.md): Furby receives updates including encoded Audio.
@@ -109,7 +108,7 @@ During my explorations I have found several clear references to the following Fu
 
 However, since none of these personalities seem to be openly accessible by treating Furby in different ways (like with the 2012 Version Furbies), it appears that they will only be added later on.
 
-My speculation here is that Hasbro might want to sell "masks" for Furby Connect. Metaphorically, it makes perfect sense to have "putting on a mask" meaning "changing your personality". Also, I have found references to a "Mask" that doesn't appear to be the sleep mask in the App. But most importantly, when dissecting the sleep mask, I found a PCB with [space for an SO-8 IC](img/mask_front.png) (propably an SPI EEPROM?) and [test points on the back](img/mask_back.png).
+My speculation here is that Hasbro might want to sell "masks" for Furby Connect. Metaphorically, it makes perfect sense to have "putting on a mask" meaning "changing your personality". Also, I have found references to a "Mask" that doesn't appear to be the sleep mask in the App. But most importantly, when dissecting the sleep mask, I found a PCB with [space for an SO-8 IC](img/mask_front.png) (probably an SPI EEPROM?) and [test points on the back](img/mask_back.png).
 
 ### Furby doesn't really sleep
 After going to sleep, Furby will keep advertising his BLE connection. This means, you can wake Furby up even with the sleep mask on or send him updates while he appears to be asleep. He only really shuts off after being disconnected from the App and asleep for a few minutes, but by maintaining the BLE connection you can also keep him awake until the batteries run out.
@@ -130,7 +129,7 @@ Here is a list of things you can try to elicit more details about Furby's inner 
 * Modify and flash custom DLC files in order to understand the meaning of its contents.
 * Reverse engineer the GeneralPlus A1800 codec, e.g. by converting different sample files (silence, sine waves, ...) and comparing their output
 * Measure signals in Furby's crest opening and understand their meaning
-* Figure out which microcontrollers exactly Furby is using. To be shure, this would propably mean opening one up though :(
+* Figure out which microcontrollers exactly Furby is using. To be shure, this would probably mean opening one up though :(
 
 ## TODO List
 If you have any information on the following (or different) subjects, I'd be very interested in hearing from you:
