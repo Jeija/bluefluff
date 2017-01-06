@@ -124,7 +124,7 @@ Even though the name is in the list in the Furby Connect World App and even thou
 
 # Contribute
 ## How to gather more information
-Here is a list of things you can try to elicit detail about Furby's his inner workings:
+Here is a list of things you can try to elicit more details about Furby's inner workings:
 * [Sniff bluetooth traffic on an Android device](http://stackoverflow.com/questions/23877761/sniffing-logging-your-own-android-bluetooth-traffic) (or iOS device) and analyze it with wireshark
 * Use [mitmproxy](https://mitmproxy.org/) to intercept the App's communication with its servers (see [App Reverse Engineering]((doc/connectworld.md)) for details)
 * Modify and flash custom DLC files in order to understand the meaning of its contents.
