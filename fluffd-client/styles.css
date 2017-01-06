@@ -1,0 +1,184 @@
+@font-face {
+	font-family: "FiraSans-Light";
+	src: url(res/FiraSans-Light.ttf) format("truetype");
+}
+
+html {
+	font-family:"FiraSans-Light", Arial;
+	background-color:#ffffff;
+	height:100%;
+	width:100%;
+}
+
+body {
+	margin:0;
+}
+
+input[type="text"] {
+	background:rgba(255, 255, 255, 0.5);
+	border:1px solid #909090;
+	border-radius:3px;
+	font-family:Monospace;
+	padding:3px;
+}
+
+#content {
+	min-width:800px;
+	width:100%;
+	height:100%;
+	display:flex;
+}
+
+#leftpanel {
+	position:relative;
+	display:inline-block;
+	width:300px;
+	height:100%;
+	border-right:2px solid teal;
+}
+
+#leftpanel #header {
+	width:100%;
+	padding-top:10px;
+	text-align:center;
+	font-weight:bold;
+}
+
+#leftpanel #header #logo {
+	width:100px;
+}
+
+#leftpanel #header #headertext {
+	font-size:20px;
+}
+
+#leftpanel #actions {
+	margin-top:30px;
+	font-size:18px;
+	margin-left:0;
+}
+
+#leftpanel #actions .action.selected {
+	background:#e0f0f0;
+}
+
+#leftpanel #actions .actionname {
+	color:#004090;
+	margin-left:20px;
+}
+
+#leftpanel #actions .action:hover {
+	cursor:pointer;
+	background:#e0e0e0;
+}
+
+#leftpanel #fluffd_container {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align:center;
+	padding:7px 0;
+	border-top:2px solid teal;
+}
+
+#leftpanel #fluffd {
+	display:inline-block;
+}
+
+#leftpanel #fluffd #fluffd_url {
+	background:transparent;
+	border:1px solid #c0c0c0;
+	width:270px;
+	line-height:20px;
+}
+
+#leftpanel #fluffd #fluffd_refresh {
+	fonts-size:20px;
+	display:inline-block;
+	font-weight:bold;
+}
+
+#leftpanel #fluffd #fluffd_refresh:hover {
+	color:teal;
+	cursor:pointer;
+}
+
+#mainpanel {
+	flex:1;
+	display:inline-block;
+	padding:30px 30px;
+	position:relative;
+}
+
+#mainpanel #commandname {
+	font-size:32px;
+}
+
+#mainpanel #commandname #commandname_readable {
+	font-weight:bold;
+}
+
+#mainpanel #commandname #commandname_delimiter {
+	font-weight:bold;
+	color:#505050;
+}
+
+#mainpanel #commandname #commandname_technical {
+	font-family:Monospace;
+	color:#505050;
+}
+
+#mainpanel #command_desc {
+	color:#505050;
+	font-size:20px;
+	font-style:italic;
+}
+
+#noparams {
+	text-align:center;
+	font-size:25px;
+	font-style:italic;
+	margin-top:20px;
+	color:#505050;
+}
+
+#params .param {
+	margin-top:10px;
+	margin-bottom:10px;
+	background:#f9f9f9;
+	padding:10px;
+	border-radius:4px;
+}
+
+#params .param .paramname {
+	font-size:22px;
+	margin-bottom:5px;
+}
+
+#params .param .paramname .param_technical {
+	font-family:Monospace;
+	font-weight:bold;
+	color:#202020;
+}
+
+#params .param .paramname .param_desc {
+	font-style:italic;
+}
+
+#params .param .param_value {
+	font-size:22px;
+	width:100%;
+}
+
+#mainpanel #sendbutton {
+	position:absolute;
+	font-size:30px;
+	top:30px;
+	right:35px;
+	padding:10px;
+}
+
+#mainpanel #sendbutton:hover {
+	color:teal;
+	cursor:pointer;
+}

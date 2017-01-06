@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>fluffd request generator</title>
+	<script src="res/jquery-3.1.1.min.js"></script>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" href="res/favicon.png" type="image/png">
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<div id="content">
+		<div id="leftpanel">
+			<div id="header">
+				<img id="logo" src="res/logo.png" />
+				<div id="headertext">fluffd request generator</div>
+			</div>
+
+			<div id="actions"></div>
+
+			<div id="fluffd_container">
+				<div id="fluffd">
+					<input type="text" id="fluffd_url" value="http://localhost:3872" placeholder="fluffd server URL">
+					<div id="fluffd_refresh">&#8635;</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="mainpanel">
+			<div id="commandname">
+				<span id="commandname_readable">No command loaded</span>
+				<span id="commandname_delimiter">&#8226;</span>
+				<span id="commandname_technical">none</span>
+			</div>
+			<div id="command_desc">Select a command on the left</div>
+			<div id="params"></div>
+			<div id="noparams">No parameters!</div>
+			<div id="sendbutton">Send</div>
+		</div>
+	</div>
+</body>
+</html>

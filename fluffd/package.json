@@ -1,0 +1,12 @@
+{
+  "name": "fluffd",
+  "version": "1.0.0",
+  "description": "Furby Connect BLE Controller",
+  "main": "fluffd.js",
+  "dependencies": {
+    "noble": "^1.7.0",
+    "winston": "^2.3.0"
+  },
+  "author": "Jeija",
+  "license": "MIT"
+}
