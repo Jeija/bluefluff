@@ -45,10 +45,9 @@ This project contains reverse engineered documentation for different elements of
 * [**GeneralPlus bluetooth commands / responses**](doc/generalplus.md): Commands that make Furby say and do things, change his antenna color or mood and responses to those commands as well as sensor data reports.
 * [**Action Sequences**](doc/actions.md): Information on actions and an organized list of Furby's thousands of different actions (incomplete for now).
 * [**Nordic Bluetooth Commands / Responses**](doc/nordic.md): List of commands and responses of the Nordic Semiconductor microprocessor
-* [**App Reverse Engineering**](doc/connectworld.md): The Android / iOS app downloads videos and updates for Furby in the background. This is how to capture Network traffic of the App.
-* [**The Audio Codec**](doc/bluetooth.md): Furby receives updates including encoded Audio.
+* [**App Update Mechanism**](doc/connectworld.md): The Android / iOS app downloads videos and updates for Furby in the background. I captured the App's network traffic and analyzed it.
 * [**Names**](doc/names.md): A list of the 129 different possible names for Furby.
-* [**DLC Files**](doc/dlcformat.md): Some information on the update packages for Furby Connect containing LCD animations and Audio
+* [**DLC Files**](doc/dlcformat.md): Some information about the update packages and their content for Furby Connect containing LCD animations and Audio.
 * [**How to flash your own DLC**](doc/flashdlc.md): How to create and flash your own Updates to Furby
 
 ## fluffd and fluffd-client
@@ -125,7 +124,7 @@ Even though the name is in the list in the Furby Connect World App and even thou
 ## How to gather more information
 Here is a list of things you can try to elicit more details about Furby's inner workings:
 * [Sniff bluetooth traffic on an Android device](http://stackoverflow.com/questions/23877761/sniffing-logging-your-own-android-bluetooth-traffic) (or iOS device) and analyze it with wireshark
-* Use [mitmproxy](https://mitmproxy.org/) to intercept the App's communication with its servers (see [App Reverse Engineering]((doc/connectworld.md)) for details)
+* Use [mitmproxy](https://mitmproxy.org/) to intercept the App's communication with its servers (see [App Update Mechanism]((doc/connectworld.md)) for details)
 * Modify and flash custom DLC files in order to understand the meaning of its contents.
 * Reverse engineer the GeneralPlus A1800 codec, e.g. by converting different sample files (silence, sine waves, ...) and comparing their output
 * Measure signals in Furby's crest opening and understand their meaning
