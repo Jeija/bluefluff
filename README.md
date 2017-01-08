@@ -14,9 +14,9 @@ First things first: My Furby Connect "Dee-Koh" is safe and has not been harmed i
 * Open a secret debug menu in Furby's LCD eyes
 * Control Furby's actions, antenna color and LCD backlight
 * Control Furby's emotions by setting his hungryness, tiredness, wellness etc. levels.
-* Get information on Furby's sensor states including the antenna joystick, tickle / pet sensors and Accelerometer
+* Get information on Furby's sensor states including the antenna joystick, tickle / pet sensors and accelerometer
 * Update Furby with the official update "DLC" files from Hasbro or with my modified versions of those
-* Insert own audio content into own DLC files
+* Insert own audio content into DLC files
 
 #### What I haven't tried yet
 * Getting code execution on the Furby Connect
@@ -34,11 +34,11 @@ First things first: My Furby Connect "Dee-Koh" is safe and has not been harmed i
 **This information is for educational purposes only. By using the provided data, you agree to solely take risks for damaging your hardware. You may brick your Furby when interfacing with it in unwarrented ways and you will almost certainly void your warranty when applying this knowledge. See LICENSE.md for details.**
 
 ## General
-The Furby Connect contain two (or more) microcontrollers, one from **GeneralPlus** which appears to be in control of movement, the LCD eyes and speech and another one from **Nordic** Semiconductor which does all of the Bluetooth Low Energy (also called Bluetooth Smart) communication. I don't know which models exactly since I did not have the heart to open one up though (and they're also kind of expensive), but I would assume there is a GPL16XXXX series processor inside.
+The Furby Connect contains two (or more) microcontrollers, one from **GeneralPlus** which appears to be in control of movement, the LCD eyes and speech and another one from **Nordic** Semiconductor which does all of the Bluetooth Low Energy (also called Bluetooth Smart) communication. I don't know which models exactly since I did not have the heart to open one up (and they're also kind of expensive), but I would assume there is a GPL16XXXX series processor inside.
 
 Furby can be interacted with stand-alone or while connected to the Android / iOS App "Furby Connect World", which takes full control of Furby's movement and speech and sends updates it pulls from Hasbro's servers at Amazon AWS.
 
-This project mostly constists of documentation of Furby's protocol, his peculiarities, trivia and several software tools that are useful when deciphering Furby's secrets. There is also a KiCad schematic of the insides of Furby's sleep mask in the `mask` directory and more schematics may follow. However, it is not this project's goal to completely reverse engineer all Furby's electronics.
+This project mostly constists of documentation of Furby's protocol, his peculiarities, trivia and several software tools that may come in handy when deciphering Furby's secrets. There is also a KiCad schematic of the insides of Furby's sleep mask in the `sleepmask` directory and more schematics may follow. However, it is not this project's goal to completely reverse engineer all of Furby's electronics.
 
 ## Documentation
 This project contains reverse engineered documentation for different elements of Furby Connect:
