@@ -4,6 +4,8 @@
 	<img src="img/debugeyes.jpg" alt="Furby Connect's Eyes" width="50%">
 </p>
 
+## Watch the [YouTube Video about this Project](https://www.youtube.com/watch?v=FkblA_CxHgU)
+
 # What have you done?
 First things first: My Furby Connect "Dee-Koh" is safe and has not been harmed in the making of this. There is **no need for physical access** to the Furby in order to perform these kinds of hacks. This projects aims to reverse engineer / "hack" Furby Connect's Bluetooth Low Energy protocol, graphics and audio format and eventually find a way to execute own code on Furby.
 
@@ -24,9 +26,8 @@ First things first: My Furby Connect "Dee-Koh" is safe and has not been harmed i
 # Why would anyone in their right mind do that?
 * Answer the deeper questions of Furby life
 * Because I can
-* "You don't own it if you can't run your own code on it."
 * Furby Connect is way too cool and technologically advanced to just be a kid's toy
-* Pave the way for developers and artists that want to use Furby outside of its designated use cases
+* Pave the way for developers and artists that want to use Furby outside of its designated use cases. I envision something like an IoT Version that manages your lighting and room temperature. Anyone?
 
 # Project description
 ## Disclaimer
@@ -133,7 +134,7 @@ Here is a list of things you can try to elicit more details about Furby's inner 
 ## TODO List
 If you have any information on the following (or different) subjects, I'd be very interested in hearing from you:
 * How are the DLC files structured? How can we control Furby's movement during his action sequences?
-* How does the A1800 actually work? It appears to use some FFT processing, but how are the fourier coefficients stored?
+* How does the A1800 codec actually work? It appears to use some FFT processing, but how are the fourier coefficients stored?
 * Understand more Bluetooth commands and responses with all their parameters
 * A full list of action sequences. I'd be especially interested in the action that triggers the "Too Hot Chilli LCD" animation, since this animation is part of the DLC file.
 * What is the sleep mask port for? Can we execute code from a ROM chip in that port?

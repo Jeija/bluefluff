@@ -1,7 +1,7 @@
 # App Update Mechanism
-The Furby Connect World App not only lets you play with and collect creatures called "Furblings", it can also take control of Furby Connect and update him with new content from the internet, like new songs and the occasional cat / dog video.
+The Furby Connect World App not only lets you play with in-game creatures called "Furblings", it can also take control of Furby Connect and update him with new content from the internet, like new songs and the occasional cat / dog video.
 
-I have found all of these results with the Android App on different devices only, so the iOS version may differ.
+I have discovered all of these results with the Android App (on multiple devices) only, so the iOS version may differ.
 
 ## App Contents
 When first starting up, the Furby Connect World connects to a server `http://fluff-gameupdates.s3.amazonaws.com/` and downloads in-game content, like the 3d models, background music and other sounds.
