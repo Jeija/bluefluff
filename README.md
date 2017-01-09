@@ -94,6 +94,7 @@ Furby's emotional state can be defined as the vector of the following properties
 * Fullness
 * Displeasedness
 * Tiredness
+* Excitedness
 
 where each of these values is an integer between 0 and 100. For instance, when feeding furby by tapping his tongue, his Fullness increases by a value of 5, which automatically decays over time.
 
