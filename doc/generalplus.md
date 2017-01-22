@@ -13,6 +13,7 @@ GeneralPlus commands and responses are the values written to / read from the Gen
 | `0x24` | Set Moodmeter | 3 bytes: action, type and value | Set Furby's mood, such as Fullness, Wellness etc. `action` can be 1 to set the value or 0 or the increase the value. Type can be 0=Excitedness, 1=Displeasedness, 2=Tiredness, 3=Fullness, 4=Wellness. Value is the new value to be set / the increase.
 | `0x31` | Set Notifications | ?? | Seems to set some "Blue Antenna" notifications, e.g. for the egg machine. Responds with FurbyMessage `20:1b` "CustomNotificationSet".
 | `0x46` | ?? | ?? | Answers `20:0d` "SequenceCancalled", but doesn't actually do anything. |
+| `0x50` | Announce DLC Upload | `size:00:slot:filename:00:00` with 3 bytes for size in bytes, 1 byte for slot (might actually be something else, not sure what this does?), 12 bytes for filename (ASCII, e.g. "TU003410.DLC") | Sent before uploading the DLC file data to the FileWrite characteristic. |
 | `0x53` | Delete File ?? | ?? | Triggers `0x53` response packet |
 | `0x54` | Get File Size ?? | ?? | Triggers `0x54` response packet |
 | `0x55` | Get Checksum ?? | ?? | Triggers `0x55` response packet |
@@ -68,7 +69,7 @@ GeneralPlus commands and responses are the values written to / read from the Gen
 | `0x56` | ?? | ?? | ?? |
 | `0x57` | ?? | ?? | ?? |
 | `0x72` | SlotsInfo | ?? | Seem to contain some information on the current DLC slot occupation. |
-| `0x73` | GotSlotInfoByIndex | ?? | ?? | ?? |
+| `0x73` | GotSlotInfoByIndex | ?? | ?? |
 | `0x74` | GotDeleteSlotByIndex | ?? | ?? |
 | `0xdc` | ReportDLC | ?? | ?? |
 | `0xfe` | GPLFirmwareVersion | 1 byte, firmware version | `0x04` for me, probably firmware version of GeneralPlus chip |
