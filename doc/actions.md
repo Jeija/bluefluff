@@ -16,6 +16,17 @@ However, this hierarchy can also be used in different ways. When playing songs i
 ## List
 **This is only a *tiny* excerpt of the massive amounts of actions Furby can perform. I'd be very grateful for contributions to this list!**
 * …
+* Input 55:
+	* Index 0
+		* Subindex 0: …
+		* Subindex 1: “Oh, it’s gonna be good”
+		* Subindex 2: 
+	* Index 1: Achievements
+		* Subindex 0: Hollywood lights in eyes, excited cry
+		* Subindex 1: Stars in eyes, “Hey, all right!”
+		* Subindex 2: Trophy in eyes, “Ahh! Can almost taste the gold”
+		* Subindex 3: Trophy in eyes, “High score! Booyah!”
+		* Subindex 4: Trophy in eyes, “Not brag, but, WE THE BEST!”
 * Input 56:
 	* Index 0
 		* Subindex 0: Cleaning station desire
@@ -52,4 +63,4 @@ However, this hierarchy can also be used in different ways. When playing songs i
 		* Subindex 4: Popstar
 		* Subindex 5: Cat
 * Input 75: Current songs / movie theater reactions at different subindices
-* Nothing currently for inputs >75
+* Nothing currently for inputs \>75
