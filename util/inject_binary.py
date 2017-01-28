@@ -10,7 +10,7 @@ OUTFILE="/path/to/custom.dlc"
 # the DLC files (A1800 audio files, custom LCD graphics, ...)
 # You need to make sure injection payloads don't overlap!
 #
-# These are possible offset for audio files and their input.index.subindex.specific hierarchy in the TU003410.DLC file:
+# These are possible offsets for audio files and their input.index.subindex.specific hierarchy in the TU003410.DLC file:
 # *  8270 * 40 +  7 injects into action 75.0.2.6
 # *  8400 * 40 + 13 injects into action 75.0.3.3
 # * 10596 * 40 + 21 injects into action 75.0.6.2
