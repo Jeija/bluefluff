@@ -159,7 +159,7 @@ commands["flashdlc"] = {
 
 			fs.readFile(params.dlcfile, function(error, dlc) {
 				if (error)
-					throw err;
+					throw error;
 
 				// Write DLC piece by piece
 				let offset = 0;
