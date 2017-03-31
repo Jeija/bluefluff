@@ -18,6 +18,25 @@ However, this hierarchy can also be used in different ways. When playing songs i
 
 | Input | Index | SubIndex | specific | Action | 
 |-------|-------|----------|----------|--------|
+| 48    |  0    |     0    | 0        | "oooh, for ka? unai shouldn't have." |
+| 48    |  0    |     0    | 1        | "Thank you, thank you, thank you." |
+| 48    |  0    |     0    | 2        | "yes, yes, Thank you, thank you, thank you yes" |
+| 48    |  0    |     0    | 3        | "ooh, ooh, all the yes" |
+| 48    |  0    |     0    | 4        | stars in eyes, "for kah? It's beautiful" |
+| 48    |  0    |     1    | 0        |  "oooh, what inside? " |
+| 48    |  0    |     1    | 1        |  "open sesame" |
+| 48    |  0    |     1    | 2        |  "what inside? kah need to know, need to know" |
+| 48    |  0    |     2,4  | 0        | "ooh, so rare, so precious, awww" |
+| 48    |  0    |     2,4  | 1        | "ooh, quality stuffs" |
+| 48    |  0    |     2,4  | 2        | "ooh, super rare, super fancy" |
+| 48    |  0    |     2,4  | 3        | "ooh, extra super very special" |
+| 48    |  0    |     3    | 0        | "ooh, wow, just wow" |
+| 48    |  0    |     3    | 1        | "Legendary!" |
+| 48    |  0    |     3    | 2        | "dust off our religions!" (?) |
+| 49    |  0    |     0    | 0        | "mmm, nice and snugs here" |
+| 49    |  0    |     1    | 0        | "ok, now hatch! Come on" |
+| 49    |  0    |     2    | 0        | "oy, too much stuff!" |
+| 49    |  0    |     3    | 0        | "need more space" |
 | 50,52 |  0    |     0,1  | 0        | "eeetay, good job!" |
 | 50,52 |  0    |     0,1  | 1        | rainbows in eyes, "eeetay, fantastico!" |
 | 50,52 |  0    |     0,1  | 2        | "Sweet mother of Furb!" |
