@@ -18,6 +18,95 @@ However, this hierarchy can also be used in different ways. When playing songs i
 
 | Input | Index | SubIndex | specific | Action | 
 |-------|-------|----------|----------|--------|
+| 45    |  0    |     0,8  | 0        | "ohh, the cuteness!" |
+| 45    |  0    |     0,8  | 1        | "ohh, didj didj awwww....!" |
+| 45    |  0    |     0,8  | 2        | "ohh, pet pet, hug hug, squeeze, squeeze" |
+| 45    |  0    |     0,8  | 3        | "hehehe, oonai soo cuute" |
+| 45    |  0    |     0,8  | 4        | "dooohhhh." |
+| 45    |  0    |     0    | 5        | "mmm, mmm, hehe. yup, yup, yup" |
+| 45    |  0    |     0    | 6        | "ohh, hoo hoo" |
+| 45    |  0    |     1    | 0        | whistle |
+| 45    |  0    |     1    | 1        | sigh |
+| 45    |  0    |     1    | 2        | "hmmm, let's see..." |
+| 45    |  0    |     1    | 3        | "Hmmm, what have we have here" |
+| 45    |  0    |     1    | 4        | "Oooh, very interesting" |
+| 45    |  0    |     1    | 5        | "Hmm." |
+| 45    |  0    |     2,3  | 0-10     | various laughs (5&7 fart) |
+| 45    |  0    |     4,5  | 0        | "Ohh, look!" |
+| 45    |  0    |     4,5  | 1        | "ooh, check it out noolah" |
+| 45    |  0    |     4,5  | 2        | "Would you look at that" |
+| 45    |  0    |     4,5  | 3        | "Looky looky look look" |
+| 45    |  0    |     4    | 4        | "alright, ok, uh huh, not bad" |
+| 45    |  0    |     4    | 5        | "show kah what ya got" |
+| 45    |  0    |     6    | 0        | "Hey Hey, it's ka buddy" |
+| 45    |  0    |     6    | 1        | "ohh, noolah noolah, that ka friend" |
+| 45    |  0    |     7    | 0        | "Heey, help a furb out" |
+| 45    |  0    |     7    | 1        | "Furbling need help. Kah to the rescue!" |
+| 45    |  0    |     7    | 2        | "Look! little dido need help" |
+| 45    |  0    |     7    | 3        | "Let's give little guy hand." |
+| 45    |  0    |     7    | 4        | "We Help. Us to the rescue" |
+| 45    |  0    |     9    | 0        | "boo, boo boo what's wrong?" |
+| 45    |  0    |     9    | 1        | "awww what's wrong?" |
+| 45    |  0    |     9    | 2        | "oonai ok?" |
+| 46    |  0    |     0    | 0        | "Can't resist... much touch..." |
+| 46    |  0    |     0    | 1        | "poke, pooke it, poke it" |
+| 46    |  0    |     0    | 2        | "ohh, what that? Touch it, Go on..." |
+| 46    |  0    |     0    | 3        | "ohh, pokey, pokey..." |
+| 46    |  0    |     1    | 0        | "wrestle, wrestle" |
+| 46    |  0    |     1    | 1        | "can't resist, must touch!" |
+| 46    |  0    |     1    | 2        | "poke, pooke it, poke it" |
+| 46    |  0    |     1    | 3        | "ohh, what that? Touch it, Go on..." |
+| 46    |  0    |     1    | 4        | "ohh, pokey, pokey..." |
+| 46    |  0    |     2,3,4| 0        | "can't resist, must touch!" |
+| 46    |  0    |     2,3,4| 1        | "poke, pooke it, poke it" |
+| 46    |  0    |     2,3,4| 2        | "ohh, what that? Touch it, Go on..." |
+| 46    |  0    |     2,3,4| 3        | "ohh, pokey, pokey..." |
+| 46    |  0    |     5,6  | 0        | "ohh, the cuteness!" |
+| 46    |  0    |     5,6  | 1        | "ohh, didj didj awwww....!" |
+| 46    |  0    |     5,6  | 2        | "ohh, pet pet, hug hug, squeeze, squeeze" |
+| 46    |  0    |     5,6  | 3        | "hehehe, oonai soo cuute" |
+| 46    |  0    |     5,6  | 4        | "dooohhhh." |
+| 46    |  0    |     5,6  | 5        | "can't resist, must touch!" |
+| 46    |  0    |     5,6  | 6        | "poke, pooke it, poke it" |
+| 46    |  0    |     5,6  | 7        | "ohh, what that? Touch it, Go on..." |
+| 46    |  0    |     5,6  | 8        | "ohh, pokey, pokey..." |
+| 46    |  0    |     7    | 0        | giggle |
+| 47    |  0    |     0,1  | 0        | "Hmmm, let's see..." |
+| 47    |  0    |     0,1  | 1        | "Hmmm, what have we have here" |
+| 47    |  0    |     0,1  | 2        | "Oooh, very interesting" |
+| 47    |  0    |     0,1  | 3        | "Hmm." |
+| 47    |  0    |     2    | 0        | "ka love it" hearts in eyes |
+| 47    |  0    |     2    | 1        | "Like it? No, ka love it!" hearts|
+| 47    |  0    |     2    | 2        | "oooh, kah likey" |
+| 47    |  0    |     3    | 0        | "this guy! <giggle> oh, this guy" |
+| 47    |  0    |     4    | 0        | "eh, locked. What to do?" |
+| 47    |  0    |     5    | 0        | "hmmm, we need more something..." |
+| 47    |  0    |     6    | 0        | "oh! let kah in!" |
+| 47    |  0    |     6    | 1        | "but, Nooooooo" |
+| 47    |  0    |     6    | 2        | "but, but, but, b-b-but, oh" |
+| 47    |  0    |     6    | 3        | "waaah" (frustrated?) |
+| 47    |  0    |     6    | 4        | "dude, really?" |
+| 47    |  0    |     6    | 5        | "mi, mih meee" (whine) |
+| 47    |  0    |     7    | 0        | "BFF. Best furbling friend. <giggle>" |
+| 48    |  0    |     0    | 0        | "oooh, for ka? unai shouldn't have." |
+| 48    |  0    |     0    | 1        | "Thank you, thank you, thank you." |
+| 48    |  0    |     0    | 2        | "yes, yes, Thank you, thank you, thank you yes" |
+| 48    |  0    |     0    | 3        | "ooh, ooh, all the yes" |
+| 48    |  0    |     0    | 4        | stars in eyes, "for kah? It's beautiful" |
+| 48    |  0    |     1    | 0        |  "oooh, what inside? " |
+| 48    |  0    |     1    | 1        |  "open sesame" |
+| 48    |  0    |     1    | 2        |  "what inside? kah need to know, need to know" |
+| 48    |  0    |     2,4  | 0        | "ooh, so rare, so precious, awww" |
+| 48    |  0    |     2,4  | 1        | "ooh, quality stuffs" |
+| 48    |  0    |     2,4  | 2        | "ooh, super rare, super fancy" |
+| 48    |  0    |     2,4  | 3        | "ooh, extra super very special" |
+| 48    |  0    |     3    | 0        | "ooh, wow, just wow" |
+| 48    |  0    |     3    | 1        | "Legendary!" |
+| 48    |  0    |     3    | 2        | "dust off our religions!" (?) |
+| 49    |  0    |     0    | 0        | "mmm, nice and snugs here" |
+| 49    |  0    |     1    | 0        | "ok, now hatch! Come on" |
+| 49    |  0    |     2    | 0        | "oy, too much stuff!" |
+| 49    |  0    |     3    | 0        | "need more space" |
 | 50,52 |  0    |     0,1  | 0        | "eeetay, good job!" |
 | 50,52 |  0    |     0,1  | 1        | rainbows in eyes, "eeetay, fantastico!" |
 | 50,52 |  0    |     0,1  | 2        | "Sweet mother of Furb!" |
