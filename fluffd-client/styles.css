@@ -170,6 +170,12 @@ input[type="text"] {
 	width:100%;
 }
 
+#buttons .button {
+	padding:10px;
+	border-radius:4px;
+	margin:10px;
+}
+
 #mainpanel #sendbutton {
 	position:absolute;
 	font-size:30px;

@@ -214,6 +214,24 @@ commands["dlc_deactivate"] = {
 	}
 }
 
+// This is section is for preprogrammed buttons that you can add yourself.
+commands["other"] = {
+	run : function(fluff, params, callback) {
+		fluff.generalPlusWrite(new Buffer([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
+	},
+	readable : "Preprogrammed Actions",
+	description : "Furby move / talk buttons",
+        buttons : {
+	    giggle : {"action":{"input":55,"index":2,"subindex":14,"specific":0}},
+	    puke : {"action":{"input":56,"index":3,"subindex":15,"specific":1}},
+	    name : {"setname":{"name":3}},
+	    "antenna off" :  {"antenna":{"red":0, "blue":0, "green":0}},
+	    "antenna red" :  {"antenna":{"red":255, "blue":0, "green":0}},
+	    "antenna blue" : {"antenna":{"red":0, "blue":255, "green":0}},
+	    "antenna green" : {"antenna":{"red":0, "blue":0, "green":255}},
+	}
+}
+
 module.exports = {
 	execute : function(fluff, cmd, params, callback) {
 		if (!commands[cmd])
@@ -230,7 +248,8 @@ module.exports = {
 			list[c] = {
 				readable : commands[c].readable,
 				description : commands[c].description,
-				params : commands[c].params
+				params : commands[c].params,
+				buttons : commands[c].buttons
 			};
 		}
 
