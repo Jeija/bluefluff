@@ -18,6 +18,109 @@ However, this hierarchy can also be used in different ways. When playing songs i
 
 | Input | Index | SubIndex | specific | Action | 
 |-------|-------|----------|----------|--------|
+| 42    |  0    |     0    | 0        | "oooh, so much to do" |
+| 42    |  0    |     0    | 1        | "oooh, such full, much busy" |
+| 42    |  0    |     1    | 0        | "oooh, new stuff, niiice" |
+| 42    |  0    |     1    | 1        | "new things, kah like things" |
+| 42    |  0    |     1    | 2        | "oooh, new stuffseses" |
+| 42    |  0    |     1    | 3        | "oooh, new things, noolah" |
+| 42    |  0    |     1    | 4        | "oooh, new mission" |
+| 42    |  0    |     2,3  | 0        | "hey, help a furb out" |
+| 42    |  0    |     2,3  | 1        | "furbling need help, kah to the rescue" |
+| 42    |  0    |     2,3  | 2        | "look, little dido need help" |
+| 42    |  0    |     2,3  | 3        | "lets give little guy a hand" |
+| 42    |  0    |     2,3  | 4        | "we help, us to the rescue" |
+| 42    |  0    |     4    | 0        | "ok, alright yeah, let's do this!" |
+| 42    |  0    |     4    | 1        | "ka, ready to go!" |
+| 42    |  0    |     4    | 2        | "let's get party started, uh" |
+| 42    |  0    |     4    | 3        | "ooh, can't wait, can't wait, can't wait" |
+| 42    |  0    |     4    | 4        | "cmon, let's get started" |
+| 42    |  1    |     0    | 0        | "Weee diiid it!" |
+| 42    |  1    |     0    | 1        | "ha, ha! Take that!" |
+| 42    |  1    |     0    | 2        | "hoho, we good, aww yeah" |
+| 42    |  1    |     0    | 3        | "high five! wait, kah only have 3" |
+| 42    |  1    |     0    | 4        | "team furby for the win!" |
+| 43    |  0    |     0    | 0        | "Hey, Hey" |
+| 43    |  0    |     0    | 1        | "Hey there, hi there, howdy, howdy hi " |
+| 43    |  0    |     0    | 2        | "Hey, Hey there, whoo" |
+| 43    |  0    |     0    | 3        | "oooh, helloooo" |
+| 43    |  0    |     0    | 4        | "oooh, hi, noolah" |
+| 43    |  0    |     0    | 5        | "Heeey" |
+| 43    |  0    |     1    | 0        | "Aaaaay, ada" |
+| 43    |  0    |     2    | 0        | "booboobooo, what's wrong" |
+| 43    |  0    |     2    | 1        | "ahhh, what's wrong" |
+| 43    |  0    |     2    | 2        | "oo-nye ok?" |
+| 43    |  0    |     3    | 0        | "why oo-nye scared?" |
+| 43    |  0    |     3    | 1        | "what's so scary?" |
+| 43    |  0    |     4    | 0        | "let kah help" |
+| 43    |  0    |     5    | 0        | "hey! stop it" |
+| 43    |  0    |     5    | 1        | "look, you!" |
+| 43    |  0    |     6    | 0        | "what going on little dido?" |
+| 43    |  0    |     6    | 1        | "so what oo-nye need?" |
+| 43    |  0    |     7    | 0        | "oo-nye serious?" |
+| 43    |  0    |     7    | 1        | "ahh, hold that thought" <fart> |
+| 43    |  0    |     7    | 2        | "go oon" |
+| 43    |  0    |     7    | 3        | "hmm" |
+| 43    |  0    |     7    | 4        | "oh, you" |
+| 43    |  0    |     8    | 0        | "honestly, yes" |
+| 43    |  0    |     8    | 1        | "mmm, hmm, totally" |
+| 43    |  0    |     8    | 2        | "eetay, a thoustand times eetay" |
+| 43    |  0    |     9    | 0        | "ok, alright yes, let's doo this" |
+| 43    |  0    |     9    | 1        | "kah ready to go" |
+| 43    |  0    |     9    | 2        | "Let's get party started, uh" |
+| 43    |  0    |     9    | 3        | "can't wait, can't wait, can't wait!" |
+| 43    |  0    |     9    | 4        | "C'mon Let's get started" |
+| 43    |  0    |     10   | 0        | "bye bye for now" |
+| 43    |  0    |     10   | 1        | "peace out, noolah" |
+| 43    |  0    |     10   | 2        | "see ya later, furbinator" |
+| 43    |  0    |     10   | 3        | "ok, hasta la bye-bye" |
+| 43    |  0    |     10   | 4        | "later little dido" |
+| 44    |  0    |     0    | 0        | "No forget the popcorn" |
+| 44    |  0    |     0    | 1        | "Gonna watch all the things" |
+| 44    |  0    |     0    | 2        | "Oh, dis gonna be goood." |
+| 44    |  0    |     0    | 3        | "huh, whoah-whoah-whoah" |
+| 44    |  0    |     0    | 4        | "wooooah, this is happening!" |
+| 44    |  0    |     0    | 5        | "huh, wooooh" |
+| 44    |  0    |     0    | 6        | "woohoo, ok, alright, woo-ahahh" |
+| 44    |  0    |     0    | 7        | "ermagerd" |
+| 44    |  0    |     1    | 0        | "hmmm, let's see..." |
+| 44    |  0    |     1    | 1        | "Oooh, very interesting" |
+| 44    |  0    |     1    | 2        | "Hmmm, what have we have here" |
+| 44    |  0    |     1    | 3        | "Hmm." |
+| 44    |  0    |     2    | 0        | "oooh, check out new video." |
+| 44    |  0    |     2    | 1        | "oooh, new stuff, nice." |
+| 44    |  0    |     2    | 2        | "new things! ka like things." |
+| 44    |  0    |     2    | 3        | "oooh, new stuffseses" |
+| 44    |  0    |     2    | 4        | "oooh, new things noo-lah" |
+| 44    |  0    |     2    | 5        | "look, new video" |
+| 44    |  1,2  |     0    | 0        | "oooh, ahhh" |
+| 44    |  1,2  |     0    | 1        | "kah all like Whaaat?!" |
+| 44    |  1,2  |     0    | 2        | "whoah!" |
+| 44    |  1,2  |     0    | 3        | "hmmmm" |
+| 44    |  1,2  |     0    | 4        | "oooh!" |
+| 44    |  1,2  |     0    | 5        | "hey!" |
+| 44    |  1,2  |     0    | 6        | "hooo, oh ka furb" |
+| 44    |  1,2  |     0    | 7        | "oooh, ah, oooh, oooh, oooh" |
+| 44    |  1    |     1    | 0        | "wooohoohoo, showtime" |
+| 44    |  1    |     1    | 1        | "oooh, dis gonna be good" |
+| 44    |  1    |     1    | 2        | "huh, whoah, whoah, whoah" |
+| 44    |  1    |     1    | 3        | "woooah, this is happening" |
+| 44    |  1    |     1    | 4        | "huh! oooh" |
+| 44    |  1    |     1    | 5        | "woohoo, ok, alright, woo-ahahh" |
+| 44    |  1    |     1    | 6        | "ermagerd" |
+| 44    |  3    |     0    | 0        | "der, er, err" |
+| 44    |  3    |     0    | 1        | "mm,hmmm, errr" |
+| 44    |  3    |     0    | 2        | "cry" |
+| 44    |  4    |     0    | 0        | "hey, ka watching that" |
+| 44    |  4    |     0    | 1        | "but, nooooooo" |
+| 44    |  4    |     0    | 2        | "but, bu-bu-but, ohhhh" |
+| 44    |  4    |     0    | 3        | "oooh, ahhh-ng" |
+| 44    |  4    |     0    | 4        | "dude, really?" |
+| 44    |  4    |     0    | 5        | <whine> |
+| 44    |  5    |     0    | 0        | "ka love it" hearts in eyes |
+| 44    |  5    |     0    | 1        | "Like it? No, ka love it!" hearts|
+| 44    |  5    |     0    | 2        | "oooh, kah likey" |
+| 44    |  5    |     0    | 2        | "oooh, kah likey" |
 | 45    |  0    |     0,8  | 0        | "ohh, the cuteness!" |
 | 45    |  0    |     0,8  | 1        | "ohh, didj didj awwww....!" |
 | 45    |  0    |     0,8  | 2        | "ohh, pet pet, hug hug, squeeze, squeeze" |
