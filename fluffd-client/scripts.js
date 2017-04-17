@@ -34,6 +34,21 @@ function handle_enter_action() {
 	});
 }
 
+// send a button command. First pull off the action, then the parameters.
+function sendbuttoncmd(d) {
+	var val=JSON.parse(d);
+	var action = Object.keys(val)[0];
+	var params=val[action];
+
+	// For now: Always send all commands to all furbies connected to fluffd
+	$.post(fluffd_url("cmd" + "/" + action), JSON.stringify({
+		params:params
+	}), function(res) {
+		if (res != "ok")
+			alert(res);
+	});
+}
+
 // New action in the left panel selected
 function handle_select_action() {
 	$(".action").click(function() {
@@ -52,6 +67,7 @@ function handle_select_action() {
 
 		// Load params into main panel
 		$("#params").empty();
+		$("#buttons").empty();
 		for (var param in commands[cmd].params) {
 			$("#params").append($("<div>").addClass("param")
 				.append($("<div>").addClass("paramname")
@@ -61,9 +77,19 @@ function handle_select_action() {
 				.append($("<input type=\"text\">").addClass("param_value"))
 			);
 		}
+		for (var button in commands[cmd].buttons) {
+			var input=document.createElement("button");
+			input.className="button";
+			input.value=JSON.stringify(commands[cmd].buttons[button]);
+			input.onclick=function() {sendbuttoncmd(this.value);}
+			var text = document.createTextNode(button);
+			input.appendChild(text);
+			$("#buttons")//.append($("<div>").addClass("button")
+					     .append(input) ;
+		}
 		handle_enter_action();
 
-		if (!("params" in commands[cmd])) {
+		if (!("params" in commands[cmd] || "buttons" in commands[cmd])) {
 			$("#noparams").show();
 		} else {
 			$("#noparams").hide();

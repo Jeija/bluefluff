@@ -214,6 +214,73 @@ commands["dlc_deactivate"] = {
 	}
 }
 
+// This is section is for preprogrammed buttons that you can add yourself.
+commands["other"] = {
+	run : function(fluff, params, callback) {
+		fluff.generalPlusWrite(new Buffer([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
+	},
+	readable : "Preprogrammed Actions",
+	description : "Furby move / talk buttons",
+        buttons : {
+	    name : {"setname":{"name":3}},
+	    giggle : {"action":{"input":55,"index":2,"subindex":14,"specific":0}},
+	    gigglefart : {"action":{"input":45,"index":0,"subindex":2,"specific":5}},
+	    puke : {"action":{"input":56,"index":3,"subindex":15,"specific":1}},
+	    "gonna be good" : {"action":{"input":55,"index":0,"subindex":1,"specific":0}},
+	    perfect : {"action":{"input":55,"index":1,"subindex":2,"specific":1}},
+	    "the best" : {"action":{"input":55,"index":1,"subindex":4,"specific":0}},
+	    "get started" : {"action":{"input":42,"index":0,"subindex":4, "specific":4}},
+	    "get started" : {"action":{"input":42,"index":0,"subindex":4, "specific":2}},
+	    "so much to do": {"action":{"input":42,"index":0,"subindex":0,"specific":0}},
+	    "Gonna watch all the things":{"action":{"input":44,"index":0,"subindex":0,"specific":1}},
+	    "this is happening!":{"action":{"input":44,"index":0,"subindex":0,"specific":4}},
+	    "ermagerd":{"action":{"input":44,"index":0,"subindex":0,"specific": 7}},
+	    "give little guy a hand":{"action":{"input":45,"index":0,"subindex":7,"specific":3}},
+	    "Thank you":{"action":{"input":48,"index":0,"subindex":0,"specific":1}},
+	    "Challenge accepted":{"action":{"input":54,"index":0,"subindex":0,"specific":1}},
+	    "legendary!":{"action":{"input":39,"index":3,"subindex":8,"specific":1}},
+	    beatbox:{"action":{"input":39,"index":1,"subindex":13,"specific":2}},
+	    ermagerd:{"action":{"input":39,"index":2,"subindex":4,"specific":5}},
+	    "We rule! They drool!":{"action":{"input":55,"index":1,"subindex":4,"specific":1}},
+	    "bye-bye":{"action":{"input":43,"index":0,"subindex":10,"specific":3}},
+	}
+}
+
+// This is section is for preprogrammed buttons that you can add yourself.
+commands["other2"] = {
+	run : function(fluff, params, callback) {
+		fluff.generalPlusWrite(new Buffer([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
+	},
+	readable : "Preprogrammed Antenna colors",
+	description : "Furby antenna buttons",
+        buttons : {
+	    "antenna off" :  {"antenna":{"red":0, "blue":0, "green":0}},
+	    "antenna red" :  {"antenna":{"red":255, "blue":0, "green":0}},
+	    "antenna blue" : {"antenna":{"red":0, "blue":255, "green":0}},
+	    "antenna green" : {"antenna":{"red":0, "blue":0, "green":255}},
+	    "antenna white" : {"antenna":{"red":255, "blue":255, "green":255}},
+	}
+}
+
+commands["other3"] = {
+	run : function(fluff, params, callback) {
+		fluff.generalPlusWrite(new Buffer([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
+	},
+	readable : "Preprogrammed Actions",
+	description : "Furby move / talk buttons",
+        buttons : {
+	    "Oooh, hello":{"action":{"input":40,"index":0,"subindex":0,"specific":3}},
+
+	    "wrestle, wrestle":{"action":{"input":46,"index":0,"subindex":1,"specific":0}},
+	    "must touch":{"action":{"input":46,"index":0,"subindex":1,"specific":1}},
+	    "poke it":{"action":{"input":46,"index":0,"subindex":1,"specific":2}},
+	    "Touch it":{"action":{"input":46,"index":0,"subindex":1,"specific":3}},
+	    "pokey, pokey":{"action":{"input":46,"index":0,"subindex":1,"specific":4}},
+	    "faster":{"action":{"input":55,"index":2,"subindex":23,"specific":0}},
+	    "slower":{"action":{"input": 55,"index":2,"subindex":24,"specific":0}},
+	}
+}
+
 module.exports = {
 	execute : function(fluff, cmd, params, callback) {
 		if (!commands[cmd])
@@ -230,7 +297,8 @@ module.exports = {
 			list[c] = {
 				readable : commands[c].readable,
 				description : commands[c].description,
-				params : commands[c].params
+				params : commands[c].params,
+				buttons : commands[c].buttons
 			};
 		}
 
