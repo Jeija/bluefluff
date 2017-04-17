@@ -79,7 +79,7 @@ However, this hierarchy can also be used in different ways. When playing songs i
 | 39    |  1    |     13   | 0        | sings |
 | 39    |  1    |     13   | 1        | fox in pants song |
 | 39    |  1    |     13   | 2        | beatbox |
-| 39    |  2    |     0    | 0        | "ding ding eg ready, so exciting" |
+| 39    |  2    |     0    | 0        | "ding ding egg ready, so exciting" |
 | 39    |  2    |     0    | 1        | "ooh, look, egg gonna hatch" |
 | 39    |  2    |     1,2  | 0        | "oh, so widdle, so cute, here it comes" |
 | 39    |  2    |     1,2  | 1        | "break free, little furb" |
@@ -119,7 +119,7 @@ However, this hierarchy can also be used in different ways. When playing songs i
 | 39    |  3    |     1    | 4        | "ooooh, hello" |
 | 39    |  3    |     1    | 5        | "ooooh, hi noo-lah" |
 | 39    |  3    |     1    | 6        | "heeey" |
-| 39    |  3    |     2    | 0        | "kah name ad-dah, what oo-nye name" name specific? |
+| 39    |  3    |     2    | 0        | "kah name ad-dah, what oo-nye name?" name specific? |
 | 39    |  3    |     3    | 0        | "hi, nice to meet ooo-nye" |
 | 39    |  3    |     4    | 0        | "let's name baby" |
 | 39    |  3    |     4    | 1        | "ooo let's name this little furb" |
@@ -231,7 +231,7 @@ However, this hierarchy can also be used in different ways. When playing songs i
 | 43    |  0    |     7    | 4        | "oh, you" |
 | 43    |  0    |     8    | 0        | "honestly, yes" |
 | 43    |  0    |     8    | 1        | "mmm, hmm, totally" |
-| 43    |  0    |     8    | 2        | "eetay, a thoustand times eetay" |
+| 43    |  0    |     8    | 2        | "eetay, a thousand times eetay" |
 | 43    |  0    |     9    | 0        | "ok, alright yes, let's doo this" |
 | 43    |  0    |     9    | 1        | "kah ready to go" |
 | 43    |  0    |     9    | 2        | "Let's get party started, uh" |
@@ -550,9 +550,27 @@ However, this hierarchy can also be used in different ways. When playing songs i
 | 56    |   3   |     12   | 0        |  "oooh, ahhhhh" satisfied |
 | 56    |   3   |     13   | 0        |  slurp, then excited |
 | 56    |   3   |     14   | 0        |  spit sound |
-| 56    |   3   |     15   | 0        |  puke |
-| 56    |   3   |     15   | 1        |  puke |
-| 56    |   3   |     15   | 2        |  puke |
+| 56    |   3   |     15   | 0-2      |  puke sounds |
+| 57    |   0   |     0    | 0        | "eetah let's share" |
+| 57    |   0   |     0    | 1        | "yes, yes, share these" |
+| 57    |   0   |     0    | 2        | "sharing is caring" |
+| 57    |   0   |     0    | 3        | "oo-nye let's share" |
+| 57    |   0   |     1    | 0        | "post, post, do eeet." |
+| 57    |   0   |     1    | 1        | "post it, post it now" |
+| 57    |   1   |     0    | 0        | "say cheese" |
+| 57    |   1   |     0    | 1        | "strike a pose" |
+| 57    |   2   |     0    | 0        | "let's share" |
+| 57    |   2   |     0    | 1        | "yes, yes share these" |
+| 57    |   2   |     0    | 2        | "sharing is caring" |
+| 57    |   2   |     0    | 3        | "oo-nye, let's share" |
+| 57    |   3   |     0    | 0        | "furbs, camera, action" |
+| 57    |   3   |     0    | 1        | "lookin' good little furbs" |
+| 57    |   3   |     0    | 2        | "oooh, lookin' good" |
+| 57    |   3   |     0    | 3        | "oooh, nice shot, very nice" |
+| 57    |   3   |     0    | 4        | "oooh, nice shot, very bee-yu-tiful" |
+| 57    |   3   |     0    | 5        | "ok, act natural" |
+
+
 
 * Input 74: Furby dreams of different personalities.
 	* Different actions for all of the indices 0 through 6
