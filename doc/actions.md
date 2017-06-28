@@ -39,8 +39,8 @@ However, this hierarchy can also be used in different ways. When playing songs i
 | 39    |  1    |     0    | 1        | "come on egg" |
 | 39    |  1    |     1    | 0        | "hmmm, let's see" |
 | 39    |  1    |     1    | 1        | "hmm, what have we have here?" |
-| 39    |  1    |     1    | 1        | "oooh, very interesting" |
-| 39    |  1    |     1    | 1        | "hmmm" |
+| 39    |  1    |     1    | 2        | "oooh, very interesting" |
+| 39    |  1    |     1    | 3        | "hmmm" |
 | 39    |  1    |     2    | 0        | blow |
 | 39    |  1    |     3    | 0        | blow nose? |
 | 39    |  1    |     4    | 0        | blow |
