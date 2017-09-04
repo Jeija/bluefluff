@@ -18,7 +18,7 @@ print("Opening " + args.dlcfile)
 
 # Create new image, height depends on DLC file size
 dlcsize = os.path.getsize(args.dlcfile)
-im = Image.new("RGB", (WIDTH, math.ceil(dlcsize / 0x30)), "white")
+im = Image.new("RGB", (WIDTH, int(math.ceil(dlcsize / 0x30))), "white")
 
 # Lookup table for colors
 lookup = [0x00, 0x80, 0xf0, 0xff]
