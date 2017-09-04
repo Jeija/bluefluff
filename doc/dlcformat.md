@@ -11,7 +11,7 @@ Furby Connect can display custom animations on its LCD, which appears to be curr
 You can have a look at the image format and extract those pictures yourself using `tools/toimage.py`.
 
 ## Audio Content
-Furby Connect uses the GeneralPlus A1800 codec with a bitrate of 16000kb/s. This codec uses 40-byte blocks that define 20ms of audio independently from each and and probably uses some sort of FFT algorithm in order to compress audio. A1800 audio files can be created using [GeneralPlus Gadget](http://www.generalplus.com/service_n_support_d.php)'s Audio Batch Converter, which will take WAV file with 16kHz sample rate as input.
+Furby Connect uses the GeneralPlus A1800 codec with a bitrate of 16000kb/s. This codec uses 40-byte blocks that define 20ms of audio independently from each and and probably uses some sort of FFT algorithm in order to compress audio. A1800 audio files can be created using [GeneralPlus Gadget](http://www.generalplus.com/1LVlangLNxxSVyySNservice_n_support_d)'s Audio Batch Converter, which will take WAV file with 16kHz sample rate as input.
 
 `util/visualize_audio.py` creates a 40-pixel wide grayscale image, where each pixel represents the hexadecimal value of the corresponding byte in the DLC file. This may be useful for getting an overview over the audio content in the DLC update and for injecting own audio.
 
