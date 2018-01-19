@@ -1863,7 +1863,7 @@ _Note: DO NOT GO ABOVE 128, furby will loop glitch, 131 is a hard crash, must pu
 | Input | Index | SubIndex | specific | Action | 
 |-------|-------|----------|----------|--------|
 |71 | 0 | 0 | 0 | "Do" |
-|71 | 0 | 0 | 1 | "Rr" |
+|71 | 0 | 0 | 1 | "Re" |
 |71 | 0 | 0 | 2 | "Mi" |
 |71 | 0 | 0 | 3 | "Fa" |
 |71 | 0 | 0 | 4 | "Sol" |
