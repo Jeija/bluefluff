@@ -7,6 +7,11 @@ function pad(num, size) {
 	return s.substr(s.length-size);
 }
 
+function pad2(num, size) {
+	var s = "        " + num;
+	return s.substr(s.length-size);
+}
+
 
 /*
 Furby-Object that has its bluetooth-connection (fluff) to a Furby
@@ -41,15 +46,19 @@ module.exports = class Furby {
 			binaryFoo = binaryFoo + pad(data[i].toString(2), 8);
 		}
 
-		winston.log("info", "state changed " + binaryFoo);
-	}
+		let pressed = "";
+		for (let i = 0; i < binaryFoo.length; i++) {
+			const bit = binaryFoo[i];
+			if (bit === "1") {
+				pressed = pressed + i + " ";
+			}
 
-	pressAntenna() {
-		winston.log("info", "antenna is pressed");
-	}
+		}
 
-	releaseAntenna() {
-		winston.log("info", "antenna is release");
+		winston.log("info", "bits pressed:" + binaryFoo + " ( " + pressed + ")");
+
+
+		//winston.log("info", "state changed " + binaryFoo);
 	}
 
 	getId() {
