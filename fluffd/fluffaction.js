@@ -225,6 +225,21 @@ commands["dlc_deactivate"] = {
 	}
 };
 
+
+function transform(actions) {
+	let transformedActions = {};
+	for (let i in actions) {
+		const a = actions[i];
+		const transformed = {
+			readable: a.name,
+			cmd: 'action',
+			params: { input: a.input, index: a.index, subindex: a.subindex, specific: a.specific }
+		};
+		transformedActions[a.name] = transformed;
+	}
+	return transformedActions;
+}
+
 /*** Preprogrammed buttons that you can add yourself ***/
 commands["other"] = {
 	run: function (fluff, params, callback) {
@@ -232,48 +247,10 @@ commands["other"] = {
 	},
 	readable: "Preprogrammed Actions",
 	description: "Furby move / talk buttons",
-	buttons: {
-		"giggle": {
-			"readable": "Giggle",
-			"cmd": "action",
-			"params": {"input": 55, "index": 2, "subindex": 14, "specific": 0}
-		},
-		"puke": {
-			"readable": "Puke",
-			"cmd": "action",
-			"params": {"input": 56, "index": 3, "subindex": 15, "specific": 1}
-		},
-		"name": {
-			"readable": "Say a Name",
-			"cmd": "setname",
-			"params": {"name": 3}
-		},
-		"antennaoff": {
-			"readable": "Turn Antenna LED Off",
-			"cmd": "antenna",
-			"params": {"red": 0, "blue": 0, "green": 0}
-		},
-		"antennared": {
-			"readable": "Antenna LED Red",
-			"cmd": "antenna",
-			"params": {"red": 255, "blue": 0, "green": 0}
-		},
-		"antennablue": {
-			"readable": "Antenna LED Blue",
-			"cmd": "antenna",
-			"params": {"red": 0, "blue": 255, "green": 0}
-		},
-		"antennagreen": {
-			"readable": "Antenna LED Green",
-			"cmd": "antenna",
-			"params": {"red": 0, "blue": 0, "green": 255}
-		},
-	}
+	buttons: transform(actions)
 };
 
 module.exports = {
-	commands: commands,
-
 	commands: commands,
 
 	list: function () {
