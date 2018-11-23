@@ -58,18 +58,28 @@ http.createServer(function(req, res) {
 						if(urlFragments.length > 3) {
 							actionParams.name = urlFragments[2];
 						} else {
-							actionParams.name = "long fart";
+							actionParams.name = "wait for it- wait- wait fart ahh";
 						}
 						winston.log("verbose", "Sending problem-alert to all Furbies, params: " + actionParams.name);
 						handleAlertNotification("action", actionParams);
+						handleAlertNotification("antenna", {red: 255, green: 0, blue: 0});
+						setTimeout(null, 1000);
+						handleAlertNotification("antenna", {red: 255, green: 255, blue: 255});
+						setTimeout(null, 1000);
+						handleAlertNotification("antenna", {red: 255, green: 0, blue: 0});
 					} else if (alertType === "resolved") {
 						if(urlFragments.length > 3) {
 							actionParams.name = urlFragments[2];
 						} else {
-							actionParams.name = "you like? Is all natural!";
+							actionParams.name = "nice";
 						}
 						winston.log("verbose", "Sending resolved-alert to all Furbies, params: " + actionParams.name);
 						handleAlertNotification("action", actionParams);
+						handleAlertNotification("antenna", {red: 0, green: 255, blue: 0});
+						setTimeout(null, 1000);
+						handleAlertNotification("antenna", {red: 255, green: 255, blue: 255});
+						setTimeout(null, 1000);
+						handleAlertNotification("antenna", {red: 0, green: 255, blue: 0});
 					}
 				}
 				res.end("ok");
