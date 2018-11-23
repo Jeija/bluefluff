@@ -211,6 +211,13 @@ commands["dlc_deactivate"] = {
 	description: "Deactivate DLC slot without deleting it",
 	params: {
 		slot: "DLC slot to be deactivated (number)"
+	},
+	buttons: {
+		"giggle": {
+			"readable": "Giggle",
+			"cmd": "action",
+			"params": {"input": 55, "index": 2, "subindex": 14, "specific": 0}
+		}
 	}
 };
 
@@ -232,13 +239,21 @@ commands["other"] = {
 			"cmd": "action",
 			"params": {"input": 56, "index": 3, "subindex": 15, "specific": 1}
 		},
-		"name": {"readable": "Say a Name", "cmd": "setname", "params": {"name": 3}},
+		"name": {
+			"readable": "Say a Name",
+			"cmd": "setname",
+			"params": {"name": 3}
+		},
 		"antennaoff": {
 			"readable": "Turn Antenna LED Off",
 			"cmd": "antenna",
 			"params": {"red": 0, "blue": 0, "green": 0}
 		},
-		"antennared": {"readable": "Antenna LED Red", "cmd": "antenna", "params": {"red": 255, "blue": 0, "green": 0}},
+		"antennared": {
+			"readable": "Antenna LED Red",
+			"cmd": "antenna",
+			"params": {"red": 255, "blue": 0, "green": 0}
+		},
 		"antennablue": {
 			"readable": "Antenna LED Blue",
 			"cmd": "antenna",

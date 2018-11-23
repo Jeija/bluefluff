@@ -48,20 +48,23 @@ function startCommand(name, post_data, res) {
 		let multiple_errstring = "";
 
 		function respond_single(error) {
-			if (error != false)
+			if (error != false) {
 				multiple_errstring += error + "; ";
+			}
 
 			multiple_count++;
-			if (multiple_count >= Object.keys(furbies).length)
+			if (multiple_count >= Object.keys(furbies).length) {
 				respond(multiple_errstring === "" ? false : multiple_errstring);
+			}
 		}
 
 		winston.log("verbose", "Sending " + name + " command to all Furbies, params:", post_data.params);
-		for (let uuid in furbies)
+		for (let uuid in furbies) {
 			fluffaction.execute(furbies[uuid], name, post_data.params, respond_single);
-
-		// Send command to a single one of the connected furbies
-	} else {
+		}
+	}
+	// Send command to a single one of the connected furbies
+	else {
 		winston.log("verbose", "Sending " + name + " command to single Furby " + post_data.target + ", params: " + post_data.params);
 
 		if (post_data.target in furbies) {
@@ -73,21 +76,20 @@ function startCommand(name, post_data, res) {
 	}
 }
 
-function parseCommand(name, req, res) {
-	let POST = "";
-
+function parsePostCommand(commandName, req, res) {
+	let commandDataString = "";
 	req.on("data", function (data) {
-		POST += data;
+		commandDataString += data;
 	});
+
 	req.on("end", function () {
-		let post_data;
+		let commandData;
 		try {
-			post_data = JSON.parse(POST);
-			startCommand(name, post_data, res);
+			commandData = JSON.parse(commandDataString);
+			startCommand(commandName, commandData, res);
 		} catch (e) {
 			winston.log("warn", "Could not parse HTTP command: " + e);
 			res.end("error: " + e);
-			return;
 		}
 	});
 }
@@ -101,17 +103,23 @@ http.createServer(function (req, res) {
 		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
 
 		// Answer CORS preflights / unknown requests
-		if (req.method === "POST")
-			parseCommand(query[1], req, res);
-		else
+		if (req.method === "POST") {
+			let commandName = query[1];
+			parsePostCommand(commandName, req, res);
+		}
+		else {
 			res.end();
-	} else if (query[0] === "list") {
+		}
+	}
+	else if (query[0] === "list") {
 		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
 		res.end(JSON.stringify(fluffaction.list()));
-	} else if (query[0] === "scan") {
+	}
+	else if (query[0] === "scan") {
 		noble.startScanning(); // TODO: this is for testing
 		res.end("scanning");
-	} else {
+	}
+	else {
 		// empty answer, but with Access-Control-Allow-Origin: *
 		res.writeHead(200, {
 			"Content-Type": "text/plain",

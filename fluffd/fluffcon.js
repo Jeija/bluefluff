@@ -232,16 +232,17 @@ module.exports.connect = function (furby, callback) {
 		exitHandler(furby);
 
 		let characteristicUUIDs = Object.values(FURBY.CHARACTERISTIC);
-		getFurbyCharacteristics(furby, FURBY.SERVICE.FLUFF, characteristicUUIDs, function (characteristics) {
-			let gpWrite = characteristics[FURBY.CHARACTERISTIC.GENERALPLUS_WRITE];
-			let gpListen = characteristics[FURBY.CHARACTERISTIC.GENERALPLUS_LISTEN];
-			let nWrite = characteristics[FURBY.CHARACTERISTIC.NORDIC_WRITE];
-			let nListen = characteristics[FURBY.CHARACTERISTIC.NORDIC_LISTEN];
-			let rssiListen = characteristics[FURBY.CHARACTERISTIC.RSSI_LISTEN];
-			let fileWrite = characteristics[FURBY.CHARACTERISTIC.FILEWRITE];
-			winston.log("debug", "Read all fluff characteristics");
-			callback(new Fluff(gpWrite, gpListen, nWrite, nListen, rssiListen, fileWrite));
-		});
+		getFurbyCharacteristics(furby, FURBY.SERVICE.FLUFF, characteristicUUIDs,
+			function (characteristics) {
+				winston.log("debug", "Read all fluff characteristics");
+				let gpWrite = characteristics[FURBY.CHARACTERISTIC.GENERALPLUS_WRITE];
+				let gpListen = characteristics[FURBY.CHARACTERISTIC.GENERALPLUS_LISTEN];
+				let nWrite = characteristics[FURBY.CHARACTERISTIC.NORDIC_WRITE];
+				let nListen = characteristics[FURBY.CHARACTERISTIC.NORDIC_LISTEN];
+				let rssiListen = characteristics[FURBY.CHARACTERISTIC.RSSI_LISTEN];
+				let fileWrite = characteristics[FURBY.CHARACTERISTIC.FILEWRITE];
+				callback(new Fluff(gpWrite, gpListen, nWrite, nListen, rssiListen, fileWrite));
+			});
 
 		winston.log("info", "Connected to Furby");
 	});
