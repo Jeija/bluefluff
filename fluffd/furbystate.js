@@ -10,7 +10,16 @@ function pad(num, size) {
 
 const mapping = {
 	"SCHWANZ" : 19,
-	"ZUNGE" : 18
+	"ZUNGE" : 18,
+	"ANTENNE_LINKS" : 14,
+	"ANTENNE_RECHTS" : 15,
+	"ANTENNE_HINTEN" : 16,
+	"ANTENNE_VORNE" : 17,
+	"STREICHELN" : 21,
+	"KIPPEN_LINKS" : 32,
+	"KIPPEN_RECHTS" : 33,
+	"KIPPEN_HINTEN" : 34,
+	"KIPPEN_VORNE" : 35,
 };
 
 module.exports = class FurbyState {
@@ -44,17 +53,14 @@ module.exports = class FurbyState {
 			if (bit === "1") {
 				pressed = pressed + i + " ";
 			}
-
 			if (this._lastState[i] !== bit) {
 				changedBits = changedBits + i + " ";
-
 				this.notifySubscribers(i, bit);
-
 			}
 
 		}
 
-		winston.log("info", "bits pressed: [ " + changedBits + "] " + binaryFoo + " ( " + pressed + ")");
+		winston.log("info", "state [ " + changedBits + "] " + binaryFoo + " ( " + pressed + ")");
 
 		this._lastState = binaryFoo;
 
