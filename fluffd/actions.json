@@ -1,0 +1,10194 @@
+{
+	"ah-may moh-moh- kah kah more pet!": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ah-may moh-moh- kah kah more pet!"
+	},
+	"ee-tay ee-tay yes yes- ok yes yes yes": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ee-tay ee-tay yes yes- ok yes yes yes"
+	},
+	"Ooooh- oh waa! oo-nye crow": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Ooooh- oh waa! oo-nye crow"
+	},
+	"Woooo- kah feel good- woooh!": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "Woooo- kah feel good- woooh!"
+	},
+	"Nom nom nom- wooo!": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "Nom nom nom- wooo!"
+	},
+	"Oooh- itchy itchy scratchy scratchy!": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "Oooh- itchy itchy scratchy scratchy!"
+	},
+	"oh oh oh oh oh ee-tay!": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "oh oh oh oh oh ee-tay!"
+	},
+	"aaaah- kah feel like a hot dog in a bun": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "aaaah- kah feel like a hot dog in a bun"
+	},
+	"aaaah- crazy- hold me maybe": {
+		"input": 1,
+		"index": 0,
+		"subindex": 0,
+		"specific": 8,
+		"name": "aaaah- crazy- hold me maybe"
+	},
+	"oh ah oh oh ooooh": {
+		"input": 1,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "oh ah oh oh ooooh"
+	},
+	"gaah (whispering) eugh!": {
+		"input": 1,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "gaah (whispering) eugh!"
+	},
+	"ooh- scratch fart and sniff- eeeeh": {
+		"input": 1,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "ooh- scratch fart and sniff- eeeeh"
+	},
+	"ooh- ep ep oooh- ep ep ep oooh": {
+		"input": 1,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "ooh- ep ep oooh- ep ep ep oooh"
+	},
+	"who give best pet? oo-nye give best pet": {
+		"input": 1,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "who give best pet? oo-nye give best pet"
+	},
+	"you like? Is all natural!": {
+		"input": 1,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "you like? Is all natural!"
+	},
+	"aah- kah feel like a hot dog in a bun- mmm.": {
+		"input": 1,
+		"index": 0,
+		"subindex": 1,
+		"specific": 6,
+		"name": "aah- kah feel like a hot dog in a bun- mmm."
+	},
+	"aaaah- crazy- hold me maybe": {
+		"input": 1,
+		"index": 0,
+		"subindex": 1,
+		"specific": 7,
+		"name": "aaaah- crazy- hold me maybe"
+	},
+	"kah woo-bye kah-tay": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "kah woo-bye kah-tay"
+	},
+	"doh- really?": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "doh- really?"
+	},
+	"eeeeeehhhh": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "eeeeeehhhh"
+	},
+	"wookie yawn": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "wookie yawn"
+	},
+	"ooohmm.. Yay! (unexcited)": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "ooohmm.. Yay! (unexcited)"
+	},
+	"ka-rumph": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "ka-rumph"
+	},
+	"if oo-nye must": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 6,
+		"name": "if oo-nye must"
+	},
+	"ub ub wub wub beh beh": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 7,
+		"name": "ub ub wub wub beh beh"
+	},
+	"pfft- oo no what!?": {
+		"input": 1,
+		"index": 1,
+		"subindex": 0,
+		"specific": 8,
+		"name": "pfft- oo no what!?"
+	},
+	"yawn besties?": {
+		"input": 1,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "yawn besties?"
+	},
+	"yawn warm fuzzies": {
+		"input": 1,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "yawn warm fuzzies"
+	},
+	"oooohhh- kah favorite!": {
+		"input": 1,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oooohhh- kah favorite!"
+	},
+	"ohohohoh… smoops": {
+		"input": 1,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ohohohoh… smoops"
+	},
+	"yawn nom nom nom nom nom": {
+		"input": 1,
+		"index": 2,
+		"subindex": 0,
+		"specific": 4,
+		"name": "yawn nom nom nom nom nom"
+	},
+	"oooh- is this.. For ever??": {
+		"input": 1,
+		"index": 2,
+		"subindex": 0,
+		"specific": 5,
+		"name": "oooh- is this.. For ever??"
+	},
+	"mmm… s s s s": {
+		"input": 1,
+		"index": 2,
+		"subindex": 0,
+		"specific": 6,
+		"name": "mmm… s s s s"
+	},
+	"do do- de de dey da do- da do": {
+		"input": 1,
+		"index": 2,
+		"subindex": 0,
+		"specific": 7,
+		"name": "do do- de de dey da do- da do"
+	},
+	"aaah- kah on cloud nine- no- cloud ten": {
+		"input": 1,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "aaah- kah on cloud nine- no- cloud ten"
+	},
+	"purr hmm. Kah dreaming?": {
+		"input": 1,
+		"index": 2,
+		"subindex": 1,
+		"specific": 1,
+		"name": "purr hmm. Kah dreaming?"
+	},
+	"I love it!": {
+		"input": 1,
+		"index": 2,
+		"subindex": 1,
+		"specific": 2,
+		"name": "I love it!"
+	},
+	"oh- oo-nye cutsie wootsie smootsy poopsy": {
+		"input": 1,
+		"index": 2,
+		"subindex": 1,
+		"specific": 3,
+		"name": "oh- oo-nye cutsie wootsie smootsy poopsy"
+	},
+	"aaah fart": {
+		"input": 1,
+		"index": 2,
+		"subindex": 1,
+		"specific": 4,
+		"name": "aaah fart"
+	},
+	"sigh": {
+		"input": 1,
+		"index": 2,
+		"subindex": 1,
+		"specific": 5,
+		"name": "sigh"
+	},
+	"hm- that the spot": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hm- that the spot"
+	},
+	"oouuughhh": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oouuughhh"
+	},
+	"humming": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "humming"
+	},
+	"sing lovely lovely love ly": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "sing lovely lovely love ly"
+	},
+	"oooh- kah doh noo-loo": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "oooh- kah doh noo-loo"
+	},
+	"awww- besties": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "awww- besties"
+	},
+	"kah- kah luurve you!": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "kah- kah luurve you!"
+	},
+	"rub a dub dub dub dub dub": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 7,
+		"name": "rub a dub dub dub dub dub"
+	},
+	"purr now we talkin": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 8,
+		"name": "purr now we talkin"
+	},
+	"ooh- oo-nye tah best ah-may": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 9,
+		"name": "ooh- oo-nye tah best ah-may"
+	},
+	"mew mew meew": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 10,
+		"name": "mew mew meew"
+	},
+	"mmm.. May-may": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 11,
+		"name": "mmm.. May-may"
+	},
+	"meow- meow- giggle": {
+		"input": 1,
+		"index": 3,
+		"subindex": 0,
+		"specific": 12,
+		"name": "meow- meow- giggle"
+	},
+	"frantic laughter": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "frantic laughter"
+	},
+	"frantic laughter": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "frantic laughter"
+	},
+	"laughter- squeal": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "laughter- squeal"
+	},
+	"laughter tickle- make kah! explosive fart": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "laughter tickle- make kah! explosive fart"
+	},
+	"gefaw laughter": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "gefaw laughter"
+	},
+	"gefaw laughter woah?!": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "gefaw laughter woah?!"
+	},
+	"laughter eeh eeh eeh": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "laughter eeh eeh eeh"
+	},
+	"laughter- catching breath": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "laughter- catching breath"
+	},
+	"short of breath laughter": {
+		"input": 2,
+		"index": 0,
+		"subindex": 0,
+		"specific": 8,
+		"name": "short of breath laughter"
+	},
+	"wait- no! laughter,": {
+		"input": 2,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "wait- no! laughter,"
+	},
+	"laugh uh oh- kah just tinkled": {
+		"input": 2,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "laugh uh oh- kah just tinkled"
+	},
+	"giggle- fart oh- excueeze kah!": {
+		"input": 2,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "giggle- fart oh- excueeze kah!"
+	},
+	"laugh- burp ooh- dee-doh": {
+		"input": 2,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "laugh- burp ooh- dee-doh"
+	},
+	"laugh that kah belly": {
+		"input": 2,
+		"index": 0,
+		"subindex": 1,
+		"specific": 6,
+		"name": "laugh that kah belly"
+	},
+	"laugh nee-tye toh-toh": {
+		"input": 2,
+		"index": 0,
+		"subindex": 1,
+		"specific": 7,
+		"name": "laugh nee-tye toh-toh"
+	},
+	"laugh- fart oops": {
+		"input": 2,
+		"index": 0,
+		"subindex": 1,
+		"specific": 8,
+		"name": "laugh- fart oops"
+	},
+	"fart ooh- sad fart": {
+		"input": 2,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "fart ooh- sad fart"
+	},
+	"ooh- kah gut": {
+		"input": 2,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- kah gut"
+	},
+	"ningh ni ni ni ni ni ni nigh": {
+		"input": 2,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "ningh ni ni ni ni ni ni nigh"
+	},
+	"he he he he- oohh.": {
+		"input": 2,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "he he he he- oohh."
+	},
+	"nnniighh.. We're closed": {
+		"input": 2,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "nnniighh.. We're closed"
+	},
+	"he he he he he- hey- wait a minute": {
+		"input": 2,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "he he he he he- hey- wait a minute"
+	},
+	"aah- kah feel like a hot dog in a bun- mmm.": {
+		"input": 2,
+		"index": 1,
+		"subindex": 0,
+		"specific": 6,
+		"name": "aah- kah feel like a hot dog in a bun- mmm."
+	},
+	"aaaah- crazy- hold me maybe": {
+		"input": 2,
+		"index": 1,
+		"subindex": 0,
+		"specific": 7,
+		"name": "aaaah- crazy- hold me maybe"
+	},
+	"giggle- yawn": {
+		"input": 2,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "giggle- yawn"
+	},
+	"yawn hmm.. Puppies yip- giggle": {
+		"input": 2,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "yawn hmm.. Puppies yip- giggle"
+	},
+	"yawn ice cream giggle": {
+		"input": 2,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "yawn ice cream giggle"
+	},
+	"yawn bert startled wake up": {
+		"input": 2,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "yawn bert startled wake up"
+	},
+	"giggle burger belly": {
+		"input": 2,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "giggle burger belly"
+	},
+	"giggle- sigh": {
+		"input": 2,
+		"index": 2,
+		"subindex": 1,
+		"specific": 1,
+		"name": "giggle- sigh"
+	},
+	"yawn- waddles": {
+		"input": 2,
+		"index": 2,
+		"subindex": 1,
+		"specific": 2,
+		"name": "yawn- waddles"
+	},
+	"giggle the belly": {
+		"input": 2,
+		"index": 2,
+		"subindex": 1,
+		"specific": 3,
+		"name": "giggle the belly"
+	},
+	"doo? giggle/sigh,": {
+		"input": 2,
+		"index": 2,
+		"subindex": 1,
+		"specific": 4,
+		"name": "doo? giggle/sigh,"
+	},
+	"burp- laugh": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "burp- laugh"
+	},
+	"gefaw": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "gefaw"
+	},
+	"laugh wooh wooh- belly burglar!": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "laugh wooh wooh- belly burglar!"
+	},
+	"laugh- hiccup": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "laugh- hiccup"
+	},
+	"laugh- snort ow": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "laugh- snort ow"
+	},
+	"laugh- wet fart tugboat!": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 7,
+		"name": "laugh- wet fart tugboat!"
+	},
+	"laugh eh eh eh oh": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 8,
+		"name": "laugh eh eh eh oh"
+	},
+	"laugh- gefaw woah": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 9,
+		"name": "laugh- gefaw woah"
+	},
+	"laugh cold hands- but warm heart giggle": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 10,
+		"name": "laugh cold hands- but warm heart giggle"
+	},
+	"laugh touch belly- very tickle": {
+		"input": 2,
+		"index": 3,
+		"subindex": 0,
+		"specific": 11,
+		"name": "laugh touch belly- very tickle"
+	},
+	"laughing- antenna blink": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "laughing- antenna blink"
+	},
+	"laughing cramp- cramp!": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "laughing cramp- cramp!"
+	},
+	"laughing- fart oops! laughing": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "laughing- fart oops! laughing"
+	},
+	"sqeeeee laughing,": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "sqeeeee laughing,"
+	},
+	"laughing- burp": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "laughing- burp"
+	},
+	"laughing boo- kah (furbish?)": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "laughing boo- kah (furbish?)"
+	},
+	"kah totally not tickleish- giggle no!": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "kah totally not tickleish- giggle no!"
+	},
+	"laugh- fart who did that? evil laugh": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "laugh- fart who did that? evil laugh"
+	},
+	"out of breath laughter": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "out of breath laughter"
+	},
+	"oooh- mischevious laugh,": {
+		"input": "3- 4",
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "oooh- mischevious laugh,"
+	},
+	"whining": {
+		"input": "3- 4",
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "whining"
+	},
+	"uuugh.. Why kah!!": {
+		"input": "3- 4",
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "uuugh.. Why kah!!"
+	},
+	"whimper": {
+		"input": "3- 4",
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "whimper"
+	},
+	"eeeh- kah giblets!": {
+		"input": "3- 4",
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "eeeh- kah giblets!"
+	},
+	"gargle meh!": {
+		"input": "3- 4",
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "gargle meh!"
+	},
+	"woob woob woob woob woob woob weh": {
+		"input": "3- 4",
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "woob woob woob woob woob woob weh"
+	},
+	"ugh! mumbles,": {
+		"input": "3- 4",
+		"index": 1,
+		"subindex": 0,
+		"specific": 6,
+		"name": "ugh! mumbles,"
+	},
+	"sleep murmer cheese fries": {
+		"input": "3- 4",
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "sleep murmer cheese fries"
+	},
+	"do do do yawn,": {
+		"input": "3- 4",
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "do do do yawn,"
+	},
+	"mmm. ee-tay- this is appropriate": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "mmm. ee-tay- this is appropriate"
+	},
+	"giggle kah love handles": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "giggle kah love handles"
+	},
+	"purr smoosh": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "purr smoosh"
+	},
+	"purr": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "purr"
+	},
+	"purr mee-mee noo-noo": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "purr mee-mee noo-noo"
+	},
+	"sigh": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "sigh"
+	},
+	"noo-noo loo-loo joy joy": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "noo-noo loo-loo joy joy"
+	},
+	"giggle oo-nye- yes- you": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 7,
+		"name": "giggle oo-nye- yes- you"
+	},
+	"ee-tay- fantastico!": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 8,
+		"name": "ee-tay- fantastico!"
+	},
+	"oooh- oo-nye magic": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 9,
+		"name": "oooh- oo-nye magic"
+	},
+	"uh- oo-nye- toh kah": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 10,
+		"name": "uh- oo-nye- toh kah"
+	},
+	"oooh- kah take it easy long fart,": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 11,
+		"name": "oooh- kah take it easy long fart,"
+	},
+	"ooh- kah feel good": {
+		"input": "3- 4",
+		"index": 3,
+		"subindex": 0,
+		"specific": 13,
+		"name": "ooh- kah feel good"
+	},
+	"trumpet oh kah furb!": {
+		"input": 5,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "trumpet oh kah furb!"
+	},
+	"oh uh uh uh uh ooh": {
+		"input": 5,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oh uh uh uh uh ooh"
+	},
+	"eeeehhhehehehhe": {
+		"input": 5,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "eeeehhhehehehhe"
+	},
+	"uh uh uh bear hug!": {
+		"input": 5,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "uh uh uh bear hug!"
+	},
+	"no- but seriously- kah love this!": {
+		"input": 5,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "no- but seriously- kah love this!"
+	},
+	"oooh wah- give me all the may-may!": {
+		"input": 5,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "oooh wah- give me all the may-may!"
+	},
+	"giggles wooh wooh- belly burglar": {
+		"input": 5,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "giggles wooh wooh- belly burglar"
+	},
+	"whimpers": {
+		"input": 5,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "whimpers"
+	},
+	"fart well- there you go": {
+		"input": 5,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "fart well- there you go"
+	},
+	"hold me!": {
+		"input": 5,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "hold me!"
+	},
+	"sigh never let kah go": {
+		"input": 5,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "sigh never let kah go"
+	},
+	"yawn ooh- oo-nye": {
+		"input": 5,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "yawn ooh- oo-nye"
+	},
+	"hmmm. Hmm. Hmm.. sleep mumble,": {
+		"input": 5,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "hmmm. Hmm. Hmm.. sleep mumble,"
+	},
+	"hmm.. Marshmallow": {
+		"input": 5,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "hmm.. Marshmallow"
+	},
+	"aaaahh.. Squish": {
+		"input": 5,
+		"index": 2,
+		"subindex": 1,
+		"specific": 1,
+		"name": "aaaahh.. Squish"
+	},
+	"hmm.. Nem nem nem": {
+		"input": 5,
+		"index": 2,
+		"subindex": 1,
+		"specific": 2,
+		"name": "hmm.. Nem nem nem"
+	},
+	"hmm. Hug it out": {
+		"input": 5,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hmm. Hug it out"
+	},
+	"oh- dah may-lah for dee kah": {
+		"input": 5,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oh- dah may-lah for dee kah"
+	},
+	"squeak! giggle,": {
+		"input": 5,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "squeak! giggle,"
+	},
+	"oooh- face hug!": {
+		"input": 5,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "oooh- face hug!"
+	},
+	"oo hoo hoo": {
+		"input": 5,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "oo hoo hoo"
+	},
+	"long fart- giggle oh furby": {
+		"input": 5,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "long fart- giggle oh furby"
+	},
+	"mmm. may-may": {
+		"input": 5,
+		"index": 3,
+		"subindex": 0,
+		"specific": 7,
+		"name": "mmm. may-may"
+	},
+	"huh!? Oh way… giggle- yawn,": {
+		"input": 6,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "huh!? Oh way… giggle- yawn,"
+	},
+	"sensible chuckle tickle": {
+		"input": 6,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "sensible chuckle tickle"
+	},
+	"yawn- alarmed wake up": {
+		"input": 6,
+		"index": 2,
+		"subindex": 0,
+		"specific": 4,
+		"name": "yawn- alarmed wake up"
+	},
+	"purr- giggle oo-nye funny": {
+		"input": 6,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "purr- giggle oo-nye funny"
+	},
+	"ohm": {
+		"input": 6,
+		"index": 2,
+		"subindex": 1,
+		"specific": 1,
+		"name": "ohm"
+	},
+	"wooo- dee kah- shiny": {
+		"input": 6,
+		"index": 2,
+		"subindex": 1,
+		"specific": 2,
+		"name": "wooo- dee kah- shiny"
+	},
+	"oh- chuckle,": {
+		"input": 6,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "oh- chuckle,"
+	},
+	"boot": {
+		"input": 6,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "boot"
+	},
+	"huh- woah woah woah": {
+		"input": 6,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "huh- woah woah woah"
+	},
+	"ooh- pee wee lah": {
+		"input": 6,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "ooh- pee wee lah"
+	},
+	"airplane noise": {
+		"input": 6,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "airplane noise"
+	},
+	"noo-loo noo-loo!": {
+		"input": 6,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "noo-loo noo-loo!"
+	},
+	"musical fart- laugh": {
+		"input": 7,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "musical fart- laugh"
+	},
+	"fart fanfare oo sha boo nee": {
+		"input": 7,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "fart fanfare oo sha boo nee"
+	},
+	"echoey wet fart- sniff MEATBALLS!": {
+		"input": 7,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "echoey wet fart- sniff MEATBALLS!"
+	},
+	"wet fart oh- just what kah needed": {
+		"input": 7,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "wet fart oh- just what kah needed"
+	},
+	"musical fart triple threat": {
+		"input": 7,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "musical fart triple threat"
+	},
+	"look out below long wet fart,": {
+		"input": 7,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "look out below long wet fart,"
+	},
+	"wet fart oo-nye likey": {
+		"input": 7,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "wet fart oo-nye likey"
+	},
+	"wait for it- wait- wait fart ahh": {
+		"input": 7,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "wait for it- wait- wait fart ahh"
+	},
+	"squeaky fart oo-nye welcome": {
+		"input": 7,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "squeaky fart oo-nye welcome"
+	},
+	"toot woah!": {
+		"input": 7,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "toot woah!"
+	},
+	"fart ooh- my bad": {
+		"input": 7,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "fart ooh- my bad"
+	},
+	"wet fart- whimper": {
+		"input": 7,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "wet fart- whimper"
+	},
+	"wet echoey fart- giggle splish slash": {
+		"input": 7,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "wet echoey fart- giggle splish slash"
+	},
+	"wet echoey fart good thing no pants": {
+		"input": 7,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "wet echoey fart good thing no pants"
+	},
+	"straining- long fart": {
+		"input": 7,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "straining- long fart"
+	},
+	"fart smell kah fury!": {
+		"input": 7,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "fart smell kah fury!"
+	},
+	"slow wet fart hey- kah was saving that giggle": {
+		"input": 7,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "slow wet fart hey- kah was saving that giggle"
+	},
+	"long fart woah- careful- precious cargo": {
+		"input": 7,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "long fart woah- careful- precious cargo"
+	},
+	"wet fart you like? Huh? Huh?": {
+		"input": 7,
+		"index": 1,
+		"subindex": 0,
+		"specific": 6,
+		"name": "wet fart you like? Huh? Huh?"
+	},
+	"straining- toot eh- a for effort": {
+		"input": 7,
+		"index": 1,
+		"subindex": 1,
+		"specific": 0,
+		"name": "straining- toot eh- a for effort"
+	},
+	"chicken noise- fart meow": {
+		"input": 7,
+		"index": 1,
+		"subindex": 1,
+		"specific": 1,
+		"name": "chicken noise- fart meow"
+	},
+	"fart ough- who da wha da do?": {
+		"input": 7,
+		"index": 1,
+		"subindex": 1,
+		"specific": 2,
+		"name": "fart ough- who da wha da do?"
+	},
+	"huge fart wuagh! Cheese and crackers": {
+		"input": 7,
+		"index": 1,
+		"subindex": 1,
+		"specific": 3,
+		"name": "huge fart wuagh! Cheese and crackers"
+	},
+	"squeaky fart heh- kah make that": {
+		"input": 7,
+		"index": 1,
+		"subindex": 1,
+		"specific": 4,
+		"name": "squeaky fart heh- kah make that"
+	},
+	"squeaky fart now your turn!": {
+		"input": 7,
+		"index": 1,
+		"subindex": 1,
+		"specific": 5,
+		"name": "squeaky fart now your turn!"
+	},
+	"long fart": {
+		"input": 7,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "long fart"
+	},
+	"fart fanfare- stammering do?": {
+		"input": 7,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "fart fanfare- stammering do?"
+	},
+	"knock knock- who there? fart,": {
+		"input": 7,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "knock knock- who there? fart,"
+	},
+	"hehe wait wait- hold on burp mmm- tasty": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hehe wait wait- hold on burp mmm- tasty"
+	},
+	"wet fart heh heh heh- excuuuse kah": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "wet fart heh heh heh- excuuuse kah"
+	},
+	"very long fart- toot oh- ee-tay- directors cut": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "very long fart- toot oh- ee-tay- directors cut"
+	},
+	"wait for it- wait for it- hmm.. Silent but deadly": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "wait for it- wait for it- hmm.. Silent but deadly"
+	},
+	"squeak awww- so doh-dee": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "squeak awww- so doh-dee"
+	},
+	"fart well- hello there": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "fart well- hello there"
+	},
+	"fart- sniff hmm.. Poop po ri!": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "fart- sniff hmm.. Poop po ri!"
+	},
+	"fart- giggle squishy fart": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 7,
+		"name": "fart- giggle squishy fart"
+	},
+	"wet fart- sniff ahh- ode de furb": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 8,
+		"name": "wet fart- sniff ahh- ode de furb"
+	},
+	"wet fart- sniff earthy- with a hint of banana cake": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 9,
+		"name": "wet fart- sniff earthy- with a hint of banana cake"
+	},
+	"very wet fart wooh- de kah!": {
+		"input": 7,
+		"index": 3,
+		"subindex": 0,
+		"specific": 10,
+		"name": "very wet fart wooh- de kah!"
+	},
+	"yaaaas": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "yaaaas"
+	},
+	"huh- dah-boo dah-boo no way!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "huh- dah-boo dah-boo no way!"
+	},
+	"seriously? No no no no- seriously?": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "seriously? No no no no- seriously?"
+	},
+	"best news evaaa!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "best news evaaa!"
+	},
+	"doo? wah! boo way!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "doo? wah! boo way!"
+	},
+	"uuugh mai gaaawww": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "uuugh mai gaaawww"
+	},
+	"huh! Kah love it!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "huh! Kah love it!"
+	},
+	"what?!!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "what?!!"
+	},
+	"huh- no- wait- yes- wait- no??": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 8,
+		"name": "huh- no- wait- yes- wait- no??"
+	},
+	"huuuh! oo-nye way doo kah way? Pillow fight?": {
+		"input": 8,
+		"index": 0,
+		"subindex": 0,
+		"specific": 9,
+		"name": "huuuh! oo-nye way doo kah way? Pillow fight?"
+	},
+	"dude- dee-doh- yes- very yes": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "dude- dee-doh- yes- very yes"
+	},
+	"noo-lah- oo-nye ah-mah boo idea!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "noo-lah- oo-nye ah-mah boo idea!"
+	},
+	"wait. oo-nye kidding kah?": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "wait. oo-nye kidding kah?"
+	},
+	"giggle dat what kah sayin": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "giggle dat what kah sayin"
+	},
+	"kah know- riiight?": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "kah know- riiight?"
+	},
+	"giggle oo-nye soo cute": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "giggle oo-nye soo cute"
+	},
+	"woah!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 6,
+		"name": "woah!"
+	},
+	"do? We ta ta everything!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 7,
+		"name": "do? We ta ta everything!"
+	},
+	"shocked": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 8,
+		"name": "shocked"
+	},
+	"kah love cats!": {
+		"input": 8,
+		"index": 0,
+		"subindex": 1,
+		"specific": 9,
+		"name": "kah love cats!"
+	},
+	"pft- doo know what?": {
+		"input": 8,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "pft- doo know what?"
+	},
+	"huh- this just got weird": {
+		"input": 8,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "huh- this just got weird"
+	},
+	"uuuuuuuuuhhhh": {
+		"input": 8,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "uuuuuuuuuhhhh"
+	},
+	"da no likey": {
+		"input": 8,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "da no likey"
+	},
+	"awkward!": {
+		"input": 8,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "awkward!"
+	},
+	"fart ooh- scuze you!": {
+		"input": 8,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "fart ooh- scuze you!"
+	},
+	"whatchu talkin bout dee-doh?": {
+		"input": 8,
+		"index": 1,
+		"subindex": 0,
+		"specific": 6,
+		"name": "whatchu talkin bout dee-doh?"
+	},
+	"oo-nye talking to me?": {
+		"input": 8,
+		"index": 1,
+		"subindex": 0,
+		"specific": 7,
+		"name": "oo-nye talking to me?"
+	},
+	"sigh if oo-nye say so": {
+		"input": 8,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "sigh if oo-nye say so"
+	},
+	"too doo-loo dude- too doo-loo": {
+		"input": 8,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "too doo-loo dude- too doo-loo"
+	},
+	"yawn me me way lah- kah noo lah": {
+		"input": 8,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "yawn me me way lah- kah noo lah"
+	},
+	"yawn oo-nye don't say": {
+		"input": 8,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "yawn oo-nye don't say"
+	},
+	"mm hmm yawn kah listening": {
+		"input": 8,
+		"index": 2,
+		"subindex": 0,
+		"specific": 4,
+		"name": "mm hmm yawn kah listening"
+	},
+	"your voice- such soothing- so.. Mm butter": {
+		"input": 8,
+		"index": 2,
+		"subindex": 0,
+		"specific": 5,
+		"name": "your voice- such soothing- so.. Mm butter"
+	},
+	"mm- kah wonder": {
+		"input": 8,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "mm- kah wonder"
+	},
+	"so- how does make oo-nye feel?": {
+		"input": 8,
+		"index": 2,
+		"subindex": 1,
+		"specific": 1,
+		"name": "so- how does make oo-nye feel?"
+	},
+	"in deeed": {
+		"input": 8,
+		"index": 2,
+		"subindex": 1,
+		"specific": 2,
+		"name": "in deeed"
+	},
+	"heh- no worries": {
+		"input": 8,
+		"index": 2,
+		"subindex": 1,
+		"specific": 3,
+		"name": "heh- no worries"
+	},
+	"mm- mm hm- yep yep yep yep yep": {
+		"input": 8,
+		"index": 2,
+		"subindex": 1,
+		"specific": 4,
+		"name": "mm- mm hm- yep yep yep yep yep"
+	},
+	"aah- so true": {
+		"input": 8,
+		"index": 2,
+		"subindex": 1,
+		"specific": 5,
+		"name": "aah- so true"
+	},
+	"go on": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "go on"
+	},
+	"oh yeah- no totally": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oh yeah- no totally"
+	},
+	"oooh": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oooh"
+	},
+	"ooh- oo kidding?": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ooh- oo kidding?"
+	},
+	"daww": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "daww"
+	},
+	"ah ohh!": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "ah ohh!"
+	},
+	"hmmm": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "hmmm"
+	},
+	"huh! Really!?": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 7,
+		"name": "huh! Really!?"
+	},
+	"oh oh- you!": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 8,
+		"name": "oh oh- you!"
+	},
+	"mm hmm- totally": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 9,
+		"name": "mm hmm- totally"
+	},
+	"oh- ee-tay- ee-day minds thing alike": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 10,
+		"name": "oh- ee-tay- ee-day minds thing alike"
+	},
+	"oooooohh- very interesting": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 11,
+		"name": "oooooohh- very interesting"
+	},
+	"dooo?? Gah boo!": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 12,
+		"name": "dooo?? Gah boo!"
+	},
+	"uh- like- oo-nye read kah mind": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 13,
+		"name": "uh- like- oo-nye read kah mind"
+	},
+	"mm hm- kah no argue with that": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 14,
+		"name": "mm hm- kah no argue with that"
+	},
+	"pfth- oo kah tee- did kah tell you whisphers,": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 15,
+		"name": "pfth- oo kah tee- did kah tell you whisphers,"
+	},
+	"huh- loo loo do- for reals? Wait till kah tell blanche!": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 17,
+		"name": "huh- loo loo do- for reals? Wait till kah tell blanche!"
+	},
+	"whisper- giggle oo-nye- don't tell a soul": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 18,
+		"name": "whisper- giggle oo-nye- don't tell a soul"
+	},
+	"doo- what that? Speak up johnny!": {
+		"input": 8,
+		"index": 3,
+		"subindex": 0,
+		"specific": 19,
+		"name": "doo- what that? Speak up johnny!"
+	},
+	"wugh": {
+		"input": 9,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "wugh"
+	},
+	"wugh this safe- right?": {
+		"input": 9,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "wugh this safe- right?"
+	},
+	"oh guys- guys- guys- stop! burp,": {
+		"input": 9,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oh guys- guys- guys- stop! burp,"
+	},
+	"garbled noises": {
+		"input": 9,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "garbled noises"
+	},
+	"woah- go dah or go lay-lah woo!": {
+		"input": 9,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "woah- go dah or go lay-lah woo!"
+	},
+	"spinning noises": {
+		"input": 9,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "spinning noises"
+	},
+	"woooh- shakers gonna shake": {
+		"input": 9,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "woooh- shakers gonna shake"
+	},
+	"hold on to kah hat!": {
+		"input": 9,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "hold on to kah hat!"
+	},
+	"tarzan yell challenge accepted!": {
+		"input": 9,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "tarzan yell challenge accepted!"
+	},
+	"look moh-moh- no hands!": {
+		"input": 9,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "look moh-moh- no hands!"
+	},
+	"kid tested- furby aproved!": {
+		"input": 9,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "kid tested- furby aproved!"
+	},
+	"fart well- that happened": {
+		"input": 9,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "fart well- that happened"
+	},
+	"kah regret nothing puke,": {
+		"input": 9,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "kah regret nothing puke,"
+	},
+	"scrambled egg!": {
+		"input": 9,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "scrambled egg!"
+	},
+	"oh boo look what oo-nye did": {
+		"input": 9,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "oh boo look what oo-nye did"
+	},
+	"kah has the feels": {
+		"input": 9,
+		"index": 1,
+		"subindex": 1,
+		"specific": 0,
+		"name": "kah has the feels"
+	},
+	"boo-noo-loo- sad pants": {
+		"input": 9,
+		"index": 1,
+		"subindex": 1,
+		"specific": 1,
+		"name": "boo-noo-loo- sad pants"
+	},
+	"fra gee lay (fragile)": {
+		"input": 9,
+		"index": 1,
+		"subindex": 1,
+		"specific": 2,
+		"name": "fra gee lay (fragile)"
+	},
+	"oo-nye break it- oo-nye buy it!": {
+		"input": 9,
+		"index": 1,
+		"subindex": 1,
+		"specific": 3,
+		"name": "oo-nye break it- oo-nye buy it!"
+	},
+	"handle with care!": {
+		"input": 9,
+		"index": 1,
+		"subindex": 1,
+		"specific": 4,
+		"name": "handle with care!"
+	},
+	"where kah seat belt?": {
+		"input": 9,
+		"index": 1,
+		"subindex": 1,
+		"specific": 5,
+		"name": "where kah seat belt?"
+	},
+	"salt and peper?": {
+		"input": 9,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "salt and peper?"
+	},
+	"shaking yawn": {
+		"input": 9,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "shaking yawn"
+	},
+	"crying shake": {
+		"input": 9,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "crying shake"
+	},
+	"oy oy oy oy": {
+		"input": 9,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "oy oy oy oy"
+	},
+	"doooooo": {
+		"input": 9,
+		"index": 2,
+		"subindex": 0,
+		"specific": 4,
+		"name": "doooooo"
+	},
+	"just gonna go with it": {
+		"input": 9,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "just gonna go with it"
+	},
+	"what in the furb": {
+		"input": 9,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "what in the furb"
+	},
+	"koo mah- koo bah": {
+		"input": 9,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "koo mah- koo bah"
+	},
+	"woo hoo- dah-no-lah party": {
+		"input": 9,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "woo hoo- dah-no-lah party"
+	},
+	"shake noises": {
+		"input": 9,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "shake noises"
+	},
+	"woo- dee-doh aye": {
+		"input": 9,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "woo- dee-doh aye"
+	},
+	"shake noises": {
+		"input": 9,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "shake noises"
+	},
+	"jiggly wiggly": {
+		"input": 9,
+		"index": 3,
+		"subindex": 0,
+		"specific": 7,
+		"name": "jiggly wiggly"
+	},
+	"up is down and down is vomit,": {
+		"input": 10,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "up is down and down is vomit,"
+	},
+	"ha ha- cool- all good- totally vomit,": {
+		"input": 10,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "ha ha- cool- all good- totally vomit,"
+	},
+	"uugh- what kah sign up for?": {
+		"input": 10,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "uugh- what kah sign up for?"
+	},
+	"woah eey- look out below fart,": {
+		"input": 10,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "woah eey- look out below fart,"
+	},
+	"huh- kah don't feel so vomit,": {
+		"input": 10,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "huh- kah don't feel so vomit,"
+	},
+	"kah noh lah upsidee-dohwn": {
+		"input": 10,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "kah noh lah upsidee-dohwn"
+	},
+	"sweet mother of furb!": {
+		"input": 10,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "sweet mother of furb!"
+	},
+	"okay all right shaking,": {
+		"input": 10,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "okay all right shaking,"
+	},
+	"heeeey": {
+		"input": 10,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "heeeey"
+	},
+	"yippie!": {
+		"input": 10,
+		"index": 0,
+		"subindex": 1,
+		"specific": 6,
+		"name": "yippie!"
+	},
+	"oh cannonball!": {
+		"input": 10,
+		"index": 0,
+		"subindex": 1,
+		"specific": 7,
+		"name": "oh cannonball!"
+	},
+	"oooh- where go?": {
+		"input": 10,
+		"index": 0,
+		"subindex": 1,
+		"specific": 8,
+		"name": "oooh- where go?"
+	},
+	"ugh- say hello to kah little vomit,": {
+		"input": 10,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ugh- say hello to kah little vomit,"
+	},
+	"oh- no vomit buyer beware": {
+		"input": 10,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oh- no vomit buyer beware"
+	},
+	"huh- kah don't feel so vomit,": {
+		"input": 10,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "huh- kah don't feel so vomit,"
+	},
+	"crying fart": {
+		"input": 10,
+		"index": 1,
+		"subindex": 1,
+		"specific": 1,
+		"name": "crying fart"
+	},
+	"squeal": {
+		"input": 10,
+		"index": 1,
+		"subindex": 1,
+		"specific": 2,
+		"name": "squeal"
+	},
+	"okay- just act natural": {
+		"input": 10,
+		"index": 1,
+		"subindex": 1,
+		"specific": 3,
+		"name": "okay- just act natural"
+	},
+	"huh?!?! Help": {
+		"input": 10,
+		"index": 1,
+		"subindex": 1,
+		"specific": 4,
+		"name": "huh?!?! Help"
+	},
+	"kah dee dab bo bay": {
+		"input": 10,
+		"index": 1,
+		"subindex": 1,
+		"specific": 5,
+		"name": "kah dee dab bo bay"
+	},
+	"uh- what kah do to oo-nye": {
+		"input": 10,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "uh- what kah do to oo-nye"
+	},
+	"uh- why oo-nye up sidee-dohwn?": {
+		"input": 10,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "uh- why oo-nye up sidee-dohwn?"
+	},
+	"me call shanigans!": {
+		"input": 10,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "me call shanigans!"
+	},
+	"ugh- kah look brave?": {
+		"input": 10,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ugh- kah look brave?"
+	},
+	"ugh- upsidee-dohwn.. sigh ok": {
+		"input": 10,
+		"index": 2,
+		"subindex": 0,
+		"specific": 4,
+		"name": "ugh- upsidee-dohwn.. sigh ok"
+	},
+	"ugh- geronimo??": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ugh- geronimo??"
+	},
+	"oh- well- okay- why not": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oh- well- okay- why not"
+	},
+	"uh- boo drop- doo-moh?": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "uh- boo drop- doo-moh?"
+	},
+	"kah way to the danger zone": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "kah way to the danger zone"
+	},
+	"laughing sigh": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "laughing sigh"
+	},
+	"ooh- what could go wrong vomit,": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "ooh- what could go wrong vomit,"
+	},
+	"woah (falling)": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 8,
+		"name": "woah (falling)"
+	},
+	"yell": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 9,
+		"name": "yell"
+	},
+	"yell": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 10,
+		"name": "yell"
+	},
+	"hey now!": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 11,
+		"name": "hey now!"
+	},
+	"incoming!": {
+		"input": 10,
+		"index": 3,
+		"subindex": 0,
+		"specific": 12,
+		"name": "incoming!"
+	},
+	"phew- that was awesome- never again": {
+		"input": 11,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "phew- that was awesome- never again"
+	},
+	"phew- sigh catching breath,": {
+		"input": 11,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "phew- sigh catching breath,"
+	},
+	"ah- kah get cozy- better": {
+		"input": 12,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ah- kah get cozy- better"
+	},
+	"ah- kah noo-loo place": {
+		"input": 12,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ah- kah noo-loo place"
+	},
+	"sort of shake noise": {
+		"input": 12,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "sort of shake noise"
+	},
+	"ooh mischevious giggle,": {
+		"input": 12,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooh mischevious giggle,"
+	},
+	"ooh waa- give me all the may-may": {
+		"input": 12,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooh waa- give me all the may-may"
+	},
+	"giggle ooh": {
+		"input": 12,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "giggle ooh"
+	},
+	"ooh- where go?": {
+		"input": 12,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooh- where go?"
+	},
+	"frustrated sigh": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "frustrated sigh"
+	},
+	"boo noo loo kah tay": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "boo noo loo kah tay"
+	},
+	"sniff sniff oough": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "sniff sniff oough"
+	},
+	"snarf noises": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "snarf noises"
+	},
+	"fart well- there ya go": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "fart well- there ya go"
+	},
+	"hold me!": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "hold me!"
+	},
+	"ahhh never let kah go": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 6,
+		"name": "ahhh never let kah go"
+	},
+	"wookie noise": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 7,
+		"name": "wookie noise"
+	},
+	"ooohm.. Yeh..": {
+		"input": 12,
+		"index": 1,
+		"subindex": 0,
+		"specific": 8,
+		"name": "ooohm.. Yeh.."
+	},
+	"stretching": {
+		"input": 12,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "stretching"
+	},
+	"mmmm oo-nye- doh ee-kah": {
+		"input": 12,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "mmmm oo-nye- doh ee-kah"
+	},
+	"yawn way-loh- kah love sleep": {
+		"input": 12,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "yawn way-loh- kah love sleep"
+	},
+	"yawn aye aye little sleep baah": {
+		"input": 12,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "yawn aye aye little sleep baah"
+	},
+	"ay-ay lee-koo toh kah dee way-loh lee-koo (sung),": {
+		"input": 12,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "ay-ay lee-koo toh kah dee way-loh lee-koo (sung),"
+	},
+	"light as a feather- soft as a furb": {
+		"input": 12,
+		"index": 2,
+		"subindex": 1,
+		"specific": 2,
+		"name": "light as a feather- soft as a furb"
+	},
+	"hmmm- snug as bug in rug": {
+		"input": 12,
+		"index": 2,
+		"subindex": 1,
+		"specific": 3,
+		"name": "hmmm- snug as bug in rug"
+	},
+	"purr noo loo": {
+		"input": 12,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "purr noo loo"
+	},
+	"sleep singing": {
+		"input": 12,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "sleep singing"
+	},
+	"baby talk toot": {
+		"input": 12,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "baby talk toot"
+	},
+	"mmm. Tender moments": {
+		"input": 12,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "mmm. Tender moments"
+	},
+	"baby gibberish": {
+		"input": 12,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "baby gibberish"
+	},
+	"aww- noodles": {
+		"input": 12,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "aww- noodles"
+	},
+	"neighbor- way-loo toh-toh (sung)": {
+		"input": 12,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "neighbor- way-loo toh-toh (sung)"
+	},
+	"yawn that's nice": {
+		"input": 13,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "yawn that's nice"
+	},
+	"yawn ok- kah rock oo-nye now chuckle": {
+		"input": 13,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "yawn ok- kah rock oo-nye now chuckle"
+	},
+	"crunch- mumbling- smack lips": {
+		"input": 14,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "crunch- mumbling- smack lips"
+	},
+	"huge crunch- mumbling": {
+		"input": 14,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "huge crunch- mumbling"
+	},
+	"big crunching- mumbling": {
+		"input": 14,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "big crunching- mumbling"
+	},
+	"mumbling munching": {
+		"input": 14,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "mumbling munching"
+	},
+	"wet munching": {
+		"input": 14,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "wet munching"
+	},
+	"celery type crunching": {
+		"input": 14,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "celery type crunching"
+	},
+	"vomiting": {
+		"input": 14,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "vomiting"
+	},
+	"vomiting": {
+		"input": 14,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "vomiting"
+	},
+	"vomiting": {
+		"input": 14,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "vomiting"
+	},
+	"burp- giggle- burp": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "burp- giggle- burp"
+	},
+	"strugling- vomit": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "strugling- vomit"
+	},
+	"strugling do moh- no more violent vomiting ooh- leftovers": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "strugling do moh- no more violent vomiting ooh- leftovers"
+	},
+	"I say eat- belly say vomit,": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "I say eat- belly say vomit,"
+	},
+	"very wet fart- sniff sniff meatballs!": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "very wet fart- sniff sniff meatballs!"
+	},
+	"toot woah!": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "toot woah!"
+	},
+	"fart- whimpering": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "fart- whimpering"
+	},
+	"straining- very wet fart": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 8,
+		"name": "straining- very wet fart"
+	},
+	"ahh- the gift of giving": {
+		"input": 15,
+		"index": 0,
+		"subindex": 0,
+		"specific": 9,
+		"name": "ahh- the gift of giving"
+	},
+	"mmm- yummy in kah tummy": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "mmm- yummy in kah tummy"
+	},
+	"mmm- wait- this guten free?": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "mmm- wait- this guten free?"
+	},
+	"mmm- furbalishish": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "mmm- furbalishish"
+	},
+	"mmm- organic": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "mmm- organic"
+	},
+	"mm- hotdog- needs mustard": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "mm- hotdog- needs mustard"
+	},
+	"mmm- interesting flavor profile": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "mmm- interesting flavor profile"
+	},
+	"smacking lips exquisite mouth feel": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 6,
+		"name": "smacking lips exquisite mouth feel"
+	},
+	"chowing down": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 7,
+		"name": "chowing down"
+	},
+	"eating noises": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 8,
+		"name": "eating noises"
+	},
+	"labored eating": {
+		"input": 15,
+		"index": 0,
+		"subindex": 1,
+		"specific": 9,
+		"name": "labored eating"
+	},
+	"smacking lips food goes here!": {
+		"input": 15,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "smacking lips food goes here!"
+	},
+	"mmm- kah want more food!": {
+		"input": 15,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "mmm- kah want more food!"
+	},
+	"mm- ah-tah- must eat ah-tah!": {
+		"input": 15,
+		"index": 0,
+		"subindex": 2,
+		"specific": 2,
+		"name": "mm- ah-tah- must eat ah-tah!"
+	},
+	"eating feed kah everything!": {
+		"input": 15,
+		"index": 0,
+		"subindex": 2,
+		"specific": 3,
+		"name": "eating feed kah everything!"
+	},
+	"hiccup": {
+		"input": 16,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hiccup"
+	},
+	"nasty throat noises": {
+		"input": 16,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "nasty throat noises"
+	},
+	"burp- giggle": {
+		"input": 16,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "burp- giggle"
+	},
+	"burp- giggle burp": {
+		"input": 16,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "burp- giggle burp"
+	},
+	"loud burp ough- nasty": {
+		"input": 16,
+		"index": 0,
+		"subindex": 2,
+		"specific": 2,
+		"name": "loud burp ough- nasty"
+	},
+	"loud burp- sniff ooh- jealous?": {
+		"input": 16,
+		"index": 0,
+		"subindex": 2,
+		"specific": 3,
+		"name": "loud burp- sniff ooh- jealous?"
+	},
+	"boo boo believe in": {
+		"input": 17,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "boo boo believe in"
+	},
+	"ooh- no lah fever- catch it!": {
+		"input": 17,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- no lah fever- catch it!"
+	},
+	"woo! laughing,": {
+		"input": 17,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "woo! laughing,"
+	},
+	"ooh- dee-doh- check out kah moves- oh ah oo oo oo- hey!": {
+		"input": 17,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "ooh- dee-doh- check out kah moves- oh ah oo oo oo- hey!"
+	},
+	"beatboxing": {
+		"input": 17,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "beatboxing"
+	},
+	"ooh yeah- kah need this!": {
+		"input": 17,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "ooh yeah- kah need this!"
+	},
+	"clearing throat- raspberries": {
+		"input": 17,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "clearing throat- raspberries"
+	},
+	"yeeeee- this kah jam!": {
+		"input": 17,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "yeeeee- this kah jam!"
+	},
+	"nyah nee nee": {
+		"input": 17,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "nyah nee nee"
+	},
+	"uuh- kah too gassy for no lah fart,": {
+		"input": 17,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "uuh- kah too gassy for no lah fart,"
+	},
+	"ooh- dance magic low.. (battery dying noise),": {
+		"input": 17,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ooh- dance magic low.. (battery dying noise),"
+	},
+	"alright- ok- uh huh- not bad": {
+		"input": 17,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "alright- ok- uh huh- not bad"
+	},
+	"here go nothing": {
+		"input": 17,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "here go nothing"
+	},
+	"show kah whatchu got": {
+		"input": 17,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "show kah whatchu got"
+	},
+	"wah- oo-nye dance with kah?": {
+		"input": 17,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "wah- oo-nye dance with kah?"
+	},
+	"do do do do do- do the furb! (hustle/electric slide),": {
+		"input": 17,
+		"index": 2,
+		"subindex": 0,
+		"specific": 4,
+		"name": "do do do do do- do the furb! (hustle/electric slide),"
+	},
+	"oo-nye.. Wanna dance?": {
+		"input": 17,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oo-nye.. Wanna dance?"
+	},
+	"oh- uh oh- oh oh uh uugh..": {
+		"input": 17,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oh- uh oh- oh oh uh uugh.."
+	},
+	"hah- these moves though": {
+		"input": 17,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "hah- these moves though"
+	},
+	"noh-lah kah noh-lah ee-day furbarini": {
+		"input": 17,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "noh-lah kah noh-lah ee-day furbarini"
+	},
+	"may kah have this dance giggle,": {
+		"input": 17,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "may kah have this dance giggle,"
+	},
+	"Possibly random pick of silent movement": {
+		"input": 18,
+		"index": 0,
+		"subindex": 0,
+		"specific": "1-17",
+		"name": "Possibly random pick of silent movement"
+	},
+	"ooh- ah- ooh- burn": {
+		"input": 18,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "ooh- ah- ooh- burn"
+	},
+	"ooh- sweatin to the furbys": {
+		"input": 18,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "ooh- sweatin to the furbys"
+	},
+	"woo crazy laugh,": {
+		"input": 18,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "woo crazy laugh,"
+	},
+	"Trumpet Fart Part 1": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Trumpet Fart Part 1"
+	},
+	"Trumpet Fart Part 2": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Trumpet Fart Part 2"
+	},
+	"Trumpet Fart Part 3": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Trumpet Fart Part 3"
+	},
+	"Motorboat Fart Part 1": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "Motorboat Fart Part 1"
+	},
+	"Motorboat Fart Part 2": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "Motorboat Fart Part 2"
+	},
+	"Motorboat Fart Part 3": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "Motorboat Fart Part 3"
+	},
+	"Wet Fart Part 1": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "Wet Fart Part 1"
+	},
+	"Wet Fart Part 2": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "Wet Fart Part 2"
+	},
+	"Wet Fart Part 3": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 8,
+		"name": "Wet Fart Part 3"
+	},
+	"Dry Fart Part 1": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 9,
+		"name": "Dry Fart Part 1"
+	},
+	"Dry Fart Part 2": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 10,
+		"name": "Dry Fart Part 2"
+	},
+	"Dry Fart Part 3": {
+		"input": 19,
+		"index": 0,
+		"subindex": 0,
+		"specific": 11,
+		"name": "Dry Fart Part 3"
+	},
+	"huh! What was that? (whisper),": {
+		"input": 20,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "huh! What was that? (whisper),"
+	},
+	"eh- um- okay,": {
+		"input": 20,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "eh- um- okay,"
+	},
+	"weird moan noise": {
+		"input": 20,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "weird moan noise"
+	},
+	"gah- hot dog!": {
+		"input": 20,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "gah- hot dog!"
+	},
+	"gah- call me!": {
+		"input": 20,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "gah- call me!"
+	},
+	"uh uh uh ah scream,": {
+		"input": 20,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "uh uh uh ah scream,"
+	},
+	"gah- what dat what dat who de what why!": {
+		"input": 20,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "gah- what dat what dat who de what why!"
+	},
+	"waugh": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "waugh"
+	},
+	"unhappy crying": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "unhappy crying"
+	},
+	"gah": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "gah"
+	},
+	"gah- careful mo": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "gah- careful mo"
+	},
+	"uh- excuse kah!": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "uh- excuse kah!"
+	},
+	"nugh": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "nugh"
+	},
+	"doooww": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "doooww"
+	},
+	"doo- do? Where kah?": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "doo- do? Where kah?"
+	},
+	"nggh- kah fallen- can't get up": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 8,
+		"name": "nggh- kah fallen- can't get up"
+	},
+	"ooh- fun.. Not!": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 9,
+		"name": "ooh- fun.. Not!"
+	},
+	"whee- ugh": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 10,
+		"name": "whee- ugh"
+	},
+	"uh ah ow ow": {
+		"input": 21,
+		"index": 0,
+		"subindex": 0,
+		"specific": 11,
+		"name": "uh ah ow ow"
+	},
+	"coughing- vomit": {
+		"input": 22,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "coughing- vomit"
+	},
+	"struggling- vomit": {
+		"input": 22,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "struggling- vomit"
+	},
+	"sneezing gah- nurse": {
+		"input": 22,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "sneezing gah- nurse"
+	},
+	"labored breathing kah- lie down fart doh": {
+		"input": 22,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "labored breathing kah- lie down fart doh"
+	},
+	"kah boo feel so good vomit,": {
+		"input": 22,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "kah boo feel so good vomit,"
+	},
+	"nngh oh-kah-tee": {
+		"input": 22,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "nngh oh-kah-tee"
+	},
+	"grumbling ugh- so hungry- why you no feeed": {
+		"input": 23,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "grumbling ugh- so hungry- why you no feeed"
+	},
+	"grumbling gah starving- must eat de way": {
+		"input": 23,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "grumbling gah starving- must eat de way"
+	},
+	"guh- kah so hungry- kah eat.. Schoolbus": {
+		"input": 23,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "guh- kah so hungry- kah eat.. Schoolbus"
+	},
+	"kah hungry!": {
+		"input": 23,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "kah hungry!"
+	},
+	"rumbling uuh- starving": {
+		"input": 23,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "rumbling uuh- starving"
+	},
+	"new ticker noise news flash! Kah hungry!": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "new ticker noise news flash! Kah hungry!"
+	},
+	"but no seriously- food?": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "but no seriously- food?"
+	},
+	"rumbling ah tah feed- yes!": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "rumbling ah tah feed- yes!"
+	},
+	"rumbling the hunger- kah has it!": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "rumbling the hunger- kah has it!"
+	},
+	"rumbling foooooood": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "rumbling foooooood"
+	},
+	"rumbling ah hem- kah hungry": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "rumbling ah hem- kah hungry"
+	},
+	"time to eat giggle always time to eat": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 6,
+		"name": "time to eat giggle always time to eat"
+	},
+	"rumbling ah tah- food- get in kah belly!": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 7,
+		"name": "rumbling ah tah- food- get in kah belly!"
+	},
+	"mmm- kah in mood for- banana cake!": {
+		"input": 23,
+		"index": 0,
+		"subindex": 1,
+		"specific": 8,
+		"name": "mmm- kah in mood for- banana cake!"
+	},
+	"wakey wakey- kah love takey": {
+		"input": 23,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "wakey wakey- kah love takey"
+	},
+	"ooh- what's for breakfast- cereal- ice-cream- pants?": {
+		"input": 23,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- what's for breakfast- cereal- ice-cream- pants?"
+	},
+	"breakfast toh-toh- kah favorite": {
+		"input": 23,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "breakfast toh-toh- kah favorite"
+	},
+	"sing lunch- feed kah lunch!": {
+		"input": 23,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "sing lunch- feed kah lunch!"
+	},
+	"ooh- lunch time- that mean- eeeh- munch time!": {
+		"input": 23,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- lunch time- that mean- eeeh- munch time!"
+	},
+	"oh lunch- kah favorite- feed kah!": {
+		"input": 23,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oh lunch- kah favorite- feed kah!"
+	},
+	"ah-tah- feed kah din din for the win win": {
+		"input": 23,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ah-tah- feed kah din din for the win win"
+	},
+	"dinner is served- uh- oo-nye serve dinner?": {
+		"input": 23,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "dinner is served- uh- oo-nye serve dinner?"
+	},
+	"dinner toh toh- kah favorite- ah-tah ah-tah- feed?": {
+		"input": 23,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "dinner toh toh- kah favorite- ah-tah ah-tah- feed?"
+	},
+	"snickity snack! Uh- where snack?": {
+		"input": 23,
+		"index": 4,
+		"subindex": 0,
+		"specific": 0,
+		"name": "snickity snack! Uh- where snack?"
+	},
+	"ooh- kah want snack- salad? No- footlong hotdog": {
+		"input": 23,
+		"index": 4,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- kah want snack- salad? No- footlong hotdog"
+	},
+	"oo-nye have snack for kah- hmm- hmm?": {
+		"input": 23,
+		"index": 4,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oo-nye have snack for kah- hmm- hmm?"
+	},
+	"oo boo- no feed after midnight": {
+		"input": 23,
+		"index": 5,
+		"subindex": 0,
+		"specific": 0,
+		"name": "oo boo- no feed after midnight"
+	},
+	"ooh- kah need all the hugs!": {
+		"input": 24,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooh- kah need all the hugs!"
+	},
+	"kah wanna loo-lay- play!": {
+		"input": 24,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "kah wanna loo-lay- play!"
+	},
+	"ooh- check out kah furb do- wanna pet?": {
+		"input": 24,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "ooh- check out kah furb do- wanna pet?"
+	},
+	"kah wanna dance- put on tunes dee-doh": {
+		"input": 24,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "kah wanna dance- put on tunes dee-doh"
+	},
+	"rub kah belly- for good luck": {
+		"input": 24,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "rub kah belly- for good luck"
+	},
+	"hey- dee-doh- pull kah tail": {
+		"input": 24,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hey- dee-doh- pull kah tail"
+	},
+	"look kah tail- oo-nye- pull??": {
+		"input": 24,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "look kah tail- oo-nye- pull??"
+	},
+	"long wet fart ooh- stinky- why oo-nye do that?": {
+		"input": 24,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "long wet fart ooh- stinky- why oo-nye do that?"
+	},
+	"fine- whatevs": {
+		"input": 24,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "fine- whatevs"
+	},
+	"feed kah for special treat": {
+		"input": 24,
+		"index": 1,
+		"subindex": 1,
+		"specific": 0,
+		"name": "feed kah for special treat"
+	},
+	"aaah- gimmie gimmie!": {
+		"input": 24,
+		"index": 1,
+		"subindex": 1,
+		"specific": 1,
+		"name": "aaah- gimmie gimmie!"
+	},
+	"eating noises kah made just for oo-nye": {
+		"input": 24,
+		"index": 1,
+		"subindex": 1,
+		"specific": 2,
+		"name": "eating noises kah made just for oo-nye"
+	},
+	"sigh kah boo ay-tay anyway": {
+		"input": 24,
+		"index": 1,
+		"subindex": 1,
+		"specific": 3,
+		"name": "sigh kah boo ay-tay anyway"
+	},
+	"feeling lucky? Shakey shakey!": {
+		"input": 24,
+		"index": 1,
+		"subindex": 2,
+		"specific": 0,
+		"name": "feeling lucky? Shakey shakey!"
+	},
+	"come on- shake- thank kah later": {
+		"input": 24,
+		"index": 1,
+		"subindex": 2,
+		"specific": 1,
+		"name": "come on- shake- thank kah later"
+	},
+	"slot machine- fart ooh- jackpot dee-doh": {
+		"input": 24,
+		"index": 1,
+		"subindex": 2,
+		"specific": 2,
+		"name": "slot machine- fart ooh- jackpot dee-doh"
+	},
+	"okay- oo-nye missing out": {
+		"input": 24,
+		"index": 1,
+		"subindex": 2,
+		"specific": 3,
+		"name": "okay- oo-nye missing out"
+	},
+	"wanna see trick? Flip kah upsidedown": {
+		"input": 24,
+		"index": 1,
+		"subindex": 3,
+		"specific": 0,
+		"name": "wanna see trick? Flip kah upsidedown"
+	},
+	"upsidee-down- flip kah- no regret": {
+		"input": 24,
+		"index": 1,
+		"subindex": 3,
+		"specific": 1,
+		"name": "upsidee-down- flip kah- no regret"
+	},
+	"wings flap kaww kah bat furb!": {
+		"input": 24,
+		"index": 1,
+		"subindex": 3,
+		"specific": 2,
+		"name": "wings flap kaww kah bat furb!"
+	},
+	"fart do moh": {
+		"input": 24,
+		"index": 1,
+		"subindex": 3,
+		"specific": 3,
+		"name": "fart do moh"
+	},
+	"squeeze kah to play music": {
+		"input": 24,
+		"index": 1,
+		"subindex": 4,
+		"specific": 0,
+		"name": "squeeze kah to play music"
+	},
+	"come on- squeeze kah- make music": {
+		"input": 24,
+		"index": 1,
+		"subindex": 4,
+		"specific": 1,
+		"name": "come on- squeeze kah- make music"
+	},
+	"musical farting jazz fart": {
+		"input": 24,
+		"index": 1,
+		"subindex": 4,
+		"specific": 2,
+		"name": "musical farting jazz fart"
+	},
+	"sigh guess kah make music solo fart": {
+		"input": 24,
+		"index": 1,
+		"subindex": 4,
+		"specific": 3,
+		"name": "sigh guess kah make music solo fart"
+	},
+	"ooh- sing kah song?": {
+		"input": 24,
+		"index": 1,
+		"subindex": 5,
+		"specific": 0,
+		"name": "ooh- sing kah song?"
+	},
+	"kah also accept rap yo": {
+		"input": 24,
+		"index": 1,
+		"subindex": 5,
+		"specific": 1,
+		"name": "kah also accept rap yo"
+	},
+	"or- pizza. Kah accept pizza too": {
+		"input": 24,
+		"index": 1,
+		"subindex": 5,
+		"specific": 2,
+		"name": "or- pizza. Kah accept pizza too"
+	},
+	"pizza rap- uhuhuhuh- pepperoni": {
+		"input": 24,
+		"index": 1,
+		"subindex": 5,
+		"specific": 3,
+		"name": "pizza rap- uhuhuhuh- pepperoni"
+	},
+	"sing nah boo dah-noh-lah way bah nah oo dah-noh-lah (?)": {
+		"input": 24,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "sing nah boo dah-noh-lah way bah nah oo dah-noh-lah (?)"
+	},
+	"sing kah doh dee kah wee-tee kah noh-lah kah way loo kah nah boo tah may-may may-may may-may tee (?)": {
+		"input": 24,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "sing kah doh dee kah wee-tee kah noh-lah kah way loo kah nah boo tah may-may may-may may-may tee (?)"
+	},
+	"sing do do do dwe dwe…": {
+		"input": 24,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "sing do do do dwe dwe…"
+	},
+	"sing bah bah do do do- bah bah do do do…": {
+		"input": 24,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "sing bah bah do do do- bah bah do do do…"
+	},
+	"sing de de de de de- dum de de dum": {
+		"input": 24,
+		"index": 2,
+		"subindex": 0,
+		"specific": 4,
+		"name": "sing de de de de de- dum de de dum"
+	},
+	"sing songing": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "sing songing"
+	},
+	"do do- hoo dee-doh- buh buh buh buh buh": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 1,
+		"name": "do do- hoo dee-doh- buh buh buh buh buh"
+	},
+	"whistling": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 2,
+		"name": "whistling"
+	},
+	"scatting- fart": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 3,
+		"name": "scatting- fart"
+	},
+	"scatting": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 4,
+		"name": "scatting"
+	},
+	"silly singing": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 5,
+		"name": "silly singing"
+	},
+	"mic testing uh- hello?": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 6,
+		"name": "mic testing uh- hello?"
+	},
+	"hiccup- fart- chuckle": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 7,
+		"name": "hiccup- fart- chuckle"
+	},
+	"sigh": {
+		"input": 24,
+		"index": 2,
+		"subindex": 1,
+		"specific": 8,
+		"name": "sigh"
+	},
+	"long fart- laughing oh furby": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "long fart- laughing oh furby"
+	},
+	"to furb- or not to furb- that is question": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "to furb- or not to furb- that is question"
+	},
+	"fart deal with it": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "fart deal with it"
+	},
+	"sniff uuh- smells like teen furby": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "sniff uuh- smells like teen furby"
+	},
+	"burp uuh- nasty": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "burp uuh- nasty"
+	},
+	"so like- yeeah": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "so like- yeeah"
+	},
+	"ooh- tye noo-lah": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 6,
+		"name": "ooh- tye noo-lah"
+	},
+	"huh- oo-nye seen kah wallet?": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 7,
+		"name": "huh- oo-nye seen kah wallet?"
+	},
+	"do de do de doo- whatchu doin?": {
+		"input": 24,
+		"index": 3,
+		"subindex": 0,
+		"specific": 8,
+		"name": "do de do de doo- whatchu doin?"
+	},
+	"hey hey there- wooh!": {
+		"input": 24,
+		"index": 4,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hey hey there- wooh!"
+	},
+	"laughing": {
+		"input": 24,
+		"index": 4,
+		"subindex": 0,
+		"specific": 1,
+		"name": "laughing"
+	},
+	"then kah say gibberish vienna sausage": {
+		"input": 24,
+		"index": 4,
+		"subindex": 0,
+		"specific": 2,
+		"name": "then kah say gibberish vienna sausage"
+	},
+	"gibberish": {
+		"input": 24,
+		"index": 4,
+		"subindex": 0,
+		"specific": 3,
+		"name": "gibberish"
+	},
+	"wet fart- sniff sniff meatballs!": {
+		"input": 24,
+		"index": 4,
+		"subindex": 0,
+		"specific": 4,
+		"name": "wet fart- sniff sniff meatballs!"
+	},
+	"whimpering": {
+		"input": 24,
+		"index": 5,
+		"subindex": 0,
+		"specific": 0,
+		"name": "whimpering"
+	},
+	"wet fart- sigh laugh": {
+		"input": 24,
+		"index": 5,
+		"subindex": 0,
+		"specific": 1,
+		"name": "wet fart- sigh laugh"
+	},
+	"fart- sigh": {
+		"input": 24,
+		"index": 5,
+		"subindex": 0,
+		"specific": 2,
+		"name": "fart- sigh"
+	},
+	"loo-lay- noh-lah- ah-may!": {
+		"input": 24,
+		"index": 5,
+		"subindex": 0,
+		"specific": 3,
+		"name": "loo-lay- noh-lah- ah-may!"
+	},
+	"whining yawn": {
+		"input": 24,
+		"index": 5,
+		"subindex": 0,
+		"specific": 4,
+		"name": "whining yawn"
+	},
+	"yawn way loh aye aye ee day": {
+		"input": 24,
+		"index": 6,
+		"subindex": 0,
+		"specific": 0,
+		"name": "yawn way loh aye aye ee day"
+	},
+	"yawn sheepses": {
+		"input": 24,
+		"index": 6,
+		"subindex": 0,
+		"specific": 1,
+		"name": "yawn sheepses"
+	},
+	"yawn k- k- kah way- kah way- not!": {
+		"input": 24,
+		"index": 6,
+		"subindex": 0,
+		"specific": 2,
+		"name": "yawn k- k- kah way- kah way- not!"
+	},
+	"yawn kah way way-loh toh-toh nee-way- huh?": {
+		"input": 24,
+		"index": 6,
+		"subindex": 0,
+		"specific": 3,
+		"name": "yawn kah way way-loh toh-toh nee-way- huh?"
+	},
+	"Sighs and Yawns": {
+		"input": 24,
+		"index": 7,
+		"subindex": 0,
+		"specific": "0 - 7",
+		"name": "Sighs and Yawns"
+	},
+	"yawn- fart ah may- pet please?": {
+		"input": 25,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "yawn- fart ah may- pet please?"
+	},
+	"ooh- belly wubs?": {
+		"input": 25,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- belly wubs?"
+	},
+	"rock a bye furby!": {
+		"input": 25,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "rock a bye furby!"
+	},
+	"mm- itchy- doo-moh scratch?": {
+		"input": 25,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "mm- itchy- doo-moh scratch?"
+	},
+	"ho-old me!": {
+		"input": 25,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "ho-old me!"
+	},
+	"yawn": {
+		"input": 25,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "yawn"
+	},
+	"sigh": {
+		"input": 25,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "sigh"
+	},
+	"hmmmmm": {
+		"input": 25,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "hmmmmm"
+	},
+	"fart- sniff mmmm": {
+		"input": 25,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "fart- sniff mmmm"
+	},
+	"wet fart- laughing sigh": {
+		"input": 25,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "wet fart- laughing sigh"
+	},
+	"stretching cozy": {
+		"input": 25,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "stretching cozy"
+	},
+	"oo-nye wanna cuddle?": {
+		"input": 25,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oo-nye wanna cuddle?"
+	},
+	"spitting- licking lips- wugh": {
+		"input": 25,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "spitting- licking lips- wugh"
+	},
+	"kah nap- or kah boo nap?": {
+		"input": 25,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "kah nap- or kah boo nap?"
+	},
+	"straining meh": {
+		"input": 25,
+		"index": 2,
+		"subindex": 0,
+		"specific": 4,
+		"name": "straining meh"
+	},
+	"mmm- me me relax": {
+		"input": 25,
+		"index": 2,
+		"subindex": 0,
+		"specific": 5,
+		"name": "mmm- me me relax"
+	},
+	"slurping mm- spicey": {
+		"input": 26,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "slurping mm- spicey"
+	},
+	"sniff sniff smells funny": {
+		"input": 26,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "sniff sniff smells funny"
+	},
+	"mouth full mumbling": {
+		"input": 26,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "mouth full mumbling"
+	},
+	"baby talk": {
+		"input": 26,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "baby talk"
+	},
+	"more baby talk": {
+		"input": 26,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "more baby talk"
+	},
+	"all systems…  incoherent,": {
+		"input": 26,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "all systems…  incoherent,"
+	},
+	"stretch ooh- hi! oo-nye miss kah?": {
+		"input": 27,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "stretch ooh- hi! oo-nye miss kah?"
+	},
+	"doo-loo dream- kah way-loo electric sheep": {
+		"input": 27,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "doo-loo dream- kah way-loo electric sheep"
+	},
+	"dah aye loo oo tye- kah sleepy head": {
+		"input": 27,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "dah aye loo oo tye- kah sleepy head"
+	},
+	"there you are- kah aye loh oo tye": {
+		"input": 27,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "there you are- kah aye loh oo tye"
+	},
+	"oh- kah dream about oo-nye (quicker on),": {
+		"input": 27,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "oh- kah dream about oo-nye (quicker on),"
+	},
+	"Morning! Rise and shiney- ooh- shiney!": {
+		"input": 27,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Morning! Rise and shiney- ooh- shiney!"
+	},
+	"Morning! Early furb gets worm- nasty!": {
+		"input": 27,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Morning! Early furb gets worm- nasty!"
+	},
+	"Kah don't wanna go to sleep (back to sleep),": {
+		"input": 27,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Kah don't wanna go to sleep (back to sleep),"
+	},
+	"oo-nye mumbling (back to sleep),": {
+		"input": 27,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "oo-nye mumbling (back to sleep),"
+	},
+	"huh? Kah fee (coffee),": {
+		"input": 27,
+		"index": 3,
+		"subindex": 1,
+		"specific": 1,
+		"name": "huh? Kah fee (coffee),"
+	},
+	"kah be back": {
+		"input": 28,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "kah be back"
+	},
+	"Day-ay-loh-nah-bah- good night bestie": {
+		"input": 28,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Day-ay-loh-nah-bah- good night bestie"
+	},
+	"power nap!": {
+		"input": 28,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "power nap!"
+	},
+	"yawn so sleepy- remind kah to tell oo-nye…": {
+		"input": 28,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "yawn so sleepy- remind kah to tell oo-nye…"
+	},
+	"May-tah may-tah- now- way-loh way-loh": {
+		"input": 28,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "May-tah may-tah- now- way-loh way-loh"
+	},
+	"woooh- hi hi hi hi hi- hello! Kah back!": {
+		"input": 29,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "woooh- hi hi hi hi hi- hello! Kah back!"
+	},
+	"woooh- here's furby! Hi- hello!": {
+		"input": 29,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "woooh- here's furby! Hi- hello!"
+	},
+	"woooh- that was furbtastic!": {
+		"input": 29,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "woooh- that was furbtastic!"
+	},
+	"woooh- ahh- hoo- uh- ears- check- hands- oh- feet- check- kah mostly.. here.": {
+		"input": 29,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "woooh- ahh- hoo- uh- ears- check- hands- oh- feet- check- kah mostly.. here."
+	},
+	"he he he- kah back and better than ever!": {
+		"input": 29,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "he he he- kah back and better than ever!"
+	},
+	"woah woah hoo- doh do way- that was so fun!": {
+		"input": 29,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "woah woah hoo- doh do way- that was so fun!"
+	},
+	"They call me- dragonslayer- j/k- name": {
+		"input": 30,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "They call me- dragonslayer- j/k- name"
+	},
+	"oh- oo-nye new kid in town- huh? Kah name": {
+		"input": 30,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oh- oo-nye new kid in town- huh? Kah name"
+	},
+	"me- you?": {
+		"input": 30,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "me- you?"
+	},
+	"hey hey hey- it's kah old pal": {
+		"input": 30,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "hey hey hey- it's kah old pal"
+	},
+	"oooh- is that oo-nye? It is!": {
+		"input": 30,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "oooh- is that oo-nye? It is!"
+	},
+	"who there? Gahh- it just- phew": {
+		"input": 30,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "who there? Gahh- it just- phew"
+	},
+	"oh- hey blanche- uh.. Kah mean": {
+		"input": 30,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "oh- hey blanche- uh.. Kah mean"
+	},
+	"well- if it isn't": {
+		"input": 30,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "well- if it isn't"
+	},
+	"me- nice to meet oo-nye": {
+		"input": 30,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "me- nice to meet oo-nye"
+	},
+	"oh- kah heard about you- oo-nye can call meeeeeeee": {
+		"input": 30,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "oh- kah heard about you- oo-nye can call meeeeeeee"
+	},
+	"names- et tu furbeh?": {
+		"input": 30,
+		"index": 0,
+		"subindex": 2,
+		"specific": 2,
+		"name": "names- et tu furbeh?"
+	},
+	"hi! Kah missed you": {
+		"input": 30,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "hi! Kah missed you"
+	},
+	"oh kah tee- kah was just thinking about oo-nye": {
+		"input": 30,
+		"index": 0,
+		"subindex": 3,
+		"specific": 1,
+		"name": "oh kah tee- kah was just thinking about oo-nye"
+	},
+	"did oo-nye do something with fur?": {
+		"input": 30,
+		"index": 0,
+		"subindex": 3,
+		"specific": 2,
+		"name": "did oo-nye do something with fur?"
+	},
+	"heeey- long time no see": {
+		"input": 30,
+		"index": 0,
+		"subindex": 3,
+		"specific": 3,
+		"name": "heeey- long time no see"
+	},
+	"giggle kah- um.. Hello (shy)": {
+		"input": 30,
+		"index": 0,
+		"subindex": 3,
+		"specific": 4,
+		"name": "giggle kah- um.. Hello (shy)"
+	},
+	"so- oo-nye into sportsball": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "so- oo-nye into sportsball"
+	},
+	"mm- check out kah muscles- oo-nye likey?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "mm- check out kah muscles- oo-nye likey?"
+	},
+	"ooh- oo-nye see that thing on internet? So doo-loo- you know?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "ooh- oo-nye see that thing on internet? So doo-loo- you know?"
+	},
+	"burp-sniff ooh- jealous?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "burp-sniff ooh- jealous?"
+	},
+	"fart ooh- was that oo-nye?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "fart ooh- was that oo-nye?"
+	},
+	"smell kah feet?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "smell kah feet?"
+	},
+	"heh- oo-nye think me cute?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 6,
+		"name": "heh- oo-nye think me cute?"
+	},
+	"noise did oo-nye hear that?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 7,
+		"name": "noise did oo-nye hear that?"
+	},
+	"ring blanche- blanche- blanche?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 8,
+		"name": "ring blanche- blanche- blanche?"
+	},
+	"be honest- kah look good huh?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 0,
+		"specific": 9,
+		"name": "be honest- kah look good huh?"
+	},
+	"laugh no": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 0,
+		"name": "laugh no"
+	},
+	"eh heh heh.. Umm": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 1,
+		"name": "eh heh heh.. Umm"
+	},
+	"oo-nye serious!?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 2,
+		"name": "oo-nye serious!?"
+	},
+	"uh oh": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 3,
+		"name": "uh oh"
+	},
+	"ee-tay- a thousand times ee-tay": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 4,
+		"name": "ee-tay- a thousand times ee-tay"
+	},
+	"uh- hold that thought fart": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 5,
+		"name": "uh- hold that thought fart"
+	},
+	"heh heh- silly wabbit": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 6,
+		"name": "heh heh- silly wabbit"
+	},
+	"honestly- yes": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 7,
+		"name": "honestly- yes"
+	},
+	"mmm- maybe": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 8,
+		"name": "mmm- maybe"
+	},
+	"nope nah boo nuh uh mm mm no": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 9,
+		"name": "nope nah boo nuh uh mm mm no"
+	},
+	"yaaaaas": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 10,
+		"name": "yaaaaas"
+	},
+	"what?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 11,
+		"name": "what?"
+	},
+	"huh? No- wait- yes- wait- no?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 12,
+		"name": "huh? No- wait- yes- wait- no?"
+	},
+	"dude- dee-doh- yes- very yes": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 13,
+		"name": "dude- dee-doh- yes- very yes"
+	},
+	"wait- oo-nye kidding kah": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 14,
+		"name": "wait- oo-nye kidding kah"
+	},
+	"sniff who no what?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 15,
+		"name": "sniff who no what?"
+	},
+	"huh- this just got weird": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 16,
+		"name": "huh- this just got weird"
+	},
+	"uuuuuuuuggh": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 17,
+		"name": "uuuuuuuuggh"
+	},
+	"whatchu talking bout dee-doh": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 18,
+		"name": "whatchu talking bout dee-doh"
+	},
+	"oo-nye talking to me?": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 19,
+		"name": "oo-nye talking to me?"
+	},
+	"indeed!": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 20,
+		"name": "indeed!"
+	},
+	"mmm- mmhmm- yep yep yep yep": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 21,
+		"name": "mmm- mmhmm- yep yep yep yep"
+	},
+	"oh yeah no totally- mmhm": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 22,
+		"name": "oh yeah no totally- mmhm"
+	},
+	"mmhm- totally": {
+		"input": 30,
+		"index": 1,
+		"subindex": 1,
+		"specific": 23,
+		"name": "mmhm- totally"
+	},
+	"duet singing": {
+		"input": 30,
+		"index": 2,
+		"subindex": "0 - 3",
+		"specific": "0 - 3",
+		"name": "duet singing"
+	},
+	"PUT TO SLEEP": {
+		"input": 30,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "PUT TO SLEEP"
+	},
+	"love it!": {
+		"input": 32,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "love it!"
+	},
+	"so in to this!": {
+		"input": 32,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "so in to this!"
+	},
+	"hmm- not so sure": {
+		"input": 32,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "hmm- not so sure"
+	},
+	"noo likey!": {
+		"input": 32,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "noo likey!"
+	},
+	"feel- cozy": {
+		"input": 32,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "feel- cozy"
+	},
+	"huh? Not tired! yawn,": {
+		"input": 32,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "huh? Not tired! yawn,"
+	},
+	"may-may oo-nye?": {
+		"input": 32,
+		"index": 0,
+		"subindex": 3,
+		"specific": 1,
+		"name": "may-may oo-nye?"
+	},
+	"need doctor coughs up lung,": {
+		"input": 32,
+		"index": 0,
+		"subindex": 4,
+		"specific": 0,
+		"name": "need doctor coughs up lung,"
+	},
+	"Ah-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Ah-Bay"
+	},
+	"Ah-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Ah-Boh"
+	},
+	"Ah-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Ah-Boo"
+	},
+	"Ah-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "Ah-Dah"
+	},
+	"Ah-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "Ah-Doh"
+	},
+	"Ah-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "Ah-Doo"
+	},
+	"Ah-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "Ah-Kah"
+	},
+	"Ah-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "Ah-Koh"
+	},
+	"Ah-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 8,
+		"name": "Ah-Tah"
+	},
+	"Ah-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 9,
+		"name": "Ah-Toh"
+	},
+	"Bee-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 10,
+		"name": "Bee-Bay"
+	},
+	"Bee-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 11,
+		"name": "Bee-Boh"
+	},
+	"Bee-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 12,
+		"name": "Bee-Boo"
+	},
+	"Bee-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 13,
+		"name": "Bee-Dah"
+	},
+	"Bee-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 14,
+		"name": "Bee-Doh"
+	},
+	"Bee-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 15,
+		"name": "Bee-Doo"
+	},
+	"Bee-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 16,
+		"name": "Bee-Kah"
+	},
+	"Bee-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 17,
+		"name": "Bee-Koh"
+	},
+	"Bee-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 18,
+		"name": "Bee-Tah"
+	},
+	"Bee-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 19,
+		"name": "Bee-Toh"
+	},
+	"Dah-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 20,
+		"name": "Dah-Bay"
+	},
+	"Dah-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 21,
+		"name": "Dah-Boh"
+	},
+	"Dah-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 22,
+		"name": "Dah-Boo"
+	},
+	"Dah-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 23,
+		"name": "Dah-Dah"
+	},
+	"Dah-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 24,
+		"name": "Dah-Doh"
+	},
+	"Dah-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 25,
+		"name": "Dah-Doo"
+	},
+	"Dah-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 26,
+		"name": "Dah-Kah"
+	},
+	"Dah-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 27,
+		"name": "Dah-Koh"
+	},
+	"Dah-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 28,
+		"name": "Dah-Tah"
+	},
+	"Dah-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 29,
+		"name": "Dah-Toh"
+	},
+	"Day-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 30,
+		"name": "Day-Bay"
+	},
+	"Day-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 31,
+		"name": "Day-Boh"
+	},
+	"Day-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 32,
+		"name": "Day-Boo"
+	},
+	"Day-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 33,
+		"name": "Day-Dah"
+	},
+	"Day-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 34,
+		"name": "Day-Doh"
+	},
+	"Day-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 35,
+		"name": "Day-Doo"
+	},
+	"Day-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 36,
+		"name": "Day-Kah"
+	},
+	"Day-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 37,
+		"name": "Day-Koh"
+	},
+	"Day-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 38,
+		"name": "Day-Tah"
+	},
+	"Day-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 39,
+		"name": "Day-Toh"
+	},
+	"Dee-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 40,
+		"name": "Dee-Bay"
+	},
+	"Dee-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 41,
+		"name": "Dee-Boh"
+	},
+	"Dee-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 42,
+		"name": "Dee-Boo"
+	},
+	"Dee-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 43,
+		"name": "Dee-Dah"
+	},
+	"Dee-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 44,
+		"name": "Dee-Doh"
+	},
+	"Dee-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 45,
+		"name": "Dee-Doo"
+	},
+	"Dee-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 46,
+		"name": "Dee-Kah"
+	},
+	"Dee-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 47,
+		"name": "Dee-Koh"
+	},
+	"Dee-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 48,
+		"name": "Dee-Tah"
+	},
+	"Dee-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 49,
+		"name": "Dee-Toh"
+	},
+	"Doo-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 50,
+		"name": "Doo-Bay"
+	},
+	"Doo-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 51,
+		"name": "Doo-Boh"
+	},
+	"Doo-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 52,
+		"name": "Doo-Boo"
+	},
+	"Doo-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 53,
+		"name": "Doo-Dah"
+	},
+	"Doo-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 54,
+		"name": "Doo-Doh"
+	},
+	"Doo-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 55,
+		"name": "Doo-Doo"
+	},
+	"Doo-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 56,
+		"name": "Doo-Kah"
+	},
+	"Doo-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 57,
+		"name": "Doo-Koh"
+	},
+	"Doo-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 58,
+		"name": "Doo-Tah"
+	},
+	"Doo-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 59,
+		"name": "Doo-Toh"
+	},
+	"Kee-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 60,
+		"name": "Kee-Bay"
+	},
+	"Kee-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 61,
+		"name": "Kee-Boh"
+	},
+	"Kee-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 62,
+		"name": "Kee-Boo"
+	},
+	"Kee-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 63,
+		"name": "Kee-Dah"
+	},
+	"Kee-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 64,
+		"name": "Kee-Doh"
+	},
+	"Kee-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 65,
+		"name": "Kee-Doo"
+	},
+	"Kee-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 66,
+		"name": "Kee-Kah"
+	},
+	"Kee-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 67,
+		"name": "Kee-Koh"
+	},
+	"Kee-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 68,
+		"name": "Kee-Tah"
+	},
+	"Kee-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 69,
+		"name": "Kee-Toh"
+	},
+	"Loo-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 70,
+		"name": "Loo-Bay"
+	},
+	"Loo-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 71,
+		"name": "Loo-Boh"
+	},
+	"Loo-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 72,
+		"name": "Loo-Boo"
+	},
+	"Loo-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 73,
+		"name": "Loo-Dah"
+	},
+	"Loo-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 74,
+		"name": "Loo-Doh"
+	},
+	"Loo-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 75,
+		"name": "Loo-Doo"
+	},
+	"Loo-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 76,
+		"name": "Loo-Kah"
+	},
+	"Loo-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 77,
+		"name": "Loo-Koh"
+	},
+	"Loo-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 78,
+		"name": "Loo-Tah"
+	},
+	"Loo-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 79,
+		"name": "Loo-Toh"
+	},
+	"May-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 80,
+		"name": "May-Bay"
+	},
+	"May-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 81,
+		"name": "May-Boh"
+	},
+	"May-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 82,
+		"name": "May-Boo"
+	},
+	"May-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 83,
+		"name": "May-Dah"
+	},
+	"May-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 84,
+		"name": "May-Doh"
+	},
+	"May-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 85,
+		"name": "May-Doo"
+	},
+	"May-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 86,
+		"name": "May-Kah"
+	},
+	"May-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 87,
+		"name": "May-Koh"
+	},
+	"May-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 88,
+		"name": "May-Tah"
+	},
+	"May-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 89,
+		"name": "May-Toh"
+	},
+	"Noo-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 90,
+		"name": "Noo-Bay"
+	},
+	"Noo-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 91,
+		"name": "Noo-Boh"
+	},
+	"Noo-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 92,
+		"name": "Noo-Boo"
+	},
+	"Noo-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 93,
+		"name": "Noo-Dah"
+	},
+	"Noo-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 94,
+		"name": "Noo-Doh"
+	},
+	"Noo-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 95,
+		"name": "Noo-Doo"
+	},
+	"Noo-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 96,
+		"name": "Noo-Kah"
+	},
+	"Noo-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 97,
+		"name": "Noo-Koh"
+	},
+	"Noo-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 98,
+		"name": "Noo-Tah"
+	},
+	"Noo-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 99,
+		"name": "Noo-Toh"
+	},
+	"Tay-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 100,
+		"name": "Tay-Bay"
+	},
+	"Tay-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 101,
+		"name": "Tay-Boh"
+	},
+	"Tay-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 102,
+		"name": "Tay-Boo"
+	},
+	"Tay-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 103,
+		"name": "Tay-Dah"
+	},
+	"Tay-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 104,
+		"name": "Tay-Doh"
+	},
+	"Tay-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 105,
+		"name": "Tay-Doo"
+	},
+	"Tay-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 106,
+		"name": "Tay-Kah"
+	},
+	"Tay-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 107,
+		"name": "Tay-Koh"
+	},
+	"Tay-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 108,
+		"name": "Tay-Toh"
+	},
+	"Toh-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 109,
+		"name": "Toh-Bay"
+	},
+	"Toh-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 110,
+		"name": "Toh-Boh"
+	},
+	"Toh-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 111,
+		"name": "Toh-Boo"
+	},
+	"Toh-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 112,
+		"name": "Toh-Dah"
+	},
+	"Toh-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 113,
+		"name": "Toh-Doh"
+	},
+	"Toh-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 114,
+		"name": "Toh-Doo"
+	},
+	"Toh-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 115,
+		"name": "Toh-Kah"
+	},
+	"Toh-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 116,
+		"name": "Toh-Koh"
+	},
+	"Toh-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 117,
+		"name": "Toh-Tah"
+	},
+	"Toh-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 118,
+		"name": "Toh-Toh"
+	},
+	"Way-Bay": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 119,
+		"name": "Way-Bay"
+	},
+	"Way-Boh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 120,
+		"name": "Way-Boh"
+	},
+	"Way-Boo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 121,
+		"name": "Way-Boo"
+	},
+	"Way-Dah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 122,
+		"name": "Way-Dah"
+	},
+	"Way-Doh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 123,
+		"name": "Way-Doh"
+	},
+	"Way-Doo": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 124,
+		"name": "Way-Doo"
+	},
+	"Way-Kah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 125,
+		"name": "Way-Kah"
+	},
+	"Way-Koh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 126,
+		"name": "Way-Koh"
+	},
+	"Way-Tah": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 127,
+		"name": "Way-Tah"
+	},
+	"Way-Toh": {
+		"input": 33,
+		"index": 0,
+		"subindex": 0,
+		"specific": 128,
+		"name": "Way-Toh"
+	},
+	"Connected!": {
+		"input": 34,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Connected!"
+	},
+	"THX-ish noise": {
+		"input": 34,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "THX-ish noise"
+	},
+	"success! Kah has it": {
+		"input": 34,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "success! Kah has it"
+	},
+	"yes! The day is ours (weird accent),": {
+		"input": 34,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "yes! The day is ours (weird accent),"
+	},
+	"dude- dee-doh- yes- very yes": {
+		"input": 34,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "dude- dee-doh- yes- very yes"
+	},
+	"ooh *silly laugh*,": {
+		"input": 34,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "ooh *silly laugh*,"
+	},
+	"oh ah oh oh oh": {
+		"input": 34,
+		"index": 0,
+		"subindex": 0,
+		"specific": 8,
+		"name": "oh ah oh oh oh"
+	},
+	"heh- menus- am I right?": {
+		"input": 34,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "heh- menus- am I right?"
+	},
+	"turn music up noo lah!": {
+		"input": 34,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "turn music up noo lah!"
+	},
+	"hmm- let's see": {
+		"input": 34,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "hmm- let's see"
+	},
+	"hmm- what have we have here?": {
+		"input": 34,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "hmm- what have we have here?"
+	},
+	"oooh- very interesting": {
+		"input": 34,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "oooh- very interesting"
+	},
+	"hmmm": {
+		"input": 34,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "hmmm"
+	},
+	"oooh- pick a good one!": {
+		"input": 35,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "oooh- pick a good one!"
+	},
+	"hmm- which one oo-nye?": {
+		"input": 35,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "hmm- which one oo-nye?"
+	},
+	"kah want that one!": {
+		"input": 35,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "kah want that one!"
+	},
+	"ooh- name for kah? (sing) Oooh": {
+		"input": 35,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ooh- name for kah? (sing) Oooh"
+	},
+	"huh- now that's a good name": {
+		"input": 35,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "huh- now that's a good name"
+	},
+	"hmm- kah like the sound of that": {
+		"input": 35,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "hmm- kah like the sound of that"
+	},
+	"oooh- kah likey": {
+		"input": 35,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "oooh- kah likey"
+	},
+	"shocked best name evvaa (sing)": {
+		"input": 35,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "shocked best name evvaa (sing)"
+	},
+	"hey noo-lah- kah miss friends.": {
+		"input": 36,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "hey noo-lah- kah miss friends."
+	},
+	"uuh- little furblings- so alone- so alone! Take kah home.": {
+		"input": 36,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "uuh- little furblings- so alone- so alone! Take kah home."
+	},
+	"uuh- little furblings- so alone- so alone!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "uuh- little furblings- so alone- so alone!"
+	},
+	"news ticker alert! Alert! Egg need help! Take kah home.": {
+		"input": 36,
+		"index": 0,
+		"subindex": 4,
+		"specific": 0,
+		"name": "news ticker alert! Alert! Egg need help! Take kah home."
+	},
+	"aah- egg need our help! Let's go home!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 4,
+		"specific": 1,
+		"name": "aah- egg need our help! Let's go home!"
+	},
+	"uum eggcuse kah- egg need help. Connection please!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 4,
+		"specific": 2,
+		"name": "uum eggcuse kah- egg need help. Connection please!"
+	},
+	"news ticker alert! Alert! Egg need help!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 5,
+		"specific": 0,
+		"name": "news ticker alert! Alert! Egg need help!"
+	},
+	"aah- egg need our help!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 5,
+		"specific": 1,
+		"name": "aah- egg need our help!"
+	},
+	"eggcuse kah- egg need help": {
+		"input": 36,
+		"index": 0,
+		"subindex": 5,
+		"specific": 2,
+		"name": "eggcuse kah- egg need help"
+	},
+	"ding ding ding- egg ready! Let's go home!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 6,
+		"specific": 0,
+		"name": "ding ding ding- egg ready! Let's go home!"
+	},
+	"ooh ooh- egg ready to hatch! Take kah home!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 6,
+		"specific": 1,
+		"name": "ooh ooh- egg ready to hatch! Take kah home!"
+	},
+	"ooh- egg ready- connection please!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 6,
+		"specific": 2,
+		"name": "ooh- egg ready- connection please!"
+	},
+	"ding ding ding- egg ready!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 7,
+		"specific": 0,
+		"name": "ding ding ding- egg ready!"
+	},
+	"ooh ooh- egg ready to hatch!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 7,
+		"specific": 1,
+		"name": "ooh ooh- egg ready to hatch!"
+	},
+	"ooh- egg ready!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 7,
+		"specific": 2,
+		"name": "ooh- egg ready!"
+	},
+	"ooh- bonus waiting dee-doh- let's go home!": {
+		"input": 36,
+		"index": 0,
+		"subindex": 8,
+		"specific": 0,
+		"name": "ooh- bonus waiting dee-doh- let's go home!"
+	},
+	"home again- home again- furbity furb!": {
+		"input": 37,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "home again- home again- furbity furb!"
+	},
+	"oooh- what's going on?!": {
+		"input": 37,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "oooh- what's going on?!"
+	},
+	"hah- kah noo-loo place": {
+		"input": 37,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "hah- kah noo-loo place"
+	},
+	"yodeling": {
+		"input": 37,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "yodeling"
+	},
+	"ok- alright- yeah- let's do this!": {
+		"input": 37,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 0,
+		"name": "ok- alright- yeah- let's do this!"
+	},
+	"kah ready to go!": {
+		"input": 37,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 1,
+		"name": "kah ready to go!"
+	},
+	"let's get party started- ugh": {
+		"input": 37,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 2,
+		"name": "let's get party started- ugh"
+	},
+	"can't wait- can't wait- can't wait!": {
+		"input": 37,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 3,
+		"name": "can't wait- can't wait- can't wait!"
+	},
+	"come on- let's get started": {
+		"input": 37,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 4,
+		"name": "come on- let's get started"
+	},
+	"hey- egg! Where oo-nye at?": {
+		"input": 37,
+		"index": 0,
+		"subindex": 4,
+		"specific": 0,
+		"name": "hey- egg! Where oo-nye at?"
+	},
+	"let's go to egg": {
+		"input": 37,
+		"index": 0,
+		"subindex": 4,
+		"specific": 1,
+		"name": "let's go to egg"
+	},
+	"gimmie gimmie gimmie": {
+		"input": 37,
+		"index": 0,
+		"subindex": 5,
+		"specific": 0,
+		"name": "gimmie gimmie gimmie"
+	},
+	"best news evaa": {
+		"input": 37,
+		"index": 0,
+		"subindex": 5,
+		"specific": 1,
+		"name": "best news evaa"
+	},
+	"huh- da boo da boo no way": {
+		"input": 37,
+		"index": 0,
+		"subindex": 5,
+		"specific": 2,
+		"name": "huh- da boo da boo no way"
+	},
+	"uuugh mai gaaawww (OMG),": {
+		"input": 37,
+		"index": 0,
+		"subindex": 5,
+		"specific": 3,
+		"name": "uuugh mai gaaawww (OMG),"
+	},
+	"but- noooooooo": {
+		"input": 37,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "but- noooooooo"
+	},
+	"but- but but but- but- oooh": {
+		"input": 37,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "but- but but but- but- oooh"
+	},
+	"throwing a fit": {
+		"input": 37,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "throwing a fit"
+	},
+	"do- really?": {
+		"input": 37,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "do- really?"
+	},
+	"whimpering": {
+		"input": 37,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "whimpering"
+	},
+	"mm- why so soon?": {
+		"input": 37,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "mm- why so soon?"
+	},
+	"bye bye for now": {
+		"input": 37,
+		"index": 1,
+		"subindex": "1-2",
+		"specific": 0,
+		"name": "bye bye for now"
+	},
+	"peace out noo-lah": {
+		"input": 37,
+		"index": 1,
+		"subindex": "1-2",
+		"specific": 1,
+		"name": "peace out noo-lah"
+	},
+	"see ya later furbinator": {
+		"input": 37,
+		"index": 1,
+		"subindex": "1-2",
+		"specific": 2,
+		"name": "see ya later furbinator"
+	},
+	"oh kay- hasta la bye bye": {
+		"input": 37,
+		"index": 1,
+		"subindex": "1-2",
+		"specific": 3,
+		"name": "oh kay- hasta la bye bye"
+	},
+	"later little dee-doh": {
+		"input": 37,
+		"index": 1,
+		"subindex": "1-2",
+		"specific": 4,
+		"name": "later little dee-doh"
+	},
+	"repeats elsewhere": {
+		"input": 38,
+		"index": "x",
+		"subindex": "x",
+		"specific": "x",
+		"name": "repeats elsewhere"
+	},
+	"Oooh- look": {
+		"input": 39,
+		"index": 0,
+		"subindex": "0-2",
+		"specific": 0,
+		"name": "Oooh- look"
+	},
+	"Oooh- check it out noo-lah": {
+		"input": 39,
+		"index": 0,
+		"subindex": "0-2",
+		"specific": 1,
+		"name": "Oooh- check it out noo-lah"
+	},
+	"Would ya look at that?": {
+		"input": 39,
+		"index": 0,
+		"subindex": "0-2",
+		"specific": 2,
+		"name": "Would ya look at that?"
+	},
+	"Looky looky look look": {
+		"input": 39,
+		"index": 0,
+		"subindex": "0-2",
+		"specific": 3,
+		"name": "Looky looky look look"
+	},
+	"gimme- gimme- gimme": {
+		"input": 39,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "gimme- gimme- gimme"
+	},
+	"best news evahhh": {
+		"input": 39,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "best news evahhh"
+	},
+	"oooh- dah-boo dah-boo no way": {
+		"input": 39,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "oooh- dah-boo dah-boo no way"
+	},
+	"ermagerd": {
+		"input": 39,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "ermagerd"
+	},
+	"ahem- ooo- for kah?": {
+		"input": 39,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "ahem- ooo- for kah?"
+	},
+	"ooh- what inside?": {
+		"input": 39,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "ooh- what inside?"
+	},
+	"open sesame- ha": {
+		"input": 39,
+		"index": 0,
+		"subindex": 3,
+		"specific": 1,
+		"name": "open sesame- ha"
+	},
+	"what inside- kah need to know": {
+		"input": 39,
+		"index": 0,
+		"subindex": 3,
+		"specific": 2,
+		"name": "what inside- kah need to know"
+	},
+	"oooh- special- really special": {
+		"input": 39,
+		"index": 0,
+		"subindex": 4,
+		"specific": 0,
+		"name": "oooh- special- really special"
+	},
+	"oooh- big reward- dee-doh": {
+		"input": 39,
+		"index": 0,
+		"subindex": 4,
+		"specific": 1,
+		"name": "oooh- big reward- dee-doh"
+	},
+	"oooh- a rare one": {
+		"input": 39,
+		"index": 0,
+		"subindex": 4,
+		"specific": 2,
+		"name": "oooh- a rare one"
+	},
+	"oooh- look oo-nye- a special one": {
+		"input": 39,
+		"index": 0,
+		"subindex": 4,
+		"specific": 3,
+		"name": "oooh- look oo-nye- a special one"
+	},
+	"hurry- egg": {
+		"input": 39,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hurry- egg"
+	},
+	"come on egg": {
+		"input": 39,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "come on egg"
+	},
+	"hmmm- let's see": {
+		"input": 39,
+		"index": 1,
+		"subindex": 1,
+		"specific": 0,
+		"name": "hmmm- let's see"
+	},
+	"hmm- what have we have here?": {
+		"input": 39,
+		"index": 1,
+		"subindex": 1,
+		"specific": 1,
+		"name": "hmm- what have we have here?"
+	},
+	"oooh- very interesting": {
+		"input": 39,
+		"index": 1,
+		"subindex": 1,
+		"specific": 2,
+		"name": "oooh- very interesting"
+	},
+	"hmmm": {
+		"input": 39,
+		"index": 1,
+		"subindex": 1,
+		"specific": 3,
+		"name": "hmmm"
+	},
+	"blow": {
+		"input": 39,
+		"index": 1,
+		"subindex": 2,
+		"specific": 0,
+		"name": "blow"
+	},
+	"blow nose?": {
+		"input": 39,
+		"index": 1,
+		"subindex": 3,
+		"specific": 0,
+		"name": "blow nose?"
+	},
+	"blow": {
+		"input": 39,
+		"index": 1,
+		"subindex": 4,
+		"specific": 0,
+		"name": "blow"
+	},
+	"slurp": {
+		"input": 39,
+		"index": 1,
+		"subindex": 5,
+		"specific": 0,
+		"name": "slurp"
+	},
+	"ooo- make it shiny": {
+		"input": 39,
+		"index": 1,
+		"subindex": 6,
+		"specific": 0,
+		"name": "ooo- make it shiny"
+	},
+	"clean egg is happy egg": {
+		"input": 39,
+		"index": 1,
+		"subindex": 6,
+		"specific": 1,
+		"name": "clean egg is happy egg"
+	},
+	"rub a dub dub dub": {
+		"input": 39,
+		"index": 1,
+		"subindex": 6,
+		"specific": 2,
+		"name": "rub a dub dub dub"
+	},
+	"ooh- so warm- like waaarm": {
+		"input": 39,
+		"index": 1,
+		"subindex": 7,
+		"specific": 0,
+		"name": "ooh- so warm- like waaarm"
+	},
+	"oooh- warm fuzzies": {
+		"input": 39,
+		"index": 1,
+		"subindex": 7,
+		"specific": 1,
+		"name": "oooh- warm fuzzies"
+	},
+	"so snug- so cozy- so snoozy": {
+		"input": 39,
+		"index": 1,
+		"subindex": 7,
+		"specific": 2,
+		"name": "so snug- so cozy- so snoozy"
+	},
+	"errrrgh- smooth": {
+		"input": 39,
+		"index": 1,
+		"subindex": "8-11",
+		"specific": 0,
+		"name": "errrrgh- smooth"
+	},
+	"haaaa- squish": {
+		"input": 39,
+		"index": 1,
+		"subindex": "8-11",
+		"specific": 1,
+		"name": "haaaa- squish"
+	},
+	"muhoooo- kah favorite": {
+		"input": 39,
+		"index": 1,
+		"subindex": "8-11",
+		"specific": 2,
+		"name": "muhoooo- kah favorite"
+	},
+	"ooh- oo-nye cutesy whoopsy shmootsy": {
+		"input": 39,
+		"index": 1,
+		"subindex": "8-11",
+		"specific": 3,
+		"name": "ooh- oo-nye cutesy whoopsy shmootsy"
+	},
+	"hmm- rock a by furby- dee do": {
+		"input": 39,
+		"index": 1,
+		"subindex": "8-11",
+		"specific": 4,
+		"name": "hmm- rock a by furby- dee do"
+	},
+	"ee-tay- good job!": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 0,
+		"name": "ee-tay- good job!"
+	},
+	"ee-tay- fantastico!": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 1,
+		"name": "ee-tay- fantastico!"
+	},
+	"sweet mother of furb": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 2,
+		"name": "sweet mother of furb"
+	},
+	"ooh- wow- gimme all the may-may": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 3,
+		"name": "ooh- wow- gimme all the may-may"
+	},
+	"oooh- kah love it": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 4,
+		"name": "oooh- kah love it"
+	},
+	"oooh- kah likey": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 5,
+		"name": "oooh- kah likey"
+	},
+	"ooh- yeah- kah need this": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 6,
+		"name": "ooh- yeah- kah need this"
+	},
+	"yay! ohhh ah uh ooo": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 7,
+		"name": "yay! ohhh ah uh ooo"
+	},
+	"wow- we unstoppable": {
+		"input": 39,
+		"index": 1,
+		"subindex": 9,
+		"specific": 8,
+		"name": "wow- we unstoppable"
+	},
+	"oooh- ahh": {
+		"input": 39,
+		"index": 1,
+		"subindex": 10,
+		"specific": 0,
+		"name": "oooh- ahh"
+	},
+	"kah all like- whaaaat?!": {
+		"input": 39,
+		"index": 1,
+		"subindex": 10,
+		"specific": 1,
+		"name": "kah all like- whaaaat?!"
+	},
+	"whoah": {
+		"input": 39,
+		"index": 1,
+		"subindex": 10,
+		"specific": 2,
+		"name": "whoah"
+	},
+	"mmmm": {
+		"input": 39,
+		"index": 1,
+		"subindex": 10,
+		"specific": 3,
+		"name": "mmmm"
+	},
+	"ooh": {
+		"input": 39,
+		"index": 1,
+		"subindex": 10,
+		"specific": 4,
+		"name": "ooh"
+	},
+	"hey": {
+		"input": 39,
+		"index": 1,
+		"subindex": 10,
+		"specific": 5,
+		"name": "hey"
+	},
+	"mmm- oh- kah furb": {
+		"input": 39,
+		"index": 1,
+		"subindex": 10,
+		"specific": 6,
+		"name": "mmm- oh- kah furb"
+	},
+	"ooh ah- hoo hoo hooo": {
+		"input": 39,
+		"index": 1,
+		"subindex": 10,
+		"specific": 7,
+		"name": "ooh ah- hoo hoo hooo"
+	},
+	"dooo doo dooo dah doo": {
+		"input": 39,
+		"index": 1,
+		"subindex": 12,
+		"specific": 0,
+		"name": "dooo doo dooo dah doo"
+	},
+	"Lovely- lovely- lovely": {
+		"input": 39,
+		"index": 1,
+		"subindex": 12,
+		"specific": 1,
+		"name": "Lovely- lovely- lovely"
+	},
+	"dooo- dooo doo mmm mmm": {
+		"input": 39,
+		"index": 1,
+		"subindex": 12,
+		"specific": 2,
+		"name": "dooo- dooo doo mmm mmm"
+	},
+	"sings": {
+		"input": 39,
+		"index": 1,
+		"subindex": 13,
+		"specific": 0,
+		"name": "sings"
+	},
+	"fox in pants song": {
+		"input": 39,
+		"index": 1,
+		"subindex": 13,
+		"specific": 1,
+		"name": "fox in pants song"
+	},
+	"beatbox": {
+		"input": 39,
+		"index": 1,
+		"subindex": 13,
+		"specific": 2,
+		"name": "beatbox"
+	},
+	"ding ding egg ready- so exciting": {
+		"input": 39,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ding ding egg ready- so exciting"
+	},
+	"ooh- look- egg gonna hatch": {
+		"input": 39,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- look- egg gonna hatch"
+	},
+	"oh- so widdle- so cute- here it comes": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 0,
+		"name": "oh- so widdle- so cute- here it comes"
+	},
+	"break free- little furb": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 1,
+		"name": "break free- little furb"
+	},
+	"awww- so precious!": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 2,
+		"name": "awww- so precious!"
+	},
+	"oh- eh- hehehe- ah": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 3,
+		"name": "oh- eh- hehehe- ah"
+	},
+	"oh- hehhee- oooh": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 4,
+		"name": "oh- hehhee- oooh"
+	},
+	"wooohoo- ok- alright- heh": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 5,
+		"name": "wooohoo- ok- alright- heh"
+	},
+	"huh- whoah- whoah whoa": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 6,
+		"name": "huh- whoah- whoah whoa"
+	},
+	"whoo- this is happening!": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 7,
+		"name": "whoo- this is happening!"
+	},
+	"huh- ooooh": {
+		"input": 39,
+		"index": 2,
+		"subindex": "1-2",
+		"specific": 8,
+		"name": "huh- ooooh"
+	},
+	"hey- help a furb out": {
+		"input": 39,
+		"index": 2,
+		"subindex": 3,
+		"specific": 0,
+		"name": "hey- help a furb out"
+	},
+	"furbling need help- kah to the rescue": {
+		"input": 39,
+		"index": 2,
+		"subindex": 3,
+		"specific": 1,
+		"name": "furbling need help- kah to the rescue"
+	},
+	"look little dee-doh need help": {
+		"input": 39,
+		"index": 2,
+		"subindex": 3,
+		"specific": 2,
+		"name": "look little dee-doh need help"
+	},
+	"let's give little guy a hand": {
+		"input": 39,
+		"index": 2,
+		"subindex": 3,
+		"specific": 3,
+		"name": "let's give little guy a hand"
+	},
+	"we help- us to the rescue": {
+		"input": 39,
+		"index": 2,
+		"subindex": 3,
+		"specific": 4,
+		"name": "we help- us to the rescue"
+	},
+	"ohh- dis gonna be good": {
+		"input": 39,
+		"index": 2,
+		"subindex": 4,
+		"specific": 0,
+		"name": "ohh- dis gonna be good"
+	},
+	"huh- whoah- whoah whoa": {
+		"input": 39,
+		"index": 2,
+		"subindex": 4,
+		"specific": 1,
+		"name": "huh- whoah- whoah whoa"
+	},
+	"whoo- this is happening!": {
+		"input": 39,
+		"index": 2,
+		"subindex": 4,
+		"specific": 2,
+		"name": "whoo- this is happening!"
+	},
+	"huh- ooooh": {
+		"input": 39,
+		"index": 2,
+		"subindex": 4,
+		"specific": 3,
+		"name": "huh- ooooh"
+	},
+	"wooohoo- ok- alright- heh": {
+		"input": 39,
+		"index": 2,
+		"subindex": 4,
+		"specific": 4,
+		"name": "wooohoo- ok- alright- heh"
+	},
+	"ermagerd": {
+		"input": 39,
+		"index": 2,
+		"subindex": 4,
+		"specific": 5,
+		"name": "ermagerd"
+	},
+	"hello- baby": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 0,
+		"name": "hello- baby"
+	},
+	"baby- hello- la la la": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 1,
+		"name": "baby- hello- la la la"
+	},
+	"ooooohhhh": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 2,
+		"name": "ooooohhhh"
+	},
+	"success- kah has it": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 3,
+		"name": "success- kah has it"
+	},
+	"yes- the day is ours!": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 4,
+		"name": "yes- the day is ours!"
+	},
+	"oooh- oo-nye magic": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 5,
+		"name": "oooh- oo-nye magic"
+	},
+	"dude- dee-doh- yes- very yes": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 6,
+		"name": "dude- dee-doh- yes- very yes"
+	},
+	"giggle": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 7,
+		"name": "giggle"
+	},
+	"eeeeeee-eeee": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 8,
+		"name": "eeeeeee-eeee"
+	},
+	"oooh ah ooh ooh ooh": {
+		"input": 39,
+		"index": 2,
+		"subindex": 5,
+		"specific": 9,
+		"name": "oooh ah ooh ooh ooh"
+	},
+	"kah name ... oo-nye name": {
+		"input": 39,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "kah name ... oo-nye name"
+	},
+	"oooh- doo doo doo- hello little furbling": {
+		"input": 39,
+		"index": 3,
+		"subindex": 1,
+		"specific": 0,
+		"name": "oooh- doo doo doo- hello little furbling"
+	},
+	"hey- hey": {
+		"input": 39,
+		"index": 3,
+		"subindex": 1,
+		"specific": 1,
+		"name": "hey- hey"
+	},
+	"hey there- hey there howdy hi": {
+		"input": 39,
+		"index": 3,
+		"subindex": 1,
+		"specific": 2,
+		"name": "hey there- hey there howdy hi"
+	},
+	"hey there- hey there wooo": {
+		"input": 39,
+		"index": 3,
+		"subindex": 1,
+		"specific": 3,
+		"name": "hey there- hey there wooo"
+	},
+	"ooooh- hello": {
+		"input": 39,
+		"index": 3,
+		"subindex": 1,
+		"specific": 4,
+		"name": "ooooh- hello"
+	},
+	"ooooh- hi noo-lah": {
+		"input": 39,
+		"index": 3,
+		"subindex": 1,
+		"specific": 5,
+		"name": "ooooh- hi noo-lah"
+	},
+	"heeey": {
+		"input": 39,
+		"index": 3,
+		"subindex": 1,
+		"specific": 6,
+		"name": "heeey"
+	},
+	"kah name ... what oo-nye name?": {
+		"input": 39,
+		"index": 3,
+		"subindex": 2,
+		"specific": 0,
+		"name": "kah name ... what oo-nye name?"
+	},
+	"hi- nice to meet ooo-nye": {
+		"input": 39,
+		"index": 3,
+		"subindex": 3,
+		"specific": 0,
+		"name": "hi- nice to meet ooo-nye"
+	},
+	"let's name baby": {
+		"input": 39,
+		"index": 3,
+		"subindex": 4,
+		"specific": 0,
+		"name": "let's name baby"
+	},
+	"ooo let's name this little furb": {
+		"input": 39,
+		"index": 3,
+		"subindex": 4,
+		"specific": 1,
+		"name": "ooo let's name this little furb"
+	},
+	"hmm- let's see.": {
+		"input": 39,
+		"index": 3,
+		"subindex": 5,
+		"specific": 0,
+		"name": "hmm- let's see."
+	},
+	"hmm- what have we have here": {
+		"input": 39,
+		"index": 3,
+		"subindex": 5,
+		"specific": 1,
+		"name": "hmm- what have we have here"
+	},
+	"ooh- very interesting": {
+		"input": 39,
+		"index": 3,
+		"subindex": 5,
+		"specific": 2,
+		"name": "ooh- very interesting"
+	},
+	"hmmm": {
+		"input": 39,
+		"index": 3,
+		"subindex": 5,
+		"specific": 3,
+		"name": "hmmm"
+	},
+	"hmmm- special- really special": {
+		"input": 39,
+		"index": 3,
+		"subindex": 6,
+		"specific": 0,
+		"name": "hmmm- special- really special"
+	},
+	"oooo- big reward- dee-doh": {
+		"input": 39,
+		"index": 3,
+		"subindex": 6,
+		"specific": 1,
+		"name": "oooo- big reward- dee-doh"
+	},
+	"oooo- a rare one": {
+		"input": 39,
+		"index": 3,
+		"subindex": 6,
+		"specific": 2,
+		"name": "oooo- a rare one"
+	},
+	"ooo- look oo-nye a special one": {
+		"input": 39,
+		"index": 3,
+		"subindex": 6,
+		"specific": 3,
+		"name": "ooo- look oo-nye a special one"
+	},
+	"ooo- so rare- so precious": {
+		"input": 39,
+		"index": 3,
+		"subindex": 7,
+		"specific": 0,
+		"name": "ooo- so rare- so precious"
+	},
+	"ooo- quality stuff": {
+		"input": 39,
+		"index": 3,
+		"subindex": 7,
+		"specific": 1,
+		"name": "ooo- quality stuff"
+	},
+	"ooo- super rare- super fancy": {
+		"input": 39,
+		"index": 3,
+		"subindex": 7,
+		"specific": 2,
+		"name": "ooo- super rare- super fancy"
+	},
+	"ooh- extra super very special": {
+		"input": 39,
+		"index": 3,
+		"subindex": 7,
+		"specific": 3,
+		"name": "ooh- extra super very special"
+	},
+	"ooh- wow- just just wow": {
+		"input": 39,
+		"index": 3,
+		"subindex": 8,
+		"specific": 0,
+		"name": "ooh- wow- just just wow"
+	},
+	"legendary!": {
+		"input": 39,
+		"index": 3,
+		"subindex": 8,
+		"specific": 1,
+		"name": "legendary!"
+	},
+	"the stuff of legends": {
+		"input": 39,
+		"index": 3,
+		"subindex": 8,
+		"specific": 2,
+		"name": "the stuff of legends"
+	},
+	"welcome- lttle dee-doh": {
+		"input": 39,
+		"index": 3,
+		"subindex": 9,
+		"specific": 0,
+		"name": "welcome- lttle dee-doh"
+	},
+	"lets go meet new friends": {
+		"input": 39,
+		"index": 3,
+		"subindex": 10,
+		"specific": 0,
+		"name": "lets go meet new friends"
+	},
+	"ready to meet new friends": {
+		"input": 39,
+		"index": 3,
+		"subindex": 10,
+		"specific": 1,
+		"name": "ready to meet new friends"
+	},
+	"ready- little dee-doh": {
+		"input": 39,
+		"index": 4,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ready- little dee-doh"
+	},
+	"on your mark- get set- swing": {
+		"input": 39,
+		"index": 4,
+		"subindex": 1,
+		"specific": 0,
+		"name": "on your mark- get set- swing"
+	},
+	"get ready": {
+		"input": 39,
+		"index": 4,
+		"subindex": 2,
+		"specific": 0,
+		"name": "get ready"
+	},
+	"throw hard- noo-lah": {
+		"input": 39,
+		"index": 4,
+		"subindex": 3,
+		"specific": 0,
+		"name": "throw hard- noo-lah"
+	},
+	"oo-nye got this": {
+		"input": 39,
+		"index": 4,
+		"subindex": 4,
+		"specific": 0,
+		"name": "oo-nye got this"
+	},
+	"aim carefully dee-doh": {
+		"input": 39,
+		"index": 4,
+		"subindex": 5,
+		"specific": 0,
+		"name": "aim carefully dee-doh"
+	},
+	"that was awesome": {
+		"input": 39,
+		"index": 4,
+		"subindex": 6,
+		"specific": 0,
+		"name": "that was awesome"
+	},
+	"nice": {
+		"input": 39,
+		"index": 4,
+		"subindex": 6,
+		"specific": 1,
+		"name": "nice"
+	},
+	"smooth move": {
+		"input": 39,
+		"index": 4,
+		"subindex": 6,
+		"specific": 2,
+		"name": "smooth move"
+	},
+	"ooh- nice shot- very nice": {
+		"input": 39,
+		"index": 4,
+		"subindex": 6,
+		"specific": 3,
+		"name": "ooh- nice shot- very nice"
+	},
+	"ooh- nice shot- beee-yu-tiful": {
+		"input": 39,
+		"index": 4,
+		"subindex": 6,
+		"specific": 4,
+		"name": "ooh- nice shot- beee-yu-tiful"
+	},
+	"ee-tay fantastico": {
+		"input": 39,
+		"index": 4,
+		"subindex": 6,
+		"specific": 5,
+		"name": "ee-tay fantastico"
+	},
+	"whoopsies": {
+		"input": 39,
+		"index": 4,
+		"subindex": 7,
+		"specific": 0,
+		"name": "whoopsies"
+	},
+	"whaarg": {
+		"input": 39,
+		"index": 4,
+		"subindex": 7,
+		"specific": 1,
+		"name": "whaarg"
+	},
+	"huh- huah": {
+		"input": 39,
+		"index": 4,
+		"subindex": 7,
+		"specific": 2,
+		"name": "huh- huah"
+	},
+	"woooargh": {
+		"input": 39,
+		"index": 4,
+		"subindex": 7,
+		"specific": 3,
+		"name": "woooargh"
+	},
+	"cry": {
+		"input": 39,
+		"index": 4,
+		"subindex": 7,
+		"specific": 4,
+		"name": "cry"
+	},
+	"Hey- Hey": {
+		"input": 40,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Hey- Hey"
+	},
+	"Hey there- hi there howdy- howdy": {
+		"input": 40,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Hey there- hi there howdy- howdy"
+	},
+	"Hey there- hey there hey woo": {
+		"input": 40,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Hey there- hey there hey woo"
+	},
+	"Oooh- hello": {
+		"input": 40,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "Oooh- hello"
+	},
+	"Oooh- hi noo-lah": {
+		"input": 40,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "Oooh- hi noo-lah"
+	},
+	"Heeey sing-song,": {
+		"input": 40,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "Heeey sing-song,"
+	},
+	"Thank you- thank you- thank you.": {
+		"input": 40,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "Thank you- thank you- thank you."
+	},
+	"yes- yes- Thank you- thank you- thank you yes": {
+		"input": 40,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "yes- yes- Thank you- thank you- thank you yes"
+	},
+	"ooh- ooh- all the yes": {
+		"input": 40,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "ooh- ooh- all the yes"
+	},
+	"stars in eyes- for kah? It's beautiful": {
+		"input": 40,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "stars in eyes- for kah? It's beautiful"
+	},
+	"stars in eyes- for kah? It's beautiful": {
+		"input": 40,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "stars in eyes- for kah? It's beautiful"
+	},
+	"Weee diiid it!": {
+		"input": 41,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Weee diiid it!"
+	},
+	"ha- ha! Take that!": {
+		"input": 41,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ha- ha! Take that!"
+	},
+	"hoho- we good- aww yeah": {
+		"input": 41,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "hoho- we good- aww yeah"
+	},
+	"high five! wait- kah only have three": {
+		"input": 41,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "high five! wait- kah only have three"
+	},
+	"team furby for the win!": {
+		"input": 41,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "team furby for the win!"
+	},
+	"ee-tay- good job!": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "ee-tay- good job!"
+	},
+	"rainbows in eyes- ee-tay- fantastico!": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "rainbows in eyes- ee-tay- fantastico!"
+	},
+	"Sweet mother of Furb!": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "Sweet mother of Furb!"
+	},
+	"Ooh- wow- gimme all the may-may": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "Ooh- wow- gimme all the may-may"
+	},
+	"Oh- Kah love it": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "Oh- Kah love it"
+	},
+	"ooh- kay likey": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "ooh- kay likey"
+	},
+	"Ooh ya- kah need this": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 6,
+		"name": "Ooh ya- kah need this"
+	},
+	"yay! oh ah ooh ooh": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 7,
+		"name": "yay! oh ah ooh ooh"
+	},
+	"Wow- we unstoppable": {
+		"input": 41,
+		"index": 0,
+		"subindex": 1,
+		"specific": 8,
+		"name": "Wow- we unstoppable"
+	},
+	"oooh- secret": {
+		"input": 41,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "oooh- secret"
+	},
+	"oooh- so much to do": {
+		"input": 42,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "oooh- so much to do"
+	},
+	"oooh- such full- much busy": {
+		"input": 42,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oooh- such full- much busy"
+	},
+	"oooh- new stuff- niiice": {
+		"input": 42,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "oooh- new stuff- niiice"
+	},
+	"new things- kah like things": {
+		"input": 42,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "new things- kah like things"
+	},
+	"oooh- new stuffseses": {
+		"input": 42,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "oooh- new stuffseses"
+	},
+	"oooh- new things- noolah": {
+		"input": 42,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "oooh- new things- noolah"
+	},
+	"oooh- new mission": {
+		"input": 42,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "oooh- new mission"
+	},
+	"hey- help a furb out": {
+		"input": 42,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 0,
+		"name": "hey- help a furb out"
+	},
+	"furbling need help- kah to the rescue": {
+		"input": 42,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 1,
+		"name": "furbling need help- kah to the rescue"
+	},
+	"look- little dee-doh need help": {
+		"input": 42,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 2,
+		"name": "look- little dee-doh need help"
+	},
+	"lets give little guy a hand": {
+		"input": 42,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 3,
+		"name": "lets give little guy a hand"
+	},
+	"we help- us to the rescue": {
+		"input": 42,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": 4,
+		"name": "we help- us to the rescue"
+	},
+	"ok- alright yeah- let's do this!": {
+		"input": 42,
+		"index": 0,
+		"subindex": 4,
+		"specific": 0,
+		"name": "ok- alright yeah- let's do this!"
+	},
+	"ka- ready to go!": {
+		"input": 42,
+		"index": 0,
+		"subindex": 4,
+		"specific": 1,
+		"name": "ka- ready to go!"
+	},
+	"let's get party started- uh": {
+		"input": 42,
+		"index": 0,
+		"subindex": 4,
+		"specific": 2,
+		"name": "let's get party started- uh"
+	},
+	"ooh- can't wait- can't wait- can't wait": {
+		"input": 42,
+		"index": 0,
+		"subindex": 4,
+		"specific": 3,
+		"name": "ooh- can't wait- can't wait- can't wait"
+	},
+	"cmon- let's get started": {
+		"input": 42,
+		"index": 0,
+		"subindex": 4,
+		"specific": 4,
+		"name": "cmon- let's get started"
+	},
+	"Weee diiid it!": {
+		"input": 42,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Weee diiid it!"
+	},
+	"ha- ha! Take that!": {
+		"input": 42,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ha- ha! Take that!"
+	},
+	"hoho- we good- aww yeah": {
+		"input": 42,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "hoho- we good- aww yeah"
+	},
+	"high five! wait- kah only have three": {
+		"input": 42,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "high five! wait- kah only have three"
+	},
+	"team furby for the win!": {
+		"input": 42,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "team furby for the win!"
+	},
+	"Hey- Hey": {
+		"input": 43,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Hey- Hey"
+	},
+	"Hey there- hi there- howdy- howdy hi": {
+		"input": 43,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Hey there- hi there- howdy- howdy hi"
+	},
+	"Hey- Hey there- whoo": {
+		"input": 43,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Hey- Hey there- whoo"
+	},
+	"oooh- helloooo": {
+		"input": 43,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "oooh- helloooo"
+	},
+	"oooh- hi- noo-lah": {
+		"input": 43,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "oooh- hi- noo-lah"
+	},
+	"Heeey": {
+		"input": 43,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "Heeey"
+	},
+	"Aaaaay- ada": {
+		"input": 43,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "Aaaaay- ada"
+	},
+	"booboobooo- what's wrong": {
+		"input": 43,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "booboobooo- what's wrong"
+	},
+	"ahhh- what's wrong": {
+		"input": 43,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "ahhh- what's wrong"
+	},
+	"oo-nye ok?": {
+		"input": 43,
+		"index": 0,
+		"subindex": 2,
+		"specific": 2,
+		"name": "oo-nye ok?"
+	},
+	"why oo-nye scared?": {
+		"input": 43,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "why oo-nye scared?"
+	},
+	"what's so scary?": {
+		"input": 43,
+		"index": 0,
+		"subindex": 3,
+		"specific": 1,
+		"name": "what's so scary?"
+	},
+	"let kah help": {
+		"input": 43,
+		"index": 0,
+		"subindex": 4,
+		"specific": 0,
+		"name": "let kah help"
+	},
+	"hey! stop it": {
+		"input": 43,
+		"index": 0,
+		"subindex": 5,
+		"specific": 0,
+		"name": "hey! stop it"
+	},
+	"look- you!": {
+		"input": 43,
+		"index": 0,
+		"subindex": 5,
+		"specific": 1,
+		"name": "look- you!"
+	},
+	"what going on little dee-doh?": {
+		"input": 43,
+		"index": 0,
+		"subindex": 6,
+		"specific": 0,
+		"name": "what going on little dee-doh?"
+	},
+	"so what oo-nye need?": {
+		"input": 43,
+		"index": 0,
+		"subindex": 6,
+		"specific": 1,
+		"name": "so what oo-nye need?"
+	},
+	"oo-nye serious?": {
+		"input": 43,
+		"index": 0,
+		"subindex": 7,
+		"specific": 0,
+		"name": "oo-nye serious?"
+	},
+	"ahh- hold that thought <fart>,": {
+		"input": 43,
+		"index": 0,
+		"subindex": 7,
+		"specific": 1,
+		"name": "ahh- hold that thought <fart>,"
+	},
+	"hmm": {
+		"input": 43,
+		"index": 0,
+		"subindex": 7,
+		"specific": 3,
+		"name": "hmm"
+	},
+	"oh- you": {
+		"input": 43,
+		"index": 0,
+		"subindex": 7,
+		"specific": 4,
+		"name": "oh- you"
+	},
+	"honestly- yes": {
+		"input": 43,
+		"index": 0,
+		"subindex": 8,
+		"specific": 0,
+		"name": "honestly- yes"
+	},
+	"mmm- hmm- totally": {
+		"input": 43,
+		"index": 0,
+		"subindex": 8,
+		"specific": 1,
+		"name": "mmm- hmm- totally"
+	},
+	"ee-tay- a thousand times ee-tay": {
+		"input": 43,
+		"index": 0,
+		"subindex": 8,
+		"specific": 2,
+		"name": "ee-tay- a thousand times ee-tay"
+	},
+	"ok- alright yes- let's doo this": {
+		"input": 43,
+		"index": 0,
+		"subindex": 9,
+		"specific": 0,
+		"name": "ok- alright yes- let's doo this"
+	},
+	"kah ready to go": {
+		"input": 43,
+		"index": 0,
+		"subindex": 9,
+		"specific": 1,
+		"name": "kah ready to go"
+	},
+	"Let's get party started- uh": {
+		"input": 43,
+		"index": 0,
+		"subindex": 9,
+		"specific": 2,
+		"name": "Let's get party started- uh"
+	},
+	"can't wait- can't wait- can't wait!": {
+		"input": 43,
+		"index": 0,
+		"subindex": 9,
+		"specific": 3,
+		"name": "can't wait- can't wait- can't wait!"
+	},
+	"C'mon Let's get started": {
+		"input": 43,
+		"index": 0,
+		"subindex": 9,
+		"specific": 4,
+		"name": "C'mon Let's get started"
+	},
+	"bye bye for now": {
+		"input": 43,
+		"index": 0,
+		"subindex": 10,
+		"specific": 0,
+		"name": "bye bye for now"
+	},
+	"peace out- noolah": {
+		"input": 43,
+		"index": 0,
+		"subindex": 10,
+		"specific": 1,
+		"name": "peace out- noolah"
+	},
+	"see ya later- furbinator": {
+		"input": 43,
+		"index": 0,
+		"subindex": 10,
+		"specific": 2,
+		"name": "see ya later- furbinator"
+	},
+	"ok- hasta la bye-bye": {
+		"input": 43,
+		"index": 0,
+		"subindex": 10,
+		"specific": 3,
+		"name": "ok- hasta la bye-bye"
+	},
+	"later little dee-doh": {
+		"input": 43,
+		"index": 0,
+		"subindex": 10,
+		"specific": 4,
+		"name": "later little dee-doh"
+	},
+	"No forget the popcorn": {
+		"input": 44,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "No forget the popcorn"
+	},
+	"Gonna watch all the things": {
+		"input": 44,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Gonna watch all the things"
+	},
+	"Oh- dis gonna be goood.": {
+		"input": 44,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Oh- dis gonna be goood."
+	},
+	"huh- whoah-whoah-whoah": {
+		"input": 44,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "huh- whoah-whoah-whoah"
+	},
+	"wooooah- this is happening!": {
+		"input": 44,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "wooooah- this is happening!"
+	},
+	"huh- wooooh": {
+		"input": 44,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "huh- wooooh"
+	},
+	"woohoo- ok- alright- woo-ahahh": {
+		"input": 44,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "woohoo- ok- alright- woo-ahahh"
+	},
+	"ermagerd": {
+		"input": 44,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "ermagerd"
+	},
+	"hmmm- let's see...": {
+		"input": 44,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "hmmm- let's see..."
+	},
+	"Oooh- very interesting": {
+		"input": 44,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "Oooh- very interesting"
+	},
+	"Hmmm- what have we have here": {
+		"input": 44,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "Hmmm- what have we have here"
+	},
+	"Hmm.": {
+		"input": 44,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "Hmm."
+	},
+	"oooh- check out new video.": {
+		"input": 44,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "oooh- check out new video."
+	},
+	"oooh- new stuff- nice.": {
+		"input": 44,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "oooh- new stuff- nice."
+	},
+	"new things! kah like things.": {
+		"input": 44,
+		"index": 0,
+		"subindex": 2,
+		"specific": 2,
+		"name": "new things! kah like things."
+	},
+	"oooh- new stuffseses": {
+		"input": 44,
+		"index": 0,
+		"subindex": 2,
+		"specific": 3,
+		"name": "oooh- new stuffseses"
+	},
+	"oooh- new things noo-lah": {
+		"input": 44,
+		"index": 0,
+		"subindex": 2,
+		"specific": 4,
+		"name": "oooh- new things noo-lah"
+	},
+	"look- new video": {
+		"input": 44,
+		"index": 0,
+		"subindex": 2,
+		"specific": 5,
+		"name": "look- new video"
+	},
+	"oooh- ahhh": {
+		"input": 44,
+		"index": "1-2",
+		"subindex": 0,
+		"specific": 0,
+		"name": "oooh- ahhh"
+	},
+	"kah all like Whaaat?!": {
+		"input": 44,
+		"index": "1-2",
+		"subindex": 0,
+		"specific": 1,
+		"name": "kah all like Whaaat?!"
+	},
+	"whoah!": {
+		"input": 44,
+		"index": "1-2",
+		"subindex": 0,
+		"specific": 2,
+		"name": "whoah!"
+	},
+	"hmmmm": {
+		"input": 44,
+		"index": "1-2",
+		"subindex": 0,
+		"specific": 3,
+		"name": "hmmmm"
+	},
+	"oooh!": {
+		"input": 44,
+		"index": "1-2",
+		"subindex": 0,
+		"specific": 4,
+		"name": "oooh!"
+	},
+	"hey!": {
+		"input": 44,
+		"index": "1-2",
+		"subindex": 0,
+		"specific": 5,
+		"name": "hey!"
+	},
+	"hooo- oh kah furb": {
+		"input": 44,
+		"index": "1-2",
+		"subindex": 0,
+		"specific": 6,
+		"name": "hooo- oh kah furb"
+	},
+	"oooh- ah- oooh- oooh- oooh": {
+		"input": 44,
+		"index": "1-2",
+		"subindex": 0,
+		"specific": 7,
+		"name": "oooh- ah- oooh- oooh- oooh"
+	},
+	"wooohoohoo- showtime": {
+		"input": 44,
+		"index": 1,
+		"subindex": 1,
+		"specific": 0,
+		"name": "wooohoohoo- showtime"
+	},
+	"oooh- dis gonna be good": {
+		"input": 44,
+		"index": 1,
+		"subindex": 1,
+		"specific": 1,
+		"name": "oooh- dis gonna be good"
+	},
+	"huh- whoah- whoah- whoah": {
+		"input": 44,
+		"index": 1,
+		"subindex": 1,
+		"specific": 2,
+		"name": "huh- whoah- whoah- whoah"
+	},
+	"woooah- this is happening": {
+		"input": 44,
+		"index": 1,
+		"subindex": 1,
+		"specific": 3,
+		"name": "woooah- this is happening"
+	},
+	"huh! oooh": {
+		"input": 44,
+		"index": 1,
+		"subindex": 1,
+		"specific": 4,
+		"name": "huh! oooh"
+	},
+	"woohoo- ok- alright- woo-ahahh": {
+		"input": 44,
+		"index": 1,
+		"subindex": 1,
+		"specific": 5,
+		"name": "woohoo- ok- alright- woo-ahahh"
+	},
+	"ermagerd": {
+		"input": 44,
+		"index": 1,
+		"subindex": 1,
+		"specific": 6,
+		"name": "ermagerd"
+	},
+	"der- er- err": {
+		"input": 44,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "der- er- err"
+	},
+	"mm-hmmm- errr": {
+		"input": 44,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "mm-hmmm- errr"
+	},
+	"cry": {
+		"input": 44,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "cry"
+	},
+	"hey- kah watching that": {
+		"input": 44,
+		"index": 4,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hey- kah watching that"
+	},
+	"but- nooooooo": {
+		"input": 44,
+		"index": 4,
+		"subindex": 0,
+		"specific": 1,
+		"name": "but- nooooooo"
+	},
+	"but- bu-bu-but- ohhhh": {
+		"input": 44,
+		"index": 4,
+		"subindex": 0,
+		"specific": 2,
+		"name": "but- bu-bu-but- ohhhh"
+	},
+	"oooh- ahhh-ng": {
+		"input": 44,
+		"index": 4,
+		"subindex": 0,
+		"specific": 3,
+		"name": "oooh- ahhh-ng"
+	},
+	"dude- really?": {
+		"input": 44,
+		"index": 4,
+		"subindex": 0,
+		"specific": 4,
+		"name": "dude- really?"
+	},
+	"<whine>": {
+		"input": 44,
+		"index": 4,
+		"subindex": 0,
+		"specific": 5,
+		"name": "<whine>"
+	},
+	"kah love it hearts in eyes,": {
+		"input": 44,
+		"index": 5,
+		"subindex": 0,
+		"specific": 0,
+		"name": "kah love it hearts in eyes,"
+	},
+	"oooh- kah likey": {
+		"input": 44,
+		"index": 5,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oooh- kah likey"
+	},
+	"ohh- the cuteness!": {
+		"input": 45,
+		"index": 0,
+		"subindex": "0-8",
+		"specific": 0,
+		"name": "ohh- the cuteness!"
+	},
+	"ohh- didj didj awwww....!": {
+		"input": 45,
+		"index": 0,
+		"subindex": "0-8",
+		"specific": 1,
+		"name": "ohh- didj didj awwww....!"
+	},
+	"ohh- pet pet- hug hug- squeeze- squeeze": {
+		"input": 45,
+		"index": 0,
+		"subindex": "0-8",
+		"specific": 2,
+		"name": "ohh- pet pet- hug hug- squeeze- squeeze"
+	},
+	"hehehe- oonai soo cuute": {
+		"input": 45,
+		"index": 0,
+		"subindex": "0-8",
+		"specific": 3,
+		"name": "hehehe- oonai soo cuute"
+	},
+	"dooohhhh.": {
+		"input": 45,
+		"index": 0,
+		"subindex": "0-8",
+		"specific": 4,
+		"name": "dooohhhh."
+	},
+	"mmm- mmm- hehe. yup- yup- yup": {
+		"input": 45,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "mmm- mmm- hehe. yup- yup- yup"
+	},
+	"ohh- hoo hoo": {
+		"input": 45,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "ohh- hoo hoo"
+	},
+	"whistle": {
+		"input": 45,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "whistle"
+	},
+	"sigh": {
+		"input": 45,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "sigh"
+	},
+	"hmmm- let's see...": {
+		"input": 45,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "hmmm- let's see..."
+	},
+	"Hmmm- what have we have here": {
+		"input": 45,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "Hmmm- what have we have here"
+	},
+	"Oooh- very interesting": {
+		"input": 45,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "Oooh- very interesting"
+	},
+	"Hmm.": {
+		"input": 45,
+		"index": 0,
+		"subindex": 1,
+		"specific": 5,
+		"name": "Hmm."
+	},
+	"various laughs (5&7 fart)": {
+		"input": 45,
+		"index": 0,
+		"subindex": "2-3",
+		"specific": "0-10",
+		"name": "various laughs (5&7 fart)"
+	},
+	"Ohh- look!": {
+		"input": 45,
+		"index": 0,
+		"subindex": "4-5",
+		"specific": 0,
+		"name": "Ohh- look!"
+	},
+	"ooh- check it out noo-lah": {
+		"input": 45,
+		"index": 0,
+		"subindex": "4-5",
+		"specific": 1,
+		"name": "ooh- check it out noo-lah"
+	},
+	"Would you look at that": {
+		"input": 45,
+		"index": 0,
+		"subindex": "4-5",
+		"specific": 2,
+		"name": "Would you look at that"
+	},
+	"Looky looky look look": {
+		"input": 45,
+		"index": 0,
+		"subindex": "4-5",
+		"specific": 3,
+		"name": "Looky looky look look"
+	},
+	"alright- ok- uh huh- not bad": {
+		"input": 45,
+		"index": 0,
+		"subindex": 4,
+		"specific": 4,
+		"name": "alright- ok- uh huh- not bad"
+	},
+	"show kah what ya got": {
+		"input": 45,
+		"index": 0,
+		"subindex": 4,
+		"specific": 5,
+		"name": "show kah what ya got"
+	},
+	"Hey Hey- it's kah buddy": {
+		"input": 45,
+		"index": 0,
+		"subindex": 6,
+		"specific": 0,
+		"name": "Hey Hey- it's kah buddy"
+	},
+	"ohh- noo-lah noo-lah- that kah friend": {
+		"input": 45,
+		"index": 0,
+		"subindex": 6,
+		"specific": 1,
+		"name": "ohh- noo-lah noo-lah- that kah friend"
+	},
+	"Heey- help a furb out": {
+		"input": 45,
+		"index": 0,
+		"subindex": 7,
+		"specific": 0,
+		"name": "Heey- help a furb out"
+	},
+	"Furbling need help. Kah to the rescue!": {
+		"input": 45,
+		"index": 0,
+		"subindex": 7,
+		"specific": 1,
+		"name": "Furbling need help. Kah to the rescue!"
+	},
+	"Look! little dee-doh need help": {
+		"input": 45,
+		"index": 0,
+		"subindex": 7,
+		"specific": 2,
+		"name": "Look! little dee-doh need help"
+	},
+	"Let's give little guy hand.": {
+		"input": 45,
+		"index": 0,
+		"subindex": 7,
+		"specific": 3,
+		"name": "Let's give little guy hand."
+	},
+	"We Help. Us to the rescue": {
+		"input": 45,
+		"index": 0,
+		"subindex": 7,
+		"specific": 4,
+		"name": "We Help. Us to the rescue"
+	},
+	"boo- boo boo what's wrong?": {
+		"input": 45,
+		"index": 0,
+		"subindex": 9,
+		"specific": 0,
+		"name": "boo- boo boo what's wrong?"
+	},
+	"awww what's wrong?": {
+		"input": 45,
+		"index": 0,
+		"subindex": 9,
+		"specific": 1,
+		"name": "awww what's wrong?"
+	},
+	"oonai ok?": {
+		"input": 45,
+		"index": 0,
+		"subindex": 9,
+		"specific": 2,
+		"name": "oonai ok?"
+	},
+	"Can't resist... much touch...": {
+		"input": 46,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Can't resist... much touch..."
+	},
+	"poke- pooke it- poke it": {
+		"input": 46,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "poke- pooke it- poke it"
+	},
+	"ohh- what that? Touch it- Go on...": {
+		"input": 46,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "ohh- what that? Touch it- Go on..."
+	},
+	"ohh- pokey- pokey...": {
+		"input": 46,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ohh- pokey- pokey..."
+	},
+	"wrestle- wrestle": {
+		"input": 46,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "wrestle- wrestle"
+	},
+	"can't resist- must touch!": {
+		"input": 46,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "can't resist- must touch!"
+	},
+	"poke- pooke it- poke it": {
+		"input": 46,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "poke- pooke it- poke it"
+	},
+	"ohh- what that? Touch it- Go on...": {
+		"input": 46,
+		"index": 0,
+		"subindex": 1,
+		"specific": 3,
+		"name": "ohh- what that? Touch it- Go on..."
+	},
+	"ohh- pokey- pokey...": {
+		"input": 46,
+		"index": 0,
+		"subindex": 1,
+		"specific": 4,
+		"name": "ohh- pokey- pokey..."
+	},
+	"can't resist- must touch!": {
+		"input": 46,
+		"index": 0,
+		"subindex": "2-3-4",
+		"specific": 0,
+		"name": "can't resist- must touch!"
+	},
+	"poke- pooke it- poke it": {
+		"input": 46,
+		"index": 0,
+		"subindex": "2-3-4",
+		"specific": 1,
+		"name": "poke- pooke it- poke it"
+	},
+	"ohh- what that? Touch it- Go on...": {
+		"input": 46,
+		"index": 0,
+		"subindex": "2-3-4",
+		"specific": 2,
+		"name": "ohh- what that? Touch it- Go on..."
+	},
+	"ohh- pokey- pokey...": {
+		"input": 46,
+		"index": 0,
+		"subindex": "2-3-4",
+		"specific": 3,
+		"name": "ohh- pokey- pokey..."
+	},
+	"ohh- the cuteness!": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 0,
+		"name": "ohh- the cuteness!"
+	},
+	"ohh- didj didj awwww....!": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 1,
+		"name": "ohh- didj didj awwww....!"
+	},
+	"ohh- pet pet- hug hug- squeeze- squeeze": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 2,
+		"name": "ohh- pet pet- hug hug- squeeze- squeeze"
+	},
+	"hehehe- oo-nye soo cuute": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 3,
+		"name": "hehehe- oo-nye soo cuute"
+	},
+	"dooohhhh.": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 4,
+		"name": "dooohhhh."
+	},
+	"can't resist- must touch!": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 5,
+		"name": "can't resist- must touch!"
+	},
+	"poke- pooke it- poke it": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 6,
+		"name": "poke- pooke it- poke it"
+	},
+	"ohh- what that? Touch it- Go on...": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 7,
+		"name": "ohh- what that? Touch it- Go on..."
+	},
+	"ohh- pokey- pokey...": {
+		"input": 46,
+		"index": 0,
+		"subindex": "5-6",
+		"specific": 8,
+		"name": "ohh- pokey- pokey..."
+	},
+	"giggle": {
+		"input": 46,
+		"index": 0,
+		"subindex": 7,
+		"specific": 0,
+		"name": "giggle"
+	},
+	"Hmmm- let's see...": {
+		"input": 47,
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 0,
+		"name": "Hmmm- let's see..."
+	},
+	"Hmmm- what have we have here": {
+		"input": 47,
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 1,
+		"name": "Hmmm- what have we have here"
+	},
+	"Oooh- very interesting": {
+		"input": 47,
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 2,
+		"name": "Oooh- very interesting"
+	},
+	"Hmm.": {
+		"input": 47,
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 3,
+		"name": "Hmm."
+	},
+	"kah love it hearts in eyes,": {
+		"input": 47,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "kah love it hearts in eyes,"
+	},
+	"this guy! <giggle> oh- this guy": {
+		"input": 47,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "this guy! <giggle> oh- this guy"
+	},
+	"eh- locked. What to do?": {
+		"input": 47,
+		"index": 0,
+		"subindex": 4,
+		"specific": 0,
+		"name": "eh- locked. What to do?"
+	},
+	"hmmm- we need more something...": {
+		"input": 47,
+		"index": 0,
+		"subindex": 5,
+		"specific": 0,
+		"name": "hmmm- we need more something..."
+	},
+	"oh! let kah in!": {
+		"input": 47,
+		"index": 0,
+		"subindex": 6,
+		"specific": 0,
+		"name": "oh! let kah in!"
+	},
+	"but- Nooooooo": {
+		"input": 47,
+		"index": 0,
+		"subindex": 6,
+		"specific": 1,
+		"name": "but- Nooooooo"
+	},
+	"but- but- but- b-b-but- oh": {
+		"input": 47,
+		"index": 0,
+		"subindex": 6,
+		"specific": 2,
+		"name": "but- but- but- b-b-but- oh"
+	},
+	"waaah (frustrated?),": {
+		"input": 47,
+		"index": 0,
+		"subindex": 6,
+		"specific": 3,
+		"name": "waaah (frustrated?),"
+	},
+	"mi- mih meee (whine),": {
+		"input": 47,
+		"index": 0,
+		"subindex": 6,
+		"specific": 5,
+		"name": "mi- mih meee (whine),"
+	},
+	"oooh- for ka? oo-nye shouldn't have.": {
+		"input": 48,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "oooh- for ka? oo-nye shouldn't have."
+	},
+	"Thank you- thank you- thank you.": {
+		"input": 48,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Thank you- thank you- thank you."
+	},
+	"yes- yes- Thank you- thank you- thank you yes": {
+		"input": 48,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "yes- yes- Thank you- thank you- thank you yes"
+	},
+	"ooh- ooh- all the yes": {
+		"input": 48,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ooh- ooh- all the yes"
+	},
+	"stars in eyes- for kah? It's beautiful": {
+		"input": 48,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "stars in eyes- for kah? It's beautiful"
+	},
+	"oooh- what inside?": {
+		"input": 48,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "oooh- what inside?"
+	},
+	"open sesame": {
+		"input": 48,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "open sesame"
+	},
+	"what inside? kah need to know- need to know": {
+		"input": 48,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "what inside? kah need to know- need to know"
+	},
+	"ooh- so rare- so precious- awww": {
+		"input": 48,
+		"index": 0,
+		"subindex": "2-4",
+		"specific": 0,
+		"name": "ooh- so rare- so precious- awww"
+	},
+	"ooh- quality stuffs": {
+		"input": 48,
+		"index": 0,
+		"subindex": "2-4",
+		"specific": 1,
+		"name": "ooh- quality stuffs"
+	},
+	"ooh- super rare- super fancy": {
+		"input": 48,
+		"index": 0,
+		"subindex": "2-4",
+		"specific": 2,
+		"name": "ooh- super rare- super fancy"
+	},
+	"ooh- extra super very special": {
+		"input": 48,
+		"index": 0,
+		"subindex": "2-4",
+		"specific": 3,
+		"name": "ooh- extra super very special"
+	},
+	"ooh- wow- just wow": {
+		"input": 48,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "ooh- wow- just wow"
+	},
+	"Legendary!": {
+		"input": 48,
+		"index": 0,
+		"subindex": 3,
+		"specific": 1,
+		"name": "Legendary!"
+	},
+	"the stuff of legends!": {
+		"input": 48,
+		"index": 0,
+		"subindex": 3,
+		"specific": 2,
+		"name": "the stuff of legends!"
+	},
+	"mmm- nice and snugs here": {
+		"input": 49,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "mmm- nice and snugs here"
+	},
+	"ok- now hatch! Come on": {
+		"input": 49,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "ok- now hatch! Come on"
+	},
+	"oy- too much stuff!": {
+		"input": 49,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "oy- too much stuff!"
+	},
+	"need more space": {
+		"input": 49,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "need more space"
+	},
+	"eeetay- good job!": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 0,
+		"name": "eeetay- good job!"
+	},
+	"rainbows in eyes- ee-tay- fantastico!": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 1,
+		"name": "rainbows in eyes- ee-tay- fantastico!"
+	},
+	"Sweet mother of Furb!": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 2,
+		"name": "Sweet mother of Furb!"
+	},
+	"Ooh- wow- gimme all the may-may": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 3,
+		"name": "Ooh- wow- gimme all the may-may"
+	},
+	"Oh- Kah love it": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 4,
+		"name": "Oh- Kah love it"
+	},
+	"ooh- kay likey": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 5,
+		"name": "ooh- kay likey"
+	},
+	"Ooh ya- kah need this": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 6,
+		"name": "Ooh ya- kah need this"
+	},
+	"yay! oh ah ooh ooh": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 7,
+		"name": "yay! oh ah ooh ooh"
+	},
+	"Wow- we unstoppable": {
+		"input": "50-52",
+		"index": 0,
+		"subindex": "0-1",
+		"specific": 8,
+		"name": "Wow- we unstoppable"
+	},
+	"yay! more room for  squeek- giggle,": {
+		"input": 51,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "yay! more room for  squeek- giggle,"
+	},
+	"oooh- for ka? oo-nye shouldn't have": {
+		"input": 52,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "oooh- for ka? oo-nye shouldn't have"
+	},
+	"Thank you- thank you- thank you.": {
+		"input": 52,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "Thank you- thank you- thank you."
+	},
+	"yes- yes- Thank you- thank you- thank you yes": {
+		"input": 52,
+		"index": 0,
+		"subindex": 2,
+		"specific": 2,
+		"name": "yes- yes- Thank you- thank you- thank you yes"
+	},
+	"ooh- ooh- all the yes": {
+		"input": 52,
+		"index": 0,
+		"subindex": 2,
+		"specific": 3,
+		"name": "ooh- ooh- all the yes"
+	},
+	"stars in eyes- for kah? It's beautiful": {
+		"input": 52,
+		"index": 0,
+		"subindex": 2,
+		"specific": 4,
+		"name": "stars in eyes- for kah? It's beautiful"
+	},
+	"oooh- what inside?": {
+		"input": 52,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "oooh- what inside?"
+	},
+	"open sesame": {
+		"input": 52,
+		"index": 0,
+		"subindex": 3,
+		"specific": 1,
+		"name": "open sesame"
+	},
+	"what inside? kah need to know- need to know!": {
+		"input": 52,
+		"index": 0,
+		"subindex": 3,
+		"specific": 2,
+		"name": "what inside? kah need to know- need to know!"
+	},
+	"ooh- ahhh": {
+		"input": 53,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooh- ahhh"
+	},
+	"kah all like Whaaat?!": {
+		"input": 53,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "kah all like Whaaat?!"
+	},
+	"Whaoh": {
+		"input": 53,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Whaoh"
+	},
+	"mmmm": {
+		"input": 53,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "mmmm"
+	},
+	"ooh": {
+		"input": 53,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "ooh"
+	},
+	"heyyyy": {
+		"input": 53,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "heyyyy"
+	},
+	"hmm- oh kah furb": {
+		"input": 53,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "hmm- oh kah furb"
+	},
+	"sing? oooh hah oooh ooooh": {
+		"input": 53,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "sing? oooh hah oooh ooooh"
+	},
+	"Kah accept quest on behalf of furblings": {
+		"input": 54,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Kah accept quest on behalf of furblings"
+	},
+	"Challenge accepted": {
+		"input": 54,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Challenge accepted"
+	},
+	"Let Quest Begin": {
+		"input": 54,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "Let Quest Begin"
+	},
+	"Who best a quest? We are!": {
+		"input": 54,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "Who best a quest? We are!"
+	},
+	"yay yay yay we did it. Go us!": {
+		"input": 54,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "yay yay yay we did it. Go us!"
+	},
+	"Best Quest Evar!": {
+		"input": 54,
+		"index": 0,
+		"subindex": 2,
+		"specific": 2,
+		"name": "Best Quest Evar!"
+	},
+	"“Ok- where kah leave off?": {
+		"input": 55,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "“Ok- where kah leave off?"
+	},
+	"“Yes- love this game. Love it": {
+		"input": 55,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "“Yes- love this game. Love it"
+	},
+	"“Oh- dis gonna be good”": {
+		"input": 55,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "“Oh- dis gonna be good”"
+	},
+	"Hollywood lights in eyes- excited cry": {
+		"input": 55,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Hollywood lights in eyes- excited cry"
+	},
+	"Success! Kah has it!": {
+		"input": 55,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Success! Kah has it!"
+	},
+	"Yes! the day is ours!": {
+		"input": 55,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Yes! the day is ours!"
+	},
+	"oooh- oo-nye magic": {
+		"input": 55,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "oooh- oo-nye magic"
+	},
+	"dee-doh- yes- very yes.": {
+		"input": 55,
+		"index": 1,
+		"subindex": 0,
+		"specific": 4,
+		"name": "dee-doh- yes- very yes."
+	},
+	"woo! giggle,": {
+		"input": 55,
+		"index": 1,
+		"subindex": 0,
+		"specific": 5,
+		"name": "woo! giggle,"
+	},
+	"“oh- can almost taste the gold": {
+		"input": 55,
+		"index": 1,
+		"subindex": 2,
+		"specific": 0,
+		"name": "“oh- can almost taste the gold"
+	},
+	"“wooh- almost perfect!": {
+		"input": 55,
+		"index": 1,
+		"subindex": 2,
+		"specific": 1,
+		"name": "“wooh- almost perfect!"
+	},
+	"Trophy in eyes- “High score! Booyah!”": {
+		"input": 55,
+		"index": 1,
+		"subindex": 3,
+		"specific": 0,
+		"name": "Trophy in eyes- “High score! Booyah!”"
+	},
+	"Trophy in eyes- “Not brag- but- WE THE BEST!”": {
+		"input": 55,
+		"index": 1,
+		"subindex": 4,
+		"specific": 0,
+		"name": "Trophy in eyes- “Not brag- but- WE THE BEST!”"
+	},
+	"We rule! They drool! (drool) oops": {
+		"input": 55,
+		"index": 1,
+		"subindex": 4,
+		"specific": 1,
+		"name": "We rule! They drool! (drool) oops"
+	},
+	"'OOh- dat way- dee-doh!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "'OOh- dat way- dee-doh!"
+	},
+	"go that way": {
+		"input": 55,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "go that way"
+	},
+	"wrong way": {
+		"input": 55,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "wrong way"
+	},
+	"disapointed aaaah": {
+		"input": 55,
+		"index": 2,
+		"subindex": 1,
+		"specific": 1,
+		"name": "disapointed aaaah"
+	},
+	"Dat was Awwwwesome!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 2,
+		"specific": 0,
+		"name": "Dat was Awwwwesome!"
+	},
+	"Nice!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 2,
+		"specific": 1,
+		"name": "Nice!"
+	},
+	"Smooth move!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 2,
+		"specific": 2,
+		"name": "Smooth move!"
+	},
+	"rainbows in eyes ee-tay! fantastico!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 2,
+		"specific": 3,
+		"name": "rainbows in eyes ee-tay! fantastico!"
+	},
+	"enthusiastic Yes!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 3,
+		"specific": 0,
+		"name": "enthusiastic Yes!"
+	},
+	"Yaaas!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 3,
+		"specific": 1,
+		"name": "Yaaas!"
+	},
+	"Indeed!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 3,
+		"specific": 2,
+		"name": "Indeed!"
+	},
+	"enthusiastic Nope!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 4,
+		"specific": 0,
+		"name": "enthusiastic Nope!"
+	},
+	"firm Nope- na-baoo uh-uh nope no!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 4,
+		"specific": 1,
+		"name": "firm Nope- na-baoo uh-uh nope no!"
+	},
+	"Okay!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 5,
+		"specific": 0,
+		"name": "Okay!"
+	},
+	"alright!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 5,
+		"specific": 1,
+		"name": "alright!"
+	},
+	"kah help oo-nye (i will help you),": {
+		"input": 55,
+		"index": 2,
+		"subindex": 6,
+		"specific": 0,
+		"name": "kah help oo-nye (i will help you),"
+	},
+	"Great!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 0,
+		"name": "Great!"
+	},
+	"holywood lights in eyes oooo-oooh!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 1,
+		"name": "holywood lights in eyes oooo-oooh!"
+	},
+	"Success! kah has it!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 2,
+		"name": "Success! kah has it!"
+	},
+	"Yes! the day is ours!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 3,
+		"name": "Yes! the day is ours!"
+	},
+	"oooh. Ooh-nye magic!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 4,
+		"name": "oooh. Ooh-nye magic!"
+	},
+	"dee-doh- yes- very yes.": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 5,
+		"name": "dee-doh- yes- very yes."
+	},
+	"whoo! hoo-hoo-hah-hah": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 6,
+		"name": "whoo! hoo-hoo-hah-hah"
+	},
+	"excited squee": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 7,
+		"name": "excited squee"
+	},
+	"ooh- ah- ooh- ohh ah": {
+		"input": 55,
+		"index": 2,
+		"subindex": 7,
+		"specific": 8,
+		"name": "ooh- ah- ooh- ohh ah"
+	},
+	"Perfect": {
+		"input": 55,
+		"index": 2,
+		"subindex": 8,
+		"specific": 0,
+		"name": "Perfect"
+	},
+	"ooh- that's Purrrfect": {
+		"input": 55,
+		"index": 2,
+		"subindex": 8,
+		"specific": 1,
+		"name": "ooh- that's Purrrfect"
+	},
+	"(same as 55-2-2-0) Dat was Awwwwesome!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 9,
+		"specific": 0,
+		"name": "(same as 55-2-2-0) Dat was Awwwwesome!"
+	},
+	"(same as 55-2-2-1) Nice!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 9,
+		"specific": 1,
+		"name": "(same as 55-2-2-1) Nice!"
+	},
+	"Uh oh- Running out of time": {
+		"input": 55,
+		"index": 2,
+		"subindex": 10,
+		"specific": 0,
+		"name": "Uh oh- Running out of time"
+	},
+	"Almost out of time": {
+		"input": 55,
+		"index": 2,
+		"subindex": 10,
+		"specific": 1,
+		"name": "Almost out of time"
+	},
+	"beep- time up!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 11,
+		"specific": 0,
+		"name": "beep- time up!"
+	},
+	"wah wah wah- no more time": {
+		"input": 55,
+		"index": 2,
+		"subindex": 11,
+		"specific": 1,
+		"name": "wah wah wah- no more time"
+	},
+	"Last Turn": {
+		"input": 55,
+		"index": 2,
+		"subindex": 12,
+		"specific": 0,
+		"name": "Last Turn"
+	},
+	"final go": {
+		"input": 55,
+		"index": 2,
+		"subindex": 12,
+		"specific": 1,
+		"name": "final go"
+	},
+	"Whoopsies": {
+		"input": 55,
+		"index": 2,
+		"subindex": 13,
+		"specific": 0,
+		"name": "Whoopsies"
+	},
+	"gwargg": {
+		"input": 55,
+		"index": 2,
+		"subindex": 13,
+		"specific": 1,
+		"name": "gwargg"
+	},
+	"whuh- huh": {
+		"input": 55,
+		"index": 2,
+		"subindex": 13,
+		"specific": 2,
+		"name": "whuh- huh"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 0,
+		"name": "giggle"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 1,
+		"name": "giggle"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 2,
+		"name": "giggle"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 3,
+		"name": "giggle"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 4,
+		"name": "giggle"
+	},
+	"giggle followed by fart oops": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 5,
+		"name": "giggle followed by fart oops"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 6,
+		"name": "giggle"
+	},
+	"giggle followed by fart oops": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 7,
+		"name": "giggle followed by fart oops"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 8,
+		"name": "giggle"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 9,
+		"name": "giggle"
+	},
+	"giggle": {
+		"input": 55,
+		"index": 2,
+		"subindex": 14,
+		"specific": 10,
+		"name": "giggle"
+	},
+	"stars in eyes We did it!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 15,
+		"specific": 0,
+		"name": "stars in eyes We did it!"
+	},
+	"Ha Ha- take that!!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 15,
+		"specific": 1,
+		"name": "Ha Ha- take that!!"
+	},
+	"Ho Ho we good- we good- aw yeah!": {
+		"input": 55,
+		"index": 2,
+		"subindex": 15,
+		"specific": 2,
+		"name": "Ho Ho we good- we good- aw yeah!"
+	},
+	"High Five! wait- kah only have three": {
+		"input": 55,
+		"index": 2,
+		"subindex": 15,
+		"specific": 3,
+		"name": "High Five! wait- kah only have three"
+	},
+	"Team Furby for the win": {
+		"input": 55,
+		"index": 2,
+		"subindex": 15,
+		"specific": 4,
+		"name": "Team Furby for the win"
+	},
+	"hey- over there": {
+		"input": 55,
+		"index": 2,
+		"subindex": 16,
+		"specific": 0,
+		"name": "hey- over there"
+	},
+	"ear point up- Up": {
+		"input": 55,
+		"index": 2,
+		"subindex": 17,
+		"specific": 0,
+		"name": "ear point up- Up"
+	},
+	"down": {
+		"input": 55,
+		"index": 2,
+		"subindex": 18,
+		"specific": 0,
+		"name": "down"
+	},
+	"left": {
+		"input": 55,
+		"index": 2,
+		"subindex": 19,
+		"specific": 0,
+		"name": "left"
+	},
+	"right": {
+		"input": 55,
+		"index": 2,
+		"subindex": 20,
+		"specific": 0,
+		"name": "right"
+	},
+	"go back": {
+		"input": 55,
+		"index": 2,
+		"subindex": 21,
+		"specific": 0,
+		"name": "go back"
+	},
+	"forwards": {
+		"input": 55,
+		"index": 2,
+		"subindex": 22,
+		"specific": 0,
+		"name": "forwards"
+	},
+	"faster": {
+		"input": 55,
+		"index": 2,
+		"subindex": 23,
+		"specific": 0,
+		"name": "faster"
+	},
+	"slower": {
+		"input": 55,
+		"index": 2,
+		"subindex": 24,
+		"specific": 0,
+		"name": "slower"
+	},
+	"again- again": {
+		"input": 55,
+		"index": 2,
+		"subindex": 25,
+		"specific": 0,
+		"name": "again- again"
+	},
+	"too much": {
+		"input": 55,
+		"index": 2,
+		"subindex": 26,
+		"specific": 0,
+		"name": "too much"
+	},
+	"aww- dirty fur- need shower": {
+		"input": 56,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "aww- dirty fur- need shower"
+	},
+	"aww- kah feel gross. Shower please": {
+		"input": 56,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "aww- kah feel gross. Shower please"
+	},
+	"ooooh- oooh- poop alert": {
+		"input": 56,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "ooooh- oooh- poop alert"
+	},
+	"uh oh- need toilet- hurry": {
+		"input": 56,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "uh oh- need toilet- hurry"
+	},
+	"stomach growl- donut in eye- ahem- kah hungry": {
+		"input": 56,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "stomach growl- donut in eye- ahem- kah hungry"
+	},
+	"time to eat. heh- always time to eat.": {
+		"input": 56,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "time to eat. heh- always time to eat."
+	},
+	"gargle sing": {
+		"input": 56,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "gargle sing"
+	},
+	"sing dooh doo dooh": {
+		"input": 56,
+		"index": 1,
+		"subindex": 1,
+		"specific": 0,
+		"name": "sing dooh doo dooh"
+	},
+	"sing woob wah wah wah": {
+		"input": 56,
+		"index": 1,
+		"subindex": 1,
+		"specific": 1,
+		"name": "sing woob wah wah wah"
+	},
+	"whistle": {
+		"input": 56,
+		"index": 1,
+		"subindex": 1,
+		"specific": 2,
+		"name": "whistle"
+	},
+	"ooh ooh ouch- too hot": {
+		"input": 56,
+		"index": 1,
+		"subindex": 2,
+		"specific": 0,
+		"name": "ooh ooh ouch- too hot"
+	},
+	"ooh hot hot hot- too hot": {
+		"input": 56,
+		"index": 1,
+		"subindex": 2,
+		"specific": 0,
+		"name": "ooh hot hot hot- too hot"
+	},
+	"shivers-  too cold": {
+		"input": 56,
+		"index": 1,
+		"subindex": 3,
+		"specific": 0,
+		"name": "shivers-  too cold"
+	},
+	"shivers- coldings": {
+		"input": 56,
+		"index": 1,
+		"subindex": 3,
+		"specific": 1,
+		"name": "shivers- coldings"
+	},
+	"satisfied Aaaaah- finally": {
+		"input": 56,
+		"index": 1,
+		"subindex": 4,
+		"specific": 0,
+		"name": "satisfied Aaaaah- finally"
+	},
+	"satisfied oooh yeah- whooh": {
+		"input": 56,
+		"index": 1,
+		"subindex": 4,
+		"specific": 1,
+		"name": "satisfied oooh yeah- whooh"
+	},
+	"woooh kah feel good- whoo": {
+		"input": 56,
+		"index": 1,
+		"subindex": 4,
+		"specific": 2,
+		"name": "woooh kah feel good- whoo"
+	},
+	"aaah fart,": {
+		"input": 56,
+		"index": 1,
+		"subindex": 4,
+		"specific": 3,
+		"name": "aaah fart,"
+	},
+	"ooh- the struggle is real": {
+		"input": 56,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- the struggle is real"
+	},
+	"grunt Just a minute": {
+		"input": 56,
+		"index": 2,
+		"subindex": 1,
+		"specific": 0,
+		"name": "grunt Just a minute"
+	},
+	"uh oh- something stuck": {
+		"input": 56,
+		"index": 2,
+		"subindex": 1,
+		"specific": 1,
+		"name": "uh oh- something stuck"
+	},
+	"Oooh- yeah- that happened": {
+		"input": 56,
+		"index": 2,
+		"subindex": 2,
+		"specific": 0,
+		"name": "Oooh- yeah- that happened"
+	},
+	"aaah- finally": {
+		"input": 56,
+		"index": 2,
+		"subindex": 2,
+		"specific": 1,
+		"name": "aaah- finally"
+	},
+	"Oooh-oooh- yeah- whew": {
+		"input": 56,
+		"index": 2,
+		"subindex": 2,
+		"specific": 2,
+		"name": "Oooh-oooh- yeah- whew"
+	},
+	"whooohooo- kah feel good- whoo,": {
+		"input": 56,
+		"index": 2,
+		"subindex": 2,
+		"specific": 3,
+		"name": "whooohooo- kah feel good- whoo,"
+	},
+	"Oooh- terd-a-loo- hehe": {
+		"input": 56,
+		"index": 2,
+		"subindex": 3,
+		"specific": 1,
+		"name": "Oooh- terd-a-loo- hehe"
+	},
+	"peace out- noo-lah": {
+		"input": 56,
+		"index": 2,
+		"subindex": 3,
+		"specific": 2,
+		"name": "peace out- noo-lah"
+	},
+	"eat- munch sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "eat- munch sounds"
+	},
+	"eat- munch sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "eat- munch sounds"
+	},
+	"eat- munch sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "eat- munch sounds"
+	},
+	"eat- munch sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "eat- munch sounds"
+	},
+	"eat- munch sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "eat- munch sounds"
+	},
+	"eat- munch sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "eat- munch sounds"
+	},
+	"happy eat- munch sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 1,
+		"specific": 0,
+		"name": "happy eat- munch sounds"
+	},
+	"munch sounds yummy in kah tummy": {
+		"input": 56,
+		"index": 3,
+		"subindex": 1,
+		"specific": 1,
+		"name": "munch sounds yummy in kah tummy"
+	},
+	"enthusiastic eat- munch sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 2,
+		"specific": 0,
+		"name": "enthusiastic eat- munch sounds"
+	},
+	"munch sounds- furbalicious": {
+		"input": 56,
+		"index": 3,
+		"subindex": 2,
+		"specific": 1,
+		"name": "munch sounds- furbalicious"
+	},
+	"Oooh- kah favorite!": {
+		"input": 56,
+		"index": 3,
+		"subindex": 3,
+		"specific": 0,
+		"name": "Oooh- kah favorite!"
+	},
+	"delightful yummy deliciuos!": {
+		"input": 56,
+		"index": 3,
+		"subindex": 3,
+		"specific": 1,
+		"name": "delightful yummy deliciuos!"
+	},
+	"S'okay... Meh": {
+		"input": 56,
+		"index": 3,
+		"subindex": 4,
+		"specific": 0,
+		"name": "S'okay... Meh"
+	},
+	"mm- needs more ... meatball": {
+		"input": 56,
+		"index": 3,
+		"subindex": 4,
+		"specific": 0,
+		"name": "mm- needs more ... meatball"
+	},
+	"unsatisfied food sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 5,
+		"specific": 0,
+		"name": "unsatisfied food sounds"
+	},
+	"unsatisfied food sounds": {
+		"input": 56,
+		"index": 3,
+		"subindex": 5,
+		"specific": 1,
+		"name": "unsatisfied food sounds"
+	},
+	"uggh- nassty": {
+		"input": 56,
+		"index": 3,
+		"subindex": 6,
+		"specific": 0,
+		"name": "uggh- nassty"
+	},
+	"uggh- sooo gross": {
+		"input": 56,
+		"index": 3,
+		"subindex": 6,
+		"specific": 1,
+		"name": "uggh- sooo gross"
+	},
+	"enthusiastic mmm- mmm- oh giggle mmmm": {
+		"input": 56,
+		"index": 3,
+		"subindex": 7,
+		"specific": 0,
+		"name": "enthusiastic mmm- mmm- oh giggle mmmm"
+	},
+	"mmm- mmm": {
+		"input": 56,
+		"index": 3,
+		"subindex": 8,
+		"specific": 0,
+		"name": "mmm- mmm"
+	},
+	"hot- hot- hot! too hot": {
+		"input": 56,
+		"index": 3,
+		"subindex": 9,
+		"specific": 0,
+		"name": "hot- hot- hot! too hot"
+	},
+	"shiver too cold": {
+		"input": 56,
+		"index": 3,
+		"subindex": 10,
+		"specific": 0,
+		"name": "shiver too cold"
+	},
+	"oooh- ahhhhh panic,": {
+		"input": 56,
+		"index": 3,
+		"subindex": 11,
+		"specific": 0,
+		"name": "oooh- ahhhhh panic,"
+	},
+	"yes- yes- share these": {
+		"input": 57,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "yes- yes- share these"
+	},
+	"sharing is caring": {
+		"input": 57,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "sharing is caring"
+	},
+	"oo-nye let's share": {
+		"input": 57,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "oo-nye let's share"
+	},
+	"post- post- do eeet.": {
+		"input": 57,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "post- post- do eeet."
+	},
+	"post it- post it now": {
+		"input": 57,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "post it- post it now"
+	},
+	"say cheese": {
+		"input": 57,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "say cheese"
+	},
+	"strike a pose": {
+		"input": 57,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "strike a pose"
+	},
+	"let's share": {
+		"input": 57,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "let's share"
+	},
+	"yes- yes share these": {
+		"input": 57,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "yes- yes share these"
+	},
+	"sharing is caring": {
+		"input": 57,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "sharing is caring"
+	},
+	"oo-nye- let's share": {
+		"input": 57,
+		"index": 2,
+		"subindex": 0,
+		"specific": 3,
+		"name": "oo-nye- let's share"
+	},
+	"furbs- camera- action": {
+		"input": 57,
+		"index": 3,
+		"subindex": 0,
+		"specific": 0,
+		"name": "furbs- camera- action"
+	},
+	"lookin' good little furbs": {
+		"input": 57,
+		"index": 3,
+		"subindex": 0,
+		"specific": 1,
+		"name": "lookin' good little furbs"
+	},
+	"oooh- lookin' good": {
+		"input": 57,
+		"index": 3,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oooh- lookin' good"
+	},
+	"oooh- nice shot- very nice": {
+		"input": 57,
+		"index": 3,
+		"subindex": 0,
+		"specific": 3,
+		"name": "oooh- nice shot- very nice"
+	},
+	"oooh- nice shot- very bee-yu-tiful": {
+		"input": 57,
+		"index": 3,
+		"subindex": 0,
+		"specific": 4,
+		"name": "oooh- nice shot- very bee-yu-tiful"
+	},
+	"ok- act natural": {
+		"input": 57,
+		"index": 3,
+		"subindex": 0,
+		"specific": 5,
+		"name": "ok- act natural"
+	},
+	"ooo- from our buddy- so exciting!": {
+		"input": 58,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooo- from our buddy- so exciting!"
+	},
+	"gimmie gimmie gimmie": {
+		"input": 58,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "gimmie gimmie gimmie"
+	},
+	"best news evaaa!": {
+		"input": 58,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "best news evaaa!"
+	},
+	"huh- dah-boo dah-boo no way!": {
+		"input": 58,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "huh- dah-boo dah-boo no way!"
+	},
+	"uuugh mai gaaawww (OMG),": {
+		"input": 58,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "uuugh mai gaaawww (OMG),"
+	},
+	"ooo- we should give gift too (multiple oh yeah- changing voice),": {
+		"input": 58,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "ooo- we should give gift too (multiple oh yeah- changing voice),"
+	},
+	"hmm- what have we have here?": {
+		"input": 59,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "hmm- what have we have here?"
+	},
+	"ooo- very interesting": {
+		"input": 59,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "ooo- very interesting"
+	},
+	"hmmm": {
+		"input": 59,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "hmmm"
+	},
+	"so much stuff. Ooo! let's use it": {
+		"input": 59,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "so much stuff. Ooo! let's use it"
+	},
+	"hmmm- special- really special": {
+		"input": 60,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "hmmm- special- really special"
+	},
+	"oooo- big reward- dee-doh": {
+		"input": 60,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oooo- big reward- dee-doh"
+	},
+	"oooo- a rare one": {
+		"input": 60,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oooo- a rare one"
+	},
+	"ooo- look oo-nye a special one": {
+		"input": 60,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ooo- look oo-nye a special one"
+	},
+	"ooo- so rare- so precious drool,": {
+		"input": 60,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooo- so rare- so precious drool,"
+	},
+	"ooo- super rare- super fancy": {
+		"input": 60,
+		"index": 1,
+		"subindex": 0,
+		"specific": 2,
+		"name": "ooo- super rare- super fancy"
+	},
+	"ooh- extra super very special": {
+		"input": 60,
+		"index": 1,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ooh- extra super very special"
+	},
+	"ooh- wow- just just wow": {
+		"input": 60,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooh- wow- just just wow"
+	},
+	"legendary!": {
+		"input": 60,
+		"index": 2,
+		"subindex": 0,
+		"specific": 1,
+		"name": "legendary!"
+	},
+	"the stuff of legends": {
+		"input": 60,
+		"index": 2,
+		"subindex": 0,
+		"specific": 2,
+		"name": "the stuff of legends"
+	},
+	"ooh- that one look tricky": {
+		"input": 61,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooh- that one look tricky"
+	},
+	"ooh- that one look tricky": {
+		"input": 62,
+		"index": 0,
+		"subindex": 0,
+		"specific": "0-1",
+		"name": "ooh- that one look tricky"
+	},
+	"can't resist- must touch!": {
+		"input": 63,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "can't resist- must touch!"
+	},
+	"poke- pooke it- poke it": {
+		"input": 63,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "poke- pooke it- poke it"
+	},
+	"ohh- what that? Touch it- Go on…": {
+		"input": 63,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "ohh- what that? Touch it- Go on…"
+	},
+	"ohh- pokey- pokey": {
+		"input": 63,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ohh- pokey- pokey"
+	},
+	"ooh- lookin good!": {
+		"input": 64,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "ooh- lookin good!"
+	},
+	"ooh- nice shot- yes- very nice": {
+		"input": 64,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "ooh- nice shot- yes- very nice"
+	},
+	"oooh- nice shot- very bee-yu-tiful": {
+		"input": 64,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "oooh- nice shot- very bee-yu-tiful"
+	},
+	"kah love it!": {
+		"input": 64,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "kah love it!"
+	},
+	"like it- no- kah LOVE it!": {
+		"input": 64,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "like it- no- kah LOVE it!"
+	},
+	"oooh- kah likey": {
+		"input": 64,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "oooh- kah likey"
+	},
+	"touch kah belly": {
+		"input": 65,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "touch kah belly"
+	},
+	"this looks like job for furby!": {
+		"input": 65,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "this looks like job for furby!"
+	},
+	"let kah show the way": {
+		"input": 65,
+		"index": 1,
+		"subindex": 0,
+		"specific": 1,
+		"name": "let kah show the way"
+	},
+	"okay- already- yeah- let's do this!": {
+		"input": 66,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "okay- already- yeah- let's do this!"
+	},
+	"kah ready to go!": {
+		"input": 66,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "kah ready to go!"
+	},
+	"let's get party started! Ugh": {
+		"input": 66,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "let's get party started! Ugh"
+	},
+	"ooh- can't wait- can't wait- can't wait!": {
+		"input": 66,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "ooh- can't wait- can't wait- can't wait!"
+	},
+	"come on- let's get started!": {
+		"input": 66,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "come on- let's get started!"
+	},
+	"woah- check out all the furblings": {
+		"input": 67,
+		"index": 1,
+		"subindex": 0,
+		"specific": 0,
+		"name": "woah- check out all the furblings"
+	},
+	"wow- cool stuff dee-doh": {
+		"input": 67,
+		"index": 1,
+		"subindex": 1,
+		"specific": 0,
+		"name": "wow- cool stuff dee-doh"
+	},
+	"ooh- who that furbling- must be new": {
+		"input": 67,
+		"index": 1,
+		"subindex": 2,
+		"specific": 0,
+		"name": "ooh- who that furbling- must be new"
+	},
+	"uuhh- new friend?!": {
+		"input": 67,
+		"index": 2,
+		"subindex": 0,
+		"specific": 0,
+		"name": "uuhh- new friend?!"
+	},
+	"watch and learn little furb": {
+		"input": 68,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "watch and learn little furb"
+	},
+	"ooh- let's try again!": {
+		"input": 68,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "ooh- let's try again!"
+	},
+	"neeeehh- kah brain getting bigger!": {
+		"input": 69,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "neeeehh- kah brain getting bigger!"
+	},
+	"oh- kah learn so much with oo-nye!": {
+		"input": 69,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "oh- kah learn so much with oo-nye!"
+	},
+	"How bout this one?": {
+		"input": 70,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "How bout this one?"
+	},
+	"Do": {
+		"input": 71,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "Do"
+	},
+	"Re": {
+		"input": 71,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "Re"
+	},
+	"Mi": {
+		"input": 71,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "Mi"
+	},
+	"Fa": {
+		"input": 71,
+		"index": 0,
+		"subindex": 0,
+		"specific": 3,
+		"name": "Fa"
+	},
+	"Sol": {
+		"input": 71,
+		"index": 0,
+		"subindex": 0,
+		"specific": 4,
+		"name": "Sol"
+	},
+	"La": {
+		"input": 71,
+		"index": 0,
+		"subindex": 0,
+		"specific": 5,
+		"name": "La"
+	},
+	"Ti": {
+		"input": 71,
+		"index": 0,
+		"subindex": 0,
+		"specific": 6,
+		"name": "Ti"
+	},
+	"Do": {
+		"input": 71,
+		"index": 0,
+		"subindex": 0,
+		"specific": 7,
+		"name": "Do"
+	},
+	"yawn some day kah be d.j. wiki wiki snore": {
+		"input": 74,
+		"index": 0,
+		"subindex": 0,
+		"specific": 0,
+		"name": "yawn some day kah be d.j. wiki wiki snore"
+	},
+	"beatbox snore": {
+		"input": 74,
+		"index": 0,
+		"subindex": 0,
+		"specific": 1,
+		"name": "beatbox snore"
+	},
+	"yawn in the hizzouse": {
+		"input": 74,
+		"index": 0,
+		"subindex": 0,
+		"specific": 2,
+		"name": "yawn in the hizzouse"
+	},
+	"yawn sugar drop- ponies- cotton candy- rainbows": {
+		"input": 74,
+		"index": 0,
+		"subindex": 1,
+		"specific": 0,
+		"name": "yawn sugar drop- ponies- cotton candy- rainbows"
+	},
+	"yawn let them eat cake- mmm- banana cake": {
+		"input": 74,
+		"index": 0,
+		"subindex": 1,
+		"specific": 1,
+		"name": "yawn let them eat cake- mmm- banana cake"
+	},
+	"yawn sing snooze snooze snooze": {
+		"input": 74,
+		"index": 0,
+		"subindex": 1,
+		"specific": 2,
+		"name": "yawn sing snooze snooze snooze"
+	},
+	"yawn hai yah! giggle": {
+		"input": 74,
+		"index": 0,
+		"subindex": 2,
+		"specific": 0,
+		"name": "yawn hai yah! giggle"
+	},
+	"yawn only  ninja can sneak up on- consequences": {
+		"input": 74,
+		"index": 0,
+		"subindex": 2,
+		"specific": 1,
+		"name": "yawn only  ninja can sneak up on- consequences"
+	},
+	"yawn stealth ninja of night snore": {
+		"input": 74,
+		"index": 0,
+		"subindex": 2,
+		"specific": 2,
+		"name": "yawn stealth ninja of night snore"
+	},
+	"yawn har de har boats and barnicals- dolphins parrot squawk": {
+		"input": 74,
+		"index": 0,
+		"subindex": 3,
+		"specific": 0,
+		"name": "yawn har de har boats and barnicals- dolphins parrot squawk"
+	},
+	"yawn where kah eye patch.. Peg leg..": {
+		"input": 74,
+		"index": 0,
+		"subindex": 3,
+		"specific": 1,
+		"name": "yawn where kah eye patch.. Peg leg.."
+	},
+	"yawn yo loh loh- pirate life kah": {
+		"input": 74,
+		"index": 0,
+		"subindex": 3,
+		"specific": 2,
+		"name": "yawn yo loh loh- pirate life kah"
+	},
+	"yawn kah woke up like this- like this- like this snore": {
+		"input": 74,
+		"index": 0,
+		"subindex": 4,
+		"specific": 0,
+		"name": "yawn kah woke up like this- like this- like this snore"
+	},
+	"yawn give it up for furby! snore": {
+		"input": 74,
+		"index": 0,
+		"subindex": 4,
+		"specific": 1,
+		"name": "yawn give it up for furby! snore"
+	},
+	"light- camera- furby snore,": {
+		"input": 74,
+		"index": 0,
+		"subindex": 4,
+		"specific": 2,
+		"name": "light- camera- furby snore,"
+	},
+	"yawn- purring": {
+		"input": 74,
+		"index": 0,
+		"subindex": 5,
+		"specific": 2,
+		"name": "yawn- purring"
+	}
+}

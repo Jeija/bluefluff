@@ -222,17 +222,17 @@ class Fluff {
  */
 module.exports = {};
 
-module.exports.connect = function (furby, callback) {
-	furby.connect(function (error) {
+module.exports.connect = function (peripheral, callback) {
+	peripheral.connect(function (error) {
 		if (error) {
 			winston.log("error", "Error while connecting: " + error);
 			return;
 		}
 
-		exitHandler(furby);
+		exitHandler(peripheral);
 
 		let characteristicUUIDs = Object.values(FURBY.CHARACTERISTIC);
-		getFurbyCharacteristics(furby, FURBY.SERVICE.FLUFF, characteristicUUIDs,
+		getFurbyCharacteristics(peripheral, FURBY.SERVICE.FLUFF, characteristicUUIDs,
 			function (characteristics) {
 				winston.log("debug", "Read all fluff characteristics");
 				let gpWrite = characteristics[FURBY.CHARACTERISTIC.GENERALPLUS_WRITE];

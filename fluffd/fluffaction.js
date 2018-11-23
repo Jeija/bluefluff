@@ -1,5 +1,7 @@
 const winston = require("winston");
 const fs = require("fs");
+const actions = require("./actions.json");
+
 let commands = {};
 
 /*** GeneralPlus Actions ***/
@@ -37,7 +39,12 @@ commands["lcd"] = {
 
 commands["action"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
+		let localParams = params;
+		if(params.name) {
+			localParams = actions[params.name];
+		}
+
+		fluff.generalPlusWrite(new Buffer([0x13, 0x00, localParams.input, localParams.index, localParams.subindex, localParams.specific]), callback);
 	},
 	readable: "Action",
 	description: "Furby move / talk action",
@@ -211,13 +218,6 @@ commands["dlc_deactivate"] = {
 	description: "Deactivate DLC slot without deleting it",
 	params: {
 		slot: "DLC slot to be deactivated (number)"
-	},
-	buttons: {
-		"giggle": {
-			"readable": "Giggle",
-			"cmd": "action",
-			"params": {"input": 55, "index": 2, "subindex": 14, "specific": 0}
-		}
 	}
 };
 
@@ -268,12 +268,9 @@ commands["other"] = {
 };
 
 module.exports = {
-	execute: function (fluff, cmd, params, callback) {
-		if (!commands[cmd])
-			winston.log("error", "Command not found: " + cmd);
-		else
-			commands[cmd].run(fluff, params, callback);
-	},
+	commands: commands,
+
+	commands: commands,
 
 	list: function () {
 		let list = {};
