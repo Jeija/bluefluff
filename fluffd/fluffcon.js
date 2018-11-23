@@ -220,7 +220,7 @@ class Fluff {
 /*
  * Functions to be exported TODO: disconnect
  */
-module.exports = {}
+module.exports = {};
 
 module.exports.connect = function(furby, callback) {
 	furby.connect(function(error) {
@@ -275,7 +275,7 @@ module.exports.introspect = function(furby) {
 							if (error)
 								winston.log("error", "Error while disconnecting: " + error);
 							else
-								winston.log("info", "Disconnected, exiting")
+                                winston.log("info", "Disconnected, exiting");
 
 							process.exit();
 						});
