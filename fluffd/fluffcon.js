@@ -8,25 +8,25 @@ const noble = require("noble");
  * They are hardcoded into all Furbies and into the Furby Connect World App.
  */
 const FURBY = {
-	SERVICE : {
-		FLUFF : "dab91435b5a1e29cb041bcd562613bde"
+	SERVICE: {
+		FLUFF: "dab91435b5a1e29cb041bcd562613bde"
 	},
-	CHARACTERISTIC : {
-		GENERALPLUS_WRITE : "dab91383b5a1e29cb041bcd562613bde",
-		GENERALPLUS_LISTEN : "dab91382b5a1e29cb041bcd562613bde",
-		NORDIC_WRITE : "dab90757b5a1e29cb041bcd562613bde",
-		NORDIC_LISTEN : "dab90756b5a1e29cb041bcd562613bde",
-		RSSI_LISTEN : "dab90755b5a1e29cb041bcd562613bde",
-		FILEWRITE : "dab90758b5a1e29cb041bcd562613bde"
+	CHARACTERISTIC: {
+		GENERALPLUS_WRITE: "dab91383b5a1e29cb041bcd562613bde",
+		GENERALPLUS_LISTEN: "dab91382b5a1e29cb041bcd562613bde",
+		NORDIC_WRITE: "dab90757b5a1e29cb041bcd562613bde",
+		NORDIC_LISTEN: "dab90756b5a1e29cb041bcd562613bde",
+		RSSI_LISTEN: "dab90755b5a1e29cb041bcd562613bde",
+		FILEWRITE: "dab90758b5a1e29cb041bcd562613bde"
 	}
 };
 
 // Handle Ctrl+C or other SIGINT events and make sure we close our connection
 // Otherwise, Furby will remain in a state where it doesn't accept any connection attempts.
 function exitHandler(furby) {
-	process.on("SIGINT", function() {
+	process.on("SIGINT", function () {
 		winston.log("info", "\nClosing connection...");
-		furby.disconnect(function(error) {
+		furby.disconnect(function (error) {
 			if (error)
 				winston.log("error", "Error while disconnecting: " + error);
 			else
@@ -41,13 +41,13 @@ function exitHandler(furby) {
 // Get GATT characterstic matching serviceUUID and characteristicUUID from furby peripheral.
 // callback is a function(characteristic), where characteristic is a noBLE characteristic.
 function getFurbyCharacteristics(furby, serviceUUID, characteristicUUIDs, callback) {
-	furby.discoverServices([serviceUUID], function(error, services) {
+	furby.discoverServices([serviceUUID], function (error, services) {
 		if (error) {
 			winston.log("error", "Error in discoverServices: " + error);
 			return;
 		}
 
-		services[0].discoverCharacteristics(characteristicUUIDs, function(error, characteristics) {
+		services[0].discoverCharacteristics(characteristicUUIDs, function (error, characteristics) {
 			if (error) {
 				winston.log("error", "Error in discoverCharacteristics: " + error);
 				return;
@@ -55,7 +55,7 @@ function getFurbyCharacteristics(furby, serviceUUID, characteristicUUIDs, callba
 
 			// Regroup characterstics by their UUIDs
 			let charByUUID = {};
-			characteristics.forEach(function(c) {
+			characteristics.forEach(function (c) {
 				charByUUID[c.uuid] = c;
 			});
 			callback(charByUUID);
@@ -91,7 +91,7 @@ class Fluff {
 
 	// Write one command to GeneralPlusWrite characteristic
 	generalPlusWrite(data, callback) {
-		this.gpWrite.write(data, true, function(error) {
+		this.gpWrite.write(data, true, function (error) {
 			if (error) {
 				winston.log("warn", "Error in generalPlusWrite: " + error);
 				if (callback) callback("generalPlusWrite: " + error);
@@ -106,9 +106,9 @@ class Fluff {
 	generalPlusWriteSequence(sequence, callback) {
 		let i = 0;
 
-		let nextSeq = (function() {
+		let nextSeq = (function () {
 			if (i < sequence.length) {
-				this.gpWrite.write(sequence[i], true, function(error) {
+				this.gpWrite.write(sequence[i], true, function (error) {
 					if (error) {
 						winston.log("warn", "Error in generalPlusWriteSequence: " + error);
 						if (callback) callback("generalPlusWriteSequence: " + error);
@@ -128,7 +128,7 @@ class Fluff {
 
 	// Write data to NordicWrite characteristic
 	nordicWrite(data, callback) {
-		this.nWrite.write(data, true, function(error) {
+		this.nWrite.write(data, true, function (error) {
 			if (error) {
 				winston.log("warn", "Error in nordicWrite: " + error);
 				if (callback) callback("nordicWrite: " + error);
@@ -141,7 +141,7 @@ class Fluff {
 
 	// Write data to slot, maximum 20 bytes
 	writeToSlot(data, callback) {
-		this.fileWrite.write(data, true, function(error) {
+		this.fileWrite.write(data, true, function (error) {
 			if (error) {
 				winston.log("warn", "Error in writeToSlot: " + error);
 				if (callback) callback("writeToSlot: " + error);
@@ -222,8 +222,8 @@ class Fluff {
  */
 module.exports = {}
 
-module.exports.connect = function(furby, callback) {
-	furby.connect(function(error) {
+module.exports.connect = function (furby, callback) {
+	furby.connect(function (error) {
 		if (error) {
 			winston.log("error", "Error while connecting: " + error);
 			return;
@@ -232,7 +232,7 @@ module.exports.connect = function(furby, callback) {
 		exitHandler(furby);
 
 		let characteristicUUIDs = Object.values(FURBY.CHARACTERISTIC);
-		getFurbyCharacteristics(furby, FURBY.SERVICE.FLUFF, characteristicUUIDs, function(characteristics) {
+		getFurbyCharacteristics(furby, FURBY.SERVICE.FLUFF, characteristicUUIDs, function (characteristics) {
 			let gpWrite = characteristics[FURBY.CHARACTERISTIC.GENERALPLUS_WRITE];
 			let gpListen = characteristics[FURBY.CHARACTERISTIC.GENERALPLUS_LISTEN];
 			let nWrite = characteristics[FURBY.CHARACTERISTIC.NORDIC_WRITE];
@@ -247,31 +247,31 @@ module.exports.connect = function(furby, callback) {
 	});
 };
 
-module.exports.introspect = function(furby) {
+module.exports.introspect = function (furby) {
 	exitHandler(furby);
 
-	furby.connect(function(error) {
+	furby.connect(function (error) {
 		if (error) {
 			winston.log("error", "Error while connecting for introspection: " + error);
 			return;
 		}
 
 		console.log("GATT data structure of furby with UUID " + furby.uuid);
-		furby.discoverServices(null, function(error, services) {
+		furby.discoverServices(null, function (error, services) {
 			console.log("Furby exposes the following services: ");
 
 			let count = 0;
 
 			// Scan all characteristics
-			services.forEach(function(ser, idx) {
-				ser.discoverCharacteristics(null, function(error, characteristics) {
+			services.forEach(function (ser, idx) {
+				ser.discoverCharacteristics(null, function (error, characteristics) {
 					console.log(" " + idx + ") uuid: " + ser.uuid + ", with characteristics: ");
 					for (let i in characteristics)
 						console.log("    > uuid: " + characteristics[i]);
 
 					count++;
 					if (count >= services.length) {
-						furby.disconnect(function(error) {
+						furby.disconnect(function (error) {
 							if (error)
 								winston.log("error", "Error while disconnecting: " + error);
 							else

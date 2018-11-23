@@ -11,15 +11,15 @@ function fluffd_url(target) {
 function sendcmd() {
 	// Collect parameter data
 	var params = {};
-	$(".param").each(function() {
+	$(".param").each(function () {
 		var param = $(this).children(".paramname").children(".param_technical").text();
 		params[param] = $(this).children(".param_value").val();
 	});
 
 	// For now: Always send all commands to all furbies connected to fluffd
 	$.post(fluffd_url("cmd" + "/" + $("#commandname_technical").text()), JSON.stringify({
-		params : params
-	}), function(res) {
+		params: params
+	}), function (res) {
 		if (res != "ok")
 			alert(res);
 	});
@@ -27,7 +27,7 @@ function sendcmd() {
 
 // Handle pressing enter after writing a parameter
 function handle_enter_action() {
-	$(".param_value").keydown(function(e) {
+	$(".param_value").keydown(function (e) {
 		if (e.keyCode == 13) {
 			sendcmd();
 		}
@@ -36,14 +36,14 @@ function handle_enter_action() {
 
 // send a button command. First pull off the action, then the parameters.
 function handle_button_click(cmd) {
-	$("#buttons .button").click(function() {
+	$("#buttons .button").click(function () {
 		var button = commands[cmd].buttons[$(this).data("buttonid")];
 		console.log(button);
 
 		// For now: Always send all commands to all furbies connected to fluffd
 		$.post(fluffd_url("cmd" + "/" + button.cmd), JSON.stringify({
-			params : button.params
-		}), function(res) {
+			params: button.params
+		}), function (res) {
 			if (res != "ok")
 				alert(res);
 		});
@@ -52,11 +52,11 @@ function handle_button_click(cmd) {
 
 // New action in the left panel selected
 function handle_select_action() {
-	$(".action").click(function() {
+	$(".action").click(function () {
 		var cmd = $(this).data("cmd");
 
 		// Make selection
-		$(".action").each(function() {
+		$(".action").each(function () {
 			$(this).removeClass("selected");
 		});
 		$(this).addClass("selected");
@@ -99,7 +99,7 @@ function handle_select_action() {
 }
 
 function update_cmdlist() {
-	$.get(fluffd_url("list"), function(data) {
+	$.get(fluffd_url("list"), function (data) {
 		commands = JSON.parse(data);
 		$("#actions").empty();
 		for (var cmd in commands) {
@@ -112,7 +112,7 @@ function update_cmdlist() {
 	});
 }
 
-$(function() {
+$(function () {
 	update_cmdlist();
 	$("#fluffd_refresh").click(update_cmdlist);
 	$("#sendbutton").click(sendcmd);
