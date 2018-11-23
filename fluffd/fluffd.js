@@ -33,45 +33,64 @@ const Furby = require("./furby");
 let furbies = {};
 
 /*** HTTP Server ***/
-http.createServer(function (req, res) {
-	let fragments = req.url.substring(1).split("/");
-	let query = fragments.splice(0, 2);
-	query.push(fragments.join('/'));
+http.createServer(function(req, res) {
+		let fragments = req.url.substring(1).split("/");
+		let query = fragments.splice(0, 2);
+		query.push(fragments.join("/"));
 
-	if (query[0] === "cmd") {
-		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
+		if (query[0] === "cmd") {
+			res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
 
-		// Answer CORS preflights / unknown requests
-		if (req.method === "POST") {
-			let commandName = query[1];
-			parsePostCommand(commandName, req, res);
+			// Answer CORS preflights / unknown requests
+			if (req.method === "POST") {
+				let commandName = query[1];
+				parsePostCommand(commandName, req, res);
+			} else {
+				res.end();
+			}
+		} else if (query[0] === "list") {
+			res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
+			res.end(JSON.stringify(fluffaction.list()));
+		} else if (query[0] === "scan") {
+			noble.startScanning(); // TODO: this is for testing
+			res.end("scanning");
 		} else {
+			// empty answer, but with Access-Control-Allow-Origin: *
+			res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
 			res.end();
 		}
-	} else if (query[0] === "list") {
-		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
-		res.end(JSON.stringify(fluffaction.list()));
-	} else if (query[0] === "scan") {
-		noble.startScanning(); // TODO: this is for testing
-		res.end("scanning");
-	} else {
-		// empty answer, but with Access-Control-Allow-Origin: *
-		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
-		res.end();
-	}
-}).listen(3872);
+	})
+	.listen(3872);
 
 function parsePostCommand(commandName, req, res) {
 	let commandDataString = "";
-	req.on("data", function (data) {
+	req.on("data", function(data) {
 		commandDataString += data;
 	});
 
-	req.on("end", function () {
+	req.on("end", function() {
 		let commandData;
 		try {
 			commandData = JSON.parse(commandDataString);
-			startCommand(commandName, commandData, res);
+			if ("target" in commandData) {
+				winston.log("verbose", "Sending " + commandName + " command to single Furby " + commandData.target + ", params: " + commandData.params);
+
+				const furbyId = commandData.target;
+				if (furbyId in furbies) {
+					furbies[furbyId].do(commandName, commandData.params);
+				} else {
+					winston.log("warn", "could not find target");
+					res.end("error: could not find target");
+				}
+			} else {
+				// Send command to a single one of the connected furbies
+				// Multiple furbies: Collect results from all furbies and respond
+				winston.log("verbose", "Sending " + commandName + " command to all Furbies, params:", commandData.params);
+				for (let furbyId in furbies) {
+					furbies[furbyId].do(commandName, commandData.params);
+				}
+			}
+			res.end("ok");
 		} catch (e) {
 			winston.log("warn", "Could not parse HTTP command: " + e);
 			res.end("error: " + e);
@@ -79,34 +98,9 @@ function parsePostCommand(commandName, req, res) {
 	});
 }
 
-function startCommand(name, post_data, res) {
-	// Send command to all connected furbies
-	if ("target" in post_data) {
-		winston.log("verbose", "Sending " + name + " command to single Furby " + post_data.target + ", params: " + post_data.params);
-
-		const furbyId = post_data.target;
-		if (furbyId in furbies) {
-			furbies[furbyId].do(name, post_data.params);
-			res.end();
-		} else {
-			winston.log("warn", "could not find target");
-			res.end("error: could not find target");
-		}
-	}
-	// Send command to a single one of the connected furbies
-	else {
-		// Multiple furbies: Collect results from all furbies and respond
-		winston.log("verbose", "Sending " + name + " command to all Furbies, params:", post_data.params);
-		for (let furbyId in furbies) {
-			furbies[furbyId].do(name, post_data.params);
-		}
-		res.end();
-	}
-}
-
 
 /*** noBLE Callbacks ***/
-noble.on("stateChange", function (state) {
+noble.on("stateChange", function(state) {
 	if (state === "poweredOn") {
 		noble.startScanning();
 	} else {
@@ -114,7 +108,7 @@ noble.on("stateChange", function (state) {
 	}
 });
 
-noble.on("discover", function (peripheral) {
+noble.on("discover", function(peripheral) {
 	if (peripheral.advertisement.localName === "Furby") {
 		winston.log("info", "Discovered Furby: " + peripheral.uuid);
 

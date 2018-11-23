@@ -25,9 +25,9 @@ module.exports = class Furby {
 	do(cmd, params) {
 		if (!this._commands[cmd]) {
 			winston.log("error", "Command not found: " + cmd);
+			throw "Command not found: " + cmd;
 		} else {
 			this._commands[cmd].run(this._connection, params);
 		}
 	}
 };
-

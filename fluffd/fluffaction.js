@@ -39,12 +39,16 @@ commands["lcd"] = {
 
 commands["action"] = {
 	run: function (fluff, params, callback) {
-		let localParams = params;
-		if(params.name) {
-			localParams = actions[params.name];
-		}
+		try {
+			let localParams = params;
+			if (params.name) {
+				localParams = actions[params.name];
+			}
 
-		fluff.generalPlusWrite(new Buffer([0x13, 0x00, localParams.input, localParams.index, localParams.subindex, localParams.specific]), callback);
+			fluff.generalPlusWrite(new Buffer([0x13, 0x00, localParams.input, localParams.index, localParams.subindex, localParams.specific]), callback);
+		} catch (e) {
+			throw "Action not found/not executable. params: " + params;
+		}
 	},
 	readable: "Action",
 	description: "Furby move / talk action",
