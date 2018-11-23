@@ -89,6 +89,10 @@ class Fluff {
 		this.subscribeNotifications();
 	}
 
+	subscribe(subscriber) {
+		this._subscriber = subscriber;
+	}
+
 	// Write one command to GeneralPlusWrite characteristic
 	generalPlusWrite(data, callback) {
 		this.gpWrite.write(data, true, function (error) {
@@ -164,6 +168,10 @@ class Fluff {
 			winston.log("verbose", "GP notification: " + data.toString("hex"));
 			for (let c of this.gpCallbacks)
 				c(data);
+
+			if (this._subscriber) {
+				this._subscriber(data);
+			}
 		});
 
 		this.rssiListen.on("data", (data, isNotification) => {
