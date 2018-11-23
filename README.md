@@ -59,6 +59,7 @@ This project contains reverse engineered documentation for different elements of
 ### Installation on Linux
 * Make sure you have [node.js](https://nodejs.org) installed
 * Clone this repository and navigate into the `fluffd` directory on the command line
+* Install `libudev-dev` dependency via apt (or equivalent for your distribution)
 * Execute `npm install` to download and install all dependencies
 * If you don't want to run fluffd as root / with sudo, see the [noble documentation](https://github.com/sandeepmistry/noble#running-on-linux) for details
 
