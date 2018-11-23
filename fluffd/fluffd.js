@@ -35,23 +35,52 @@ let furbies = {};
 /*** HTTP Server ***/
 http.createServer(function(req, res) {
 		let fragments = req.url.substring(1).split("/");
-		let query = fragments.splice(0, 2);
-		query.push(fragments.join("/"));
+		let urlFragments = fragments.splice(0, 2);
+		urlFragments.push(fragments.join("/"));
 
-		if (query[0] === "cmd") {
+		if (urlFragments[0] === "cmd") {
 			res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
 
 			// Answer CORS preflights / unknown requests
 			if (req.method === "POST") {
-				let commandName = query[1];
+				let commandName = urlFragments[1];
 				parsePostCommand(commandName, req, res);
 			} else {
 				res.end();
 			}
-		} else if (query[0] === "list") {
+		} else if (urlFragments[0] === "alert") {
+			res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
+			try {
+				if( req.method === "GET") {
+					let alertType = urlFragments[1];
+					let actionParams = {};
+					if (alertType === "problem") {
+						if(urlFragments.length > 3) {
+							actionParams.name = urlFragments[2];
+						} else {
+							actionParams.name = "long fart";
+						}
+						winston.log("verbose", "Sending problem-alert to all Furbies, params: " + actionParams.name);
+						handleAlertNotification("action", actionParams);
+					} else if (alertType === "resolved") {
+						if(urlFragments.length > 3) {
+							actionParams.name = urlFragments[2];
+						} else {
+							actionParams.name = "you like? Is all natural!";
+						}
+						winston.log("verbose", "Sending resolved-alert to all Furbies, params: " + actionParams.name);
+						handleAlertNotification("action", actionParams);
+					}
+				}
+				res.end("ok");
+			} catch (e) {
+				winston.log("warn", "Could not parse HTTP command: " + e);
+				res.end("error: " + e);
+			}
+		} else if (urlFragments[0] === "list") {
 			res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
 			res.end(JSON.stringify(fluffaction.list()));
-		} else if (query[0] === "scan") {
+		} else if (urlFragments[0] === "scan") {
 			noble.startScanning(); // TODO: this is for testing
 			res.end("scanning");
 		} else {
@@ -77,7 +106,7 @@ function parsePostCommand(commandName, req, res) {
 
 				const furbyId = commandData.target;
 				if (furbyId in furbies) {
-					furbies[furbyId].do(commandName, commandData.params);
+					performCommand(furbies[furbyId], commandName, commandData.params);
 				} else {
 					winston.log("warn", "could not find target");
 					res.end("error: could not find target");
@@ -87,7 +116,7 @@ function parsePostCommand(commandName, req, res) {
 				// Multiple furbies: Collect results from all furbies and respond
 				winston.log("verbose", "Sending " + commandName + " command to all Furbies, params:", commandData.params);
 				for (let furbyId in furbies) {
-					furbies[furbyId].do(commandName, commandData.params);
+					performCommand(furbies[furbyId], commandName, commandData.params);
 				}
 			}
 			res.end("ok");
@@ -96,7 +125,17 @@ function parsePostCommand(commandName, req, res) {
 			res.end("error: " + e);
 		}
 	});
+};
+
+function handleAlertNotification(commandName, params) {
+	for (let furbyId in furbies) {
+		performCommand(furbies[furbyId], commandName, params);
+	}
 }
+
+function performCommand(furby, commandName, params) {
+	furby.do(commandName, params);
+};
 
 
 /*** noBLE Callbacks ***/
