@@ -1,4 +1,6 @@
 const winston = require("winston");
+const FurbyState = require("./furbystate");
+
 winston.level = process.env.LOG_LEVEL || "debug";
 
 
@@ -23,42 +25,26 @@ module.exports = class Furby {
 		this._id = id;
 		this._connection = connection;
 		this._commands = {};
-		this._antennaPressed = false;
 
 		this._connection.subscribe((data) => this.onNotification(data));
-	}
+		this._state = new FurbyState();
+		this._state.subscribe("SCHWANZ", (state) => this.schwanzToggle(state));
+		this._state.subscribe("ZUNGE", (state) => this.zungeToggle(state));
 
-	hexToBin(hex) {
-
-		const bytes = [];
-		for(var i=0; i< hex.length-1; i+=2){
-			bytes.push(parseInt(hex.substr(i, 2), 16));
-		}
-
-		return String.fromCharCode.apply(String, bytes);
 
 	}
+
 
 	onNotification(data) {
+		this._state.changeState(data);
+	}
 
-		let binaryFoo = "";
-		for (let i = 0; i < data.length; i++) {
-			binaryFoo = binaryFoo + pad(data[i].toString(2), 8);
-		}
+	schwanzToggle(state) {
+		this.do("antenna", { green: state? 255:0, red: 0, blue: 0 })
+	}
 
-		let pressed = "";
-		for (let i = 0; i < binaryFoo.length; i++) {
-			const bit = binaryFoo[i];
-			if (bit === "1") {
-				pressed = pressed + i + " ";
-			}
-
-		}
-
-		winston.log("info", "bits pressed:" + binaryFoo + " ( " + pressed + ")");
-
-
-		//winston.log("info", "state changed " + binaryFoo);
+	zungeToggle(state) {
+		this.do("antenna", { red: state? 255:0, green: 0, blue: 0 })
 	}
 
 	getId() {
