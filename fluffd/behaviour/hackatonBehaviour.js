@@ -9,17 +9,17 @@ module.exports = class TestBehaviour {
 	}
 
 	startBehaviour(furby) {
-		furby.addEventListener("SCHWANZ", this.tail);
-		furby.addEventListener("ZUNGE", this.tounge);
-		furby.addEventListener("ANTENNE_VORNE", this.antenna1);
-		furby.addEventListener("ANTENNE_HINTEN", this.antenna2);
+		furby.addEventListener("TAIL", this.tail);
+		furby.addEventListener("TONGUE", this.tounge);
+		furby.addEventListener("ANTENNA_FRONT", this.antenna1);
+		furby.addEventListener("ANTENNA_BACK", this.antenna2);
 	}
 
 	stopBehaviour(furby) {
-		furby.removeEventListener("SCHWANZ", this.tail);
-		furby.removeEventListener("ZUNGE", this.tounge);
-		furby.removeEventListener("ANTENNE_VORNE", this.antenna1);
-		furby.removeEventListener("ANTENNE_HINTEN", this.antenna2);
+		furby.removeEventListener("TAIL", this.tail);
+		furby.removeEventListener("TONGUE", this.tounge);
+		furby.removeEventListener("ANTENNA_FRONT", this.antenna1);
+		furby.removeEventListener("ANTENNA_BACK", this.antenna2);
 	}
 
 	say(furby, what) {

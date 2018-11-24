@@ -10,11 +10,11 @@ module.exports = class RandomSayBehaviour {
 	}
 
 	startBehaviour(furby) {
-		furby.addEventListener("ANTENNE_LINKS", this.quoteListener);
+		furby.addEventListener("ANTENNA_LEFT", this.quoteListener);
 	}
 
 	stopBehaviour(furby) {
-		furby.removeEventListener("ANTENNE_LINKS", this.quoteListener);
+		furby.removeEventListener("ANTENNA_LEFT", this.quoteListener);
 	}
 
 	quote(furby) {
@@ -26,7 +26,6 @@ module.exports = class RandomSayBehaviour {
 		}
 		const actionNames = actionService.getActionNames();
 		const randomAction = actionNames[Math.floor(Math.random() * actionNames.length)];
-		const what = "nice";
 		furby.do("action", { name: randomAction});
 	}
 

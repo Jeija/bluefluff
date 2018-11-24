@@ -10,18 +10,28 @@ function pad(num, size) {
 
 const mapping = {
 	"ACTION_IN_PROGRESS" : 12,
-	"SCHWANZ" : 19,
-	"ZUNGE" : 18,
-	"ANTENNE_LINKS" : 14,
-	"ANTENNE_RECHTS" : 15,
-	"ANTENNE_HINTEN" : 16,
-	"ANTENNE_VORNE" : 17,
-	"STREICHELN" : 21,
-	"KIPPEN_LINKS" : 32,
-	"KIPPEN_RECHTS" : 33,
-	"KIPPEN_HINTEN" : 34,
-	"KIPPEN_VORNE" : 35,
+	"TAIL" : 19,
+	"TONGUE" : 18,
+	"ANTENNA_LEFT" : 14,
+	"ANTENNA_RIGHT" : 15,
+	"ANTENNA_BACK" : 16,
+	"ANTENNA_FRONT" : 17,
+	"PET_RIGHT" : 21,
+	"PET_LEFT" : 22,
+	"FORHEAD" : 23,
+	"TILT_LEFT" : 32,
+	"TILT_RIGHT" : 33,
+	"TILT_BACK" : 34,
+	"TILT_FRONT" : 35,
 };
+
+function bitToWhat(bit) {
+	for (let what in mapping) {
+		if (mapping[what] === bit) {
+			return what;
+		}
+	}
+}
 
 module.exports = class FurbyState {
 	constructor(connection) {
@@ -46,7 +56,7 @@ module.exports = class FurbyState {
 				pressed = pressed + i + " ";
 			}
 			if (this._lastBitmaskString[i] !== bit) {
-				changedBits = changedBits + i + " ";
+				changedBits = changedBits + (bitToWhat(i) || i) + "="+bit+ " ";
 				this.notifySubscribers(i, bit);
 			}
 
