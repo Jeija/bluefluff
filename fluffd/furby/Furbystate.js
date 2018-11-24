@@ -9,6 +9,7 @@ function pad(num, size) {
 
 
 const mapping = {
+	"ACTION_IN_PROGRESS" : 12,
 	"SCHWANZ" : 19,
 	"ZUNGE" : 18,
 	"ANTENNE_LINKS" : 14,

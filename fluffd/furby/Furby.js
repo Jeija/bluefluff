@@ -1,5 +1,5 @@
 const winston = require("winston");
-const FurbyState = require("./furbystate");
+const FurbyState = require("./Furbystate");
 
 winston.level = process.env.LOG_LEVEL || "debug";
 
