@@ -26,25 +26,17 @@ module.exports = class Furby {
 		this._connection = connection;
 		this._commands = {};
 
-		this._connection.subscribe((data) => this.onNotification(data));
-		this._state = new FurbyState();
+		this._state = new FurbyState(connection);
 		this._state.subscribe("SCHWANZ", (state) => this.schwanzToggle(state));
 		this._state.subscribe("ZUNGE", (state) => this.zungeToggle(state));
 		this._state.subscribe("ANTENNE_VORNE", (state) => state && this.say("wet fart- sniff earthy- with a hint of banana cake"));
 		this._state.subscribe("ANTENNE_HINTEN", (state) => state && this.say("nice"));
-		// this._state.subscribe("KIPPEN_LINKS", (state) => state && this.care());
-		// this._state.subscribe("KIPPEN_RECHTS", (state) => state && this.care());
-		// this._state.subscribe("KIPPEN_VORNE", (state) => state && this.care());
-		// this._state.subscribe("KIPPEN_HINTEN", (state) => state && this.care());
 	}
 
 	say(what) {
 		this.do("action", { name: what});
 	}
 
-	onNotification(data) {
-		this._state.changeState(data);
-	}
 
 	schwanzToggle(state) {
 		this.do("antenna", { green: state? 255:0, red: 0, blue: 0 })

@@ -23,47 +23,49 @@ const mapping = {
 };
 
 module.exports = class FurbyState {
-	constructor() {
-		this._lastState = "";
+	constructor(connection) {
+		this._connection = connection;
+		this._lastBitmaskString = pad(0, "64");
 		this._subscribers = {};
+
+		this._connection.subscribe((data) => this.onNotification(data));
 	}
 
-	subscribe(what, callback) {
-		let subscribers = this._subscribers[what];
-		if (! subscribers) {
-			subscribers = [];
-		}
-		this._subscribers[what] = subscribers;
-
-		subscribers.push(callback);
-	}
-
-
-	changeState(data) {
-
-		let binaryFoo = "";
+	onNotification(data) {
+		let bitmaskString = "";
 		let changedBits = "";
 		for (let i = 0; i < data.length; i++) {
-			binaryFoo = binaryFoo + pad(data[i].toString(2), 8);
+			bitmaskString = bitmaskString + pad(data[i].toString(2), 8);
 		}
 
 		let pressed = "";
-		for (let i = 0; i < binaryFoo.length; i++) {
-			const bit = binaryFoo[i];
+		for (let i = 0; i < bitmaskString.length; i++) {
+			const bit = bitmaskString[i];
 			if (bit === "1") {
 				pressed = pressed + i + " ";
 			}
-			if (this._lastState[i] !== bit) {
+			if (this._lastBitmaskString[i] !== bit) {
 				changedBits = changedBits + i + " ";
 				this.notifySubscribers(i, bit);
 			}
 
 		}
 
-		winston.log("info", "state [ " + changedBits + "] " + binaryFoo + " ( " + pressed + ")");
+		winston.log("info", "state [ " + changedBits + "] " + bitmaskString + " ( " + pressed + ")");
 
-		this._lastState = binaryFoo;
+		this._lastBitmaskString = bitmaskString;
 
+	}
+
+
+	subscribe(what, callback) {
+		let subscribers = this._subscribers[what];
+		if (! subscribers) {
+			subscribers = [];
+			this._subscribers[what] = subscribers;
+		}
+
+		subscribers.push(callback);
 	}
 
 
@@ -79,7 +81,7 @@ module.exports = class FurbyState {
 	}
 
 	isOn(what) {
-		return this._lastState[mapping[what]] === "1";
+		return this._lastBitmaskString[mapping[what]] === "1";
 	}
 
 	isOff(what) {
