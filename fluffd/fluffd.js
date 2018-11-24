@@ -28,7 +28,8 @@ winston.level = process.env.LOG_LEVEL || "debug";
 const fluffaction = require("./fluffaction");
 const fluffcon = require("./fluffcon");
 const Furby = require("./furby");
-const TestBehaviour = require("./testBehaviour");
+const HackatonBehaviour = require("./hackatonBehaviour");
+const RandomSayBehaviour = require("./randomSayBehaviour");
 
 // List of connected Furbies
 let furbies = {};
@@ -172,7 +173,8 @@ noble.on("discover", function(peripheral) {
 		fluffcon.connect(peripheral, function (fluff) {
 			const furby = new Furby(peripheral.uuid, fluff);
 			furby.learn(fluffaction.commands);
-			furby.addBehaviour(new TestBehaviour());
+			furby.addBehaviour(new HackatonBehaviour());
+			furby.addBehaviour(new RandomSayBehaviour());
 			furbies[peripheral.uuid] = furby;
 		});
 	}
