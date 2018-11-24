@@ -27,24 +27,36 @@ module.exports = class Furby {
 		this._commands = {};
 
 		this._state = new FurbyState(connection);
-		this._state.subscribe("SCHWANZ", (state) => this.schwanzToggle(state));
-		this._state.subscribe("ZUNGE", (state) => this.zungeToggle(state));
-		this._state.subscribe("ANTENNE_VORNE", (state) => state && this.say("wet fart- sniff earthy- with a hint of banana cake"));
-		this._state.subscribe("ANTENNE_HINTEN", (state) => state && this.say("nice"));
+
+		this._subscriptions = {};
 	}
 
-	say(what) {
-		this.do("action", { name: what});
+	addBehaviour(behaviour) {
+		behaviour.startBehaviour(this);
 	}
 
-
-	schwanzToggle(state) {
-		this.do("antenna", { green: state? 255:0, red: 0, blue: 0 })
+	removeBehaviour(behaviour) {
+		behaviour.stopBehaviour(this);
 	}
 
-	zungeToggle(state) {
-		this.do("antenna", { red: state? 255:0, green: 0, blue: 0 })
+	addEventListener(what, callback) {
+		const furby = this;
+		const subscription = data => callback(furby, data);
+		this._state.subscribe(what, subscription);
+
+		this._subscriptions[callback] = subscription;
 	}
+
+	removeEventListener(what, callback) {
+		const subscription = this._subscriptions[callback];
+		if (! subscription) {
+			winston.warn("no subscription for given callback present");
+			return;
+		}
+
+		this._state.unsubscribe(what, subscription);
+	}
+
 
 	getId() {
 		return this._id;
@@ -63,5 +75,13 @@ module.exports = class Furby {
 		} else {
 			this._commands[cmd].run(this._connection, params);
 		}
+	}
+
+	isOn(what) {
+		return this._state.isOn(what);
+	}
+
+	isOff(what) {
+		return this._state.isOff(what);
 	}
 };
