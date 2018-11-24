@@ -27,10 +27,9 @@ winston.level = process.env.LOG_LEVEL || "debug";
 // Project
 const fluffcon = require("./fluffcon");
 const FurbyFactory = require("./furby/FurbyFactory");
-
+const fluffaction = require("./action/fluffaction");
 
 const factory = new FurbyFactory();
-
 // List of connected Furbies
 
 /*** HTTP Server ***/
