@@ -68,6 +68,14 @@ module.exports = class FurbyState {
 		subscribers.push(callback);
 	}
 
+	unsubscribe(what, callback) {
+		let subscribers = this._subscribers[what];
+		if (subscribers) {
+			this._subscribers[what] = subscribers.filter(function(subscriber) {
+				return subscriber !== callback
+			});
+		}
+	}
 
 	notifySubscribers(bitIndex, bit) {
 		for (let what in mapping) {
