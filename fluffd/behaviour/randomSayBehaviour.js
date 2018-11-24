@@ -18,12 +18,7 @@ module.exports = class RandomSayBehaviour {
 	}
 
 	quote(furby) {
-		const ready = furby.isOff('ACTION_IN_PROGRESS');
-		console.log('info', '### ready bit is ' + ready);
 
-		if (! ready) {
-			return;
-		}
 		const actionNames = actionService.getActionNames();
 		const randomAction = actionNames[Math.floor(Math.random() * actionNames.length)];
 		furby.do("action", { name: randomAction});
