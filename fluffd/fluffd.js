@@ -25,14 +25,13 @@ const http = require("http");
 winston.level = process.env.LOG_LEVEL || "debug";
 
 // Project
-const fluffaction = require("./fluffaction");
 const fluffcon = require("./fluffcon");
-const Furby = require("./furby");
-const HackatonBehaviour = require("./hackatonBehaviour");
-const RandomSayBehaviour = require("./randomSayBehaviour");
+const FurbyFactory = require("./furby/FurbyFactory");
+
+
+const factory = new FurbyFactory();
 
 // List of connected Furbies
-let furbies = {};
 
 /*** HTTP Server ***/
 http.createServer(function(req, res) {
@@ -113,10 +112,14 @@ function parsePostCommand(commandName, req, res) {
 		let commandData;
 		try {
 			commandData = JSON.parse(commandDataString);
+
+			const furbies = factory.getFurbies();
+
 			if ("target" in commandData) {
 				winston.log("verbose", "Sending " + commandName + " command to single Furby " + commandData.target + ", params: " + commandData.params);
 
 				const furbyId = commandData.target;
+
 				if (furbyId in furbies) {
 					performCommand(furbies[furbyId], commandName, commandData.params);
 				} else {
@@ -140,7 +143,7 @@ function parsePostCommand(commandName, req, res) {
 };
 
 function handleAlertNotification(commandName, params) {
-	for (let furbyId in furbies) {
+	for (let furbyId in factory.getFurbies()) {
 		performCommand(furbies[furbyId], commandName, params);
 	}
 }
@@ -159,6 +162,7 @@ noble.on("stateChange", function(state) {
 	}
 });
 
+
 noble.on("discover", function(peripheral) {
 	if (peripheral.advertisement.localName === "Furby") {
 		winston.log("info", "Discovered Furby: " + peripheral.uuid);
@@ -171,11 +175,7 @@ noble.on("discover", function(peripheral) {
 
 		// Normal server mode
 		fluffcon.connect(peripheral, function (fluff) {
-			const furby = new Furby(peripheral.uuid, fluff);
-			furby.learn(fluffaction.commands);
-			furby.addBehaviour(new HackatonBehaviour());
-			furby.addBehaviour(new RandomSayBehaviour());
-			furbies[peripheral.uuid] = furby;
+			factory.createFurby(peripheral.uuid, fluff);
 		});
 	}
 });
