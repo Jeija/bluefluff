@@ -2,6 +2,7 @@ const winston = require("winston");
 winston.level = process.env.LOG_LEVEL || "debug";
 const HackatonBehaviour = require("../behaviour/hackatonBehaviour");
 const RandomSayBehaviour = require("../behaviour/randomSayBehaviour");
+const TailActivationBehaviour = require("../behaviour/tailActivationBehaviour");
 const ActionService = require("../action/ActionService");
 
 const Furby = require("../furby/Furby");
@@ -24,6 +25,7 @@ module.exports = class FurbyFactory {
 		furby.learn(actionService.getCommands());
 		furby.addBehaviour(new HackatonBehaviour());
 		furby.addBehaviour(new RandomSayBehaviour());
+		furby.addBehaviour(new TailActivationBehaviour());
 
 		this._furbies[uuid] = furby;
 
