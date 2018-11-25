@@ -155,7 +155,7 @@ commands["flashdlc"] = {
 		fluff.addGeneralPlusCallback(function(data) {
 			if (!(data[0] == 0x24 && data[1] == 0x02))
 				return;
-			winston.log("info", "FlashDLC: Got Ready to Receive");
+			winston.info( "FlashDLC: Got Ready to Receive");
 
 			fs.readFile(params.dlcfile, function(error, dlc) {
 				if (error)
@@ -235,7 +235,7 @@ commands["other"] = {
 module.exports = {
 	execute : function(fluff, cmd, params, callback) {
 		if (!commands[cmd])
-			winston.log("error", "Command not found: " + cmd);
+			winston.error( "Command not found: " + cmd);
 		else
 			commands[cmd].run(fluff, params, callback);
 	},
