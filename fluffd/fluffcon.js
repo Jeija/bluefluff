@@ -25,12 +25,12 @@ const FURBY = {
 // Otherwise, Furby will remain in a state where it doesn't accept any connection attempts.
 function exitHandler(furby) {
 	process.on("SIGINT", function() {
-		winston.info( "\nClosing connection...");
+		winston.info("\nClosing connection...");
 		furby.disconnect(function(error) {
 			if (error)
-				winston.error( "Error while disconnecting: " + error);
+				winston.error("Error while disconnecting: " + error);
 			else
-				winston.info( "Disconnected, exiting.");
+				winston.info("Disconnected, exiting.");
 
 			// TODO: This does not work with multiple furbies connect
 			process.exit();
@@ -43,13 +43,13 @@ function exitHandler(furby) {
 function getFurbyCharacteristics(furby, serviceUUID, characteristicUUIDs, callback) {
 	furby.discoverServices([serviceUUID], function(error, services) {
 		if (error) {
-			winston.error( "Error in discoverServices: " + error);
+			winston.error("Error in discoverServices: " + error);
 			return;
 		}
 
 		services[0].discoverCharacteristics(characteristicUUIDs, function(error, characteristics) {
 			if (error) {
-				winston.error( "Error in discoverCharacteristics: " + error);
+				winston.error("Error in discoverCharacteristics: " + error);
 				return;
 			}
 
@@ -93,10 +93,10 @@ class Fluff {
 	generalPlusWrite(data, callback) {
 		this.gpWrite.write(data, true, function(error) {
 			if (error) {
-				winston.warn( "Error in generalPlusWrite: " + error);
+				winston.warn("Error in generalPlusWrite: " + error);
 				if (callback) callback("generalPlusWrite: " + error);
 			} else {
-				winston.verbose( "generalPlusWrite: " + data.toString("hex"));
+				winston.verbose("generalPlusWrite: " + data.toString("hex"));
 				if (callback) callback(false);
 			}
 		});
@@ -110,7 +110,7 @@ class Fluff {
 			if (i < sequence.length) {
 				this.gpWrite.write(sequence[i], true, function(error) {
 					if (error) {
-						winston.warn( "Error in generalPlusWriteSequence: " + error);
+						winston.warn("Error in generalPlusWriteSequence: " + error);
 						if (callback) callback("generalPlusWriteSequence: " + error);
 						return;
 					}
@@ -130,10 +130,10 @@ class Fluff {
 	nordicWrite(data, callback) {
 		this.nWrite.write(data, true, function(error) {
 			if (error) {
-				winston.warn( "Error in nordicWrite: " + error);
+				winston.warn("Error in nordicWrite: " + error);
 				if (callback) callback("nordicWrite: " + error);
 			} else {
-				winston.verbose( "nordicWrite: " + data.toString("hex"));
+				winston.verbose("nordicWrite: " + data.toString("hex"));
 				if (callback) callback(false);
 			}
 		});
@@ -143,10 +143,10 @@ class Fluff {
 	writeToSlot(data, callback) {
 		this.fileWrite.write(data, true, function(error) {
 			if (error) {
-				winston.warn( "Error in writeToSlot: " + error);
+				winston.warn("Error in writeToSlot: " + error);
 				if (callback) callback("writeToSlot: " + error);
 			} else {
-				winston.verbose( "writeToSlot: " + data.toString("hex"));
+				winston.verbose("writeToSlot: " + data.toString("hex"));
 				if (callback) callback(false);
 			}
 		});
@@ -155,34 +155,34 @@ class Fluff {
 	// Subscribe to GeneralPlusListen, RSSIListen and NordicListen characteristics
 	subscribeNotifications() {
 		this.nListen.on("data", (data, isNotification) => {
-			winston.verbose( "Nordic notification: " + data.toString("hex"));
+			winston.verbose("Nordic notification: " + data.toString("hex"));
 			for (let c of this.nCallbacks)
 				c(data);
 		});
 
 		this.gpListen.on("data", (data, isNotification) => {
-			winston.verbose( "GP notification: " + data.toString("hex"));
+			winston.verbose("GP notification: " + data.toString("hex"));
 			for (let c of this.gpCallbacks)
 				c(data);
 		});
 
 		this.rssiListen.on("data", (data, isNotification) => {
-			winston.verbose( "RSSI notification: " + data.toString("hex"));
+			winston.verbose("RSSI notification: " + data.toString("hex"));
 		});
 
 		this.nListen.subscribe((error) => {
 			if (error)
-				winston.error( "Error while subscribing to NordicListen: " + error);
+				winston.error("Error while subscribing to NordicListen: " + error);
 		});
 
 		this.gpListen.subscribe((error) => {
 			if (error)
-				winston.error( "Error while subscribing to GeneralPlusListen: " + error);
+				winston.error("Error while subscribing to GeneralPlusListen: " + error);
 		});
 
 		this.rssiListen.subscribe((error) => {
 			if (error)
-				winston.error( "Error while subscribing to RSSIListen: " + error);
+				winston.error("Error while subscribing to RSSIListen: " + error);
 		});
 	}
 
@@ -225,7 +225,7 @@ module.exports = {}
 module.exports.connect = function(furby, callback) {
 	furby.connect(function(error) {
 		if (error) {
-			winston.error( "Error while connecting: " + error);
+			winston.error("Error while connecting: " + error);
 			return;
 		}
 
@@ -243,7 +243,7 @@ module.exports.connect = function(furby, callback) {
 			callback(new Fluff(gpWrite, gpListen, nWrite, nListen, rssiListen, fileWrite));
 		});
 
-		winston.info( "Connected to Furby");
+		winston.info("Connected to Furby");
 	});
 };
 
@@ -252,7 +252,7 @@ module.exports.introspect = function(furby) {
 
 	furby.connect(function(error) {
 		if (error) {
-			winston.error( "Error while connecting for introspection: " + error);
+			winston.error("Error while connecting for introspection: " + error);
 			return;
 		}
 
@@ -273,9 +273,9 @@ module.exports.introspect = function(furby) {
 					if (count >= services.length) {
 						furby.disconnect(function(error) {
 							if (error)
-								winston.error( "Error while disconnecting: " + error);
+								winston.error("Error while disconnecting: " + error);
 							else
-								winston.info( "Disconnected, exiting")
+								winston.info("Disconnected, exiting")
 
 							process.exit();
 						});

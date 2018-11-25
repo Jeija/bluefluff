@@ -55,18 +55,18 @@ function startCommand(name, post_data, res) {
 				respond(multiple_errstring === "" ? false : multiple_errstring);
 		}
 
-		winston.verbose( "Sending " + name + " command to all Furbies, params:", post_data.params);
+		winston.verbose("Sending " + name + " command to all Furbies, params:", post_data.params);
 		for (let uuid in furbies)
 			fluffaction.execute(furbies[uuid], name, post_data.params, respond_single);
 
 	// Send command to a single one of the connected furbies
 	} else {
-		winston.verbose( "Sending " + name + " command to single Furby " + post_data.target + ", params: " + post_data.params);
+		winston.verbose("Sending " + name + " command to single Furby " + post_data.target + ", params: " + post_data.params);
 
 		if (post_data.target in furbies) {
 			fluffaction.execute(furbies[post_data.target], name, post_data.params, respond);
 		} else {
-			winston.warn( "could not find target");
+			winston.warn("could not find target");
 			res.end("error: could not find target");
 		}
 	}
@@ -82,7 +82,7 @@ function parseCommand(name, req, res) {
 			post_data = JSON.parse(POST);
 			startCommand(name, post_data, res);
 		} catch(e) {
-			winston.warn( "Could not parse HTTP command: " + e);
+			winston.warn("Could not parse HTTP command: " + e);
 			res.end("error: " + e);
 			return;
 		}
@@ -127,7 +127,7 @@ noble.on("stateChange", function(state) {
 
 noble.on("discover", function(peripheral) {
 	if(peripheral.advertisement.localName === "Furby") {
-		winston.info( "Discovered Furby: " + peripheral.uuid);
+		winston.info("Discovered Furby: " + peripheral.uuid);
 
 		// Introspection mode
 		if (process.argv[2] === "introspect") {
