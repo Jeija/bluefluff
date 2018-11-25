@@ -256,18 +256,18 @@ module.exports.introspect = function(furby) {
 			return;
 		}
 
-		console.log("GATT data structure of furby with UUID " + furby.uuid);
+		winston.log("info","GATT data structure of furby with UUID " + furby.uuid);
 		furby.discoverServices(null, function(error, services) {
-			console.log("Furby exposes the following services: ");
+			winston.log("info","Furby exposes the following services: ");
 
 			let count = 0;
 
 			// Scan all characteristics
 			services.forEach(function(ser, idx) {
 				ser.discoverCharacteristics(null, function(error, characteristics) {
-					console.log(" " + idx + ") uuid: " + ser.uuid + ", with characteristics: ");
+					winston.log("info"," " + idx + ") uuid: " + ser.uuid + ", with characteristics: ");
 					for (let i in characteristics)
-						console.log("    > uuid: " + characteristics[i]);
+						winston.log("info","    > uuid: " + characteristics[i]);
 
 					count++;
 					if (count >= services.length) {
