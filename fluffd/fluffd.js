@@ -19,10 +19,9 @@
  */
 
 // System: HTTP server and Bluetooth Low Energy Library
-const winston = require("winston");
+const winston = require("./logger");
 const noble = require("noble");
 const http = require("http");
-winston.level = process.env.LOG_LEVEL || "debug";
 
 // Project
 const fluffaction = require("./fluffaction");

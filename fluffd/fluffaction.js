@@ -1,4 +1,4 @@
-const winston = require("winston");
+const winston = require("./logger");
 const fs = require("fs");
 let commands = {};
 
