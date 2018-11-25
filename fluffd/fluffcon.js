@@ -1,5 +1,5 @@
 const winston = require("winston");
-const noble = require("noble");
+
 
 /*
  * Bluetooth LE GATT Services and Characteristics
@@ -154,19 +154,19 @@ class Fluff {
 
 	// Subscribe to GeneralPlusListen, RSSIListen and NordicListen characteristics
 	subscribeNotifications() {
-		this.nListen.on("data", (data, isNotification) => {
+		this.nListen.on("data", (data) => {
 			winston.log("verbose", "Nordic notification: " + data.toString("hex"));
 			for (let c of this.nCallbacks)
 				c(data);
 		});
 
-		this.gpListen.on("data", (data, isNotification) => {
+		this.gpListen.on("data", (data) => {
 			winston.log("verbose", "GP notification: " + data.toString("hex"));
 			for (let c of this.gpCallbacks)
 				c(data);
 		});
 
-		this.rssiListen.on("data", (data, isNotification) => {
+		this.rssiListen.on("data", (data) => {
 			winston.log("verbose", "RSSI notification: " + data.toString("hex"));
 		});
 
@@ -220,7 +220,7 @@ class Fluff {
 /*
  * Functions to be exported TODO: disconnect
  */
-module.exports = {}
+module.exports = {};
 
 module.exports.connect = function(furby, callback) {
 	furby.connect(function(error) {
@@ -256,18 +256,18 @@ module.exports.introspect = function(furby) {
 			return;
 		}
 
-		console.log("GATT data structure of furby with UUID " + furby.uuid);
+		winston.log("info", "GATT data structure of furby with UUID " + furby.uuid);
 		furby.discoverServices(null, function(error, services) {
-			console.log("Furby exposes the following services: ");
+			winston.log("info", "Furby exposes the following services: ");
 
 			let count = 0;
 
 			// Scan all characteristics
 			services.forEach(function(ser, idx) {
 				ser.discoverCharacteristics(null, function(error, characteristics) {
-					console.log(" " + idx + ") uuid: " + ser.uuid + ", with characteristics: ");
+					winston.log("info", " " + idx + ") uuid: " + ser.uuid + ", with characteristics: ");
 					for (let i in characteristics)
-						console.log("    > uuid: " + characteristics[i]);
+						winston.log("info", "    > uuid: " + characteristics[i]);
 
 					count++;
 					if (count >= services.length) {
@@ -275,7 +275,7 @@ module.exports.introspect = function(furby) {
 							if (error)
 								winston.log("error", "Error while disconnecting: " + error);
 							else
-								winston.log("info", "Disconnected, exiting")
+								winston.log("info", "Disconnected, exiting");
 
 							process.exit();
 						});

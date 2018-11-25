@@ -2,7 +2,7 @@
  * fluffd: Furby Bluetooth Low Energy / Bluetooth Smart Communication Server:
  * Connect to Furby, start fluff server:
  * node fluffd.js
- * 
+ *
  * Connect to Furby, show all BLE services and characteristics and exit:
  * node main.js introspect
  *
@@ -92,7 +92,7 @@ function parseCommand(name, req, res) {
 http.createServer(function(req, res) {
 	let fragments = req.url.substring(1).split("/");
 	let query = fragments.splice(0, 2);
-	query.push(fragments.join('/'));
+	query.push(fragments.join("/"));
 
 	if (query[0] === "cmd") {
 		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin" : "*"});
