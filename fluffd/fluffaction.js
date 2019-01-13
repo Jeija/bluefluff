@@ -14,10 +14,10 @@ commands["antenna"] = {
 		green: "Brightness of green antenna LED (0-255)",
 		blue: "Brightness of blue antenna LED (0-255)",
 	}
-}
+};
 
 commands["debug"] = {
-	run: function (fluff, callback, callback) {
+	run: function (fluff, callback) {
 		fluff.generalPlusWrite(new Buffer([0xdb]), callback);
 	},
 	readable: "Debug Screen",
@@ -33,7 +33,7 @@ commands["lcd"] = {
 	params: {
 		state: "0 for off, 1 for on"
 	}
-}
+};
 
 commands["action"] = {
 	run: function (fluff, params, callback) {
@@ -47,7 +47,7 @@ commands["action"] = {
 		subindex: "Subindex of action",
 		specific: "Specific action"
 	}
-}
+};
 
 commands["setname"] = {
 	run: function (fluff, params, callback) {
@@ -62,7 +62,7 @@ commands["setname"] = {
 	params: {
 		name: "New name, value from 0-128"
 	}
-}
+};
 
 commands["custom"] = {
 	run: function (fluff, params, callback) {
@@ -73,10 +73,10 @@ commands["custom"] = {
 	params: {
 		cmd: "Command in hexadecimal format"
 	}
-}
+};
 
 commands["setidle"] = {
-	run: function (fluff, params, callback) {
+	run: function (fluff, params) {
 		if (params.idle === "1")
 			fluff.startIdle();
 		if (params.idle === "0")
@@ -87,7 +87,7 @@ commands["setidle"] = {
 	params: {
 		idle: "1 = keep quiet (idle), 0 = don't idle"
 	}
-}
+};
 
 commands["moodmeter"] = {
 	run: function (fluff, params, callback) {
@@ -100,7 +100,7 @@ commands["moodmeter"] = {
 		type: "0 = Excited, 1 = Displeased, 2 = Tired, 3 = Fullness, 4 = Wellness",
 		value: "New value (action 1) or delta (action 0)"
 	}
-}
+};
 
 /*** Nordic Actions ***/
 commands["nordic_custom"] = {
@@ -112,7 +112,7 @@ commands["nordic_custom"] = {
 	params: {
 		cmd: "Command in hexadecimal format"
 	}
-}
+};
 
 commands["nordic_packetack"] = {
 	run: function (fluff, params, callback) {
@@ -123,7 +123,7 @@ commands["nordic_packetack"] = {
 	params: {
 		state: "0 for off, 1 for on"
 	}
-}
+};
 
 /*** DLC-related Actions ***/
 commands["dlc_delete"] = {
@@ -135,11 +135,11 @@ commands["dlc_delete"] = {
 	params: {
 		slot: "Slot to be deleted (number)"
 	}
-}
+};
 
 commands["flashdlc"] = {
-	run: function (fluff, params, callback) {
-		dlcsize = fs.statSync(params.dlcfile)["size"]
+	run : function (fluff, params, callback) {
+		const dlcsize = fs.statSync(params.dlcfile)["size"];
 
 		// Not sure what buf_slot does?? Is it really the DLC slot??
 		let buf_cmd = Buffer.from([0x50, 0x00]);
@@ -163,8 +163,9 @@ commands["flashdlc"] = {
 
 				// Write DLC piece by piece
 				let offset = 0;
+
 				let flashint = setInterval(function () {
-					piece = dlc.slice(offset, offset + 20)
+					const piece = dlc.slice(offset, offset + 20);
 					fluff.writeToSlot(piece);
 
 					// End of buffer: Stop writing
@@ -182,7 +183,7 @@ commands["flashdlc"] = {
 		filename: "DLC filename, e.g. TU003410.DLC",
 		dlcfile: "Path to DLC file on fluffd server"
 	}
-}
+};
 
 commands["dlc_load"] = {
 	run: function (fluff, params, callback) {
@@ -193,7 +194,7 @@ commands["dlc_load"] = {
 	params: {
 		slot: "DLC slot to be loaded (number)"
 	}
-}
+};
 
 commands["dlc_activate"] = {
 	run: function (fluff, params, callback) {
@@ -212,7 +213,7 @@ commands["dlc_deactivate"] = {
 	params: {
 		slot: "DLC slot to be deactivated (number)"
 	}
-}
+};
 
 /*** Preprogrammed buttons that you can add yourself ***/
 commands["other"] = {
@@ -250,7 +251,7 @@ commands["other"] = {
 			"params": {"red": 0, "blue": 0, "green": 255}
 		},
 	}
-}
+};
 
 module.exports = {
 	execute: function (fluff, cmd, params, callback) {
@@ -275,4 +276,4 @@ module.exports = {
 
 		return list;
 	}
-}
+};

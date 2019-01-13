@@ -1,5 +1,4 @@
 const winston = require("./logger");
-const noble = require("noble");
 
 /*
  * Bluetooth LE GATT Services and Characteristics
@@ -154,19 +153,19 @@ class Fluff {
 
 	// Subscribe to GeneralPlusListen, RSSIListen and NordicListen characteristics
 	subscribeNotifications() {
-		this.nListen.on("data", (data, isNotification) => {
+		this.nListen.on("data", (data) => {
 			winston.verbose("Nordic notification: " + data.toString("hex"));
 			for (let c of this.nCallbacks)
 				c(data);
 		});
 
-		this.gpListen.on("data", (data, isNotification) => {
+		this.gpListen.on("data", (data) => {
 			winston.verbose("GP notification: " + data.toString("hex"));
 			for (let c of this.gpCallbacks)
 				c(data);
 		});
 
-		this.rssiListen.on("data", (data, isNotification) => {
+		this.rssiListen.on("data", (data) => {
 			winston.verbose("RSSI notification: " + data.toString("hex"));
 		});
 
@@ -220,7 +219,7 @@ class Fluff {
 /*
  * Functions to be exported TODO: disconnect
  */
-module.exports = {}
+module.exports = {};
 
 module.exports.connect = function (furby, callback) {
 	furby.connect(function (error) {
