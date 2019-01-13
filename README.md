@@ -59,6 +59,7 @@ This project contains reverse engineered documentation for different elements of
 ### Installation on Linux
 * Make sure you have [node.js](https://nodejs.org) installed
 * Clone this repository and navigate into the `fluffd` directory on the command line
+* Make sure you have `udev` development files installed. On Debian-based distributions, install `libudev-dev` using `apt install libudev-dev` as root / sudo.
 * Execute `npm install` to download and install all dependencies
 * If you don't want to run fluffd as root / with sudo, see the [noble documentation](https://github.com/sandeepmistry/noble#running-on-linux) for details
 
@@ -69,6 +70,13 @@ This project contains reverse engineered documentation for different elements of
 * Execute `npm install xpc-connection` to install XPC Connection bindings for node.js. XPC is macOS-specific, so this is not required on other platforms.
 
 ### Start fluffd
+Make sure bluetooth is enabled, unblocked and that your operating system's bluetooth daemon (e.g. BlueZ on Linux) is running.
+On most Linux distributions, you can achieve this by executing
+```bash
+rfkill unblock bluetooth
+systemctl start bluetooth
+```
+
 Launch fluffd using
 ```bash
 node fluffd.js
