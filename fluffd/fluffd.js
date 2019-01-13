@@ -45,6 +45,7 @@ function startCommand(name, post_data, res) {
 		// Multiple furbies: Collect results from all furbies and respond
 		let multiple_count = 0;
 		let multiple_errstring = "";
+
 		function respond_single(error) {
 			if (error != false)
 				multiple_errstring += error + "; ";
@@ -58,7 +59,7 @@ function startCommand(name, post_data, res) {
 		for (let uuid in furbies)
 			fluffaction.execute(furbies[uuid], name, post_data.params, respond_single);
 
-	// Send command to a single one of the connected furbies
+		// Send command to a single one of the connected furbies
 	} else {
 		winston.verbose("Sending " + name + " command to single Furby " + post_data.target + ", params: " + post_data.params);
 
@@ -74,8 +75,10 @@ function startCommand(name, post_data, res) {
 function parseCommand(name, req, res) {
 	let POST = "";
 
-	req.on("data", function(data) { POST += data; });
-	req.on("end", function() {
+	req.on("data", function (data) {
+		POST += data;
+	});
+	req.on("end", function () {
 		let post_data;
 		try {
 			post_data = JSON.parse(POST);
@@ -88,13 +91,13 @@ function parseCommand(name, req, res) {
 	});
 }
 
-http.createServer(function(req, res) {
+http.createServer(function (req, res) {
 	let fragments = req.url.substring(1).split("/");
 	let query = fragments.splice(0, 2);
 	query.push(fragments.join('/'));
 
 	if (query[0] === "cmd") {
-		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin" : "*"});
+		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
 
 		// Answer CORS preflights / unknown requests
 		if (req.method === "POST")
@@ -102,21 +105,23 @@ http.createServer(function(req, res) {
 		else
 			res.end();
 	} else if (query[0] === "list") {
-		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin" : "*"});
+		res.writeHead(200, {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"});
 		res.end(JSON.stringify(fluffaction.list()));
 	} else if (query[0] === "scan") {
 		noble.startScanning(); // TODO: this is for testing
 		res.end("scanning");
 	} else {
 		// empty answer, but with Access-Control-Allow-Origin: *
-		res.writeHead(200, {"Content-Type": "text/plain",
-			"Access-Control-Allow-Origin" : "*"});
+		res.writeHead(200, {
+			"Content-Type": "text/plain",
+			"Access-Control-Allow-Origin": "*"
+		});
 		res.end();
 	}
 }).listen(3872);
 
 /*** noBLE Callbacks ***/
-noble.on("stateChange", function(state) {
+noble.on("stateChange", function (state) {
 	if (state === "poweredOn") {
 		noble.startScanning();
 	} else {
@@ -135,7 +140,7 @@ noble.on("discover", function(peripheral) {
 		}
 
 		// Normal server mode
-		fluffcon.connect(peripheral, function(fluff) {
+		fluffcon.connect(peripheral, function (fluff) {
 			furbies[peripheral.uuid] = fluff;
 		});
 	}
