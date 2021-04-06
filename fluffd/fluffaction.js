@@ -17,7 +17,7 @@ commands["antenna"] = {
 };
 
 commands["debug"] = {
-	run: function (fluff, callback) {
+	run: function (fluff, params, callback) {
 		fluff.generalPlusWrite(new Buffer([0xdb]), callback);
 	},
 	readable: "Debug Screen",
