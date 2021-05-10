@@ -20,7 +20,7 @@
 
 // System: HTTP server and Bluetooth Low Energy Library
 const winston = require("./logger");
-const noble = require("noble");
+const noble = require("@abandonware/noble");
 const http = require("http");
 
 // Project
