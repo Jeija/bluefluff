@@ -36,7 +36,7 @@ First things first: My Furby Connect "Dee-Koh" is safe and has not been harmed i
 ## General
 The Furby Connect contains two (or more) microcontrollers, one from **GeneralPlus** which appears to be in control of movement, the LCD eyes and speech; and another one from **Nordic** Semiconductor which does all of the Bluetooth Low Energy (also called Bluetooth Smart) communication. I don't know which models exactly since I did not have the heart to open one up (and they're also kind of expensive), but I would assume there is a GPL16XXXX series processor inside.
 
-Furby can be interacted with stand-alone controls or while connected to the Android / iOS App "Furby Connect World", which takes full control of Furby's movement and speech and sends updates it pulls from Hasbro's servers at Amazon AWS.
+Furby can be interacted with using stand-alone controls or while connected to the Android / iOS App "Furby Connect World", which takes full control of Furby's movement and speech and sends updates it pulls from Hasbro's servers at Amazon AWS.
 
 This project mostly consists of documentation of Furby's protocol, his peculiarities, trivia and several software tools that may come in handy when deciphering Furby's secrets. There is also a KiCad schematic of the insides of Furby's sleep mask in the `sleepmask` directory and more schematics may follow. However, it is not this project's goal to completely reverse engineer all of Furby's electronics.
 
