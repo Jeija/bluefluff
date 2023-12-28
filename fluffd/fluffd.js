@@ -20,7 +20,7 @@
 
 // System: HTTP server and Bluetooth Low Energy Library
 const winston = require("./logger");
-const noble = require("noble");
+const noble = require("noble-mac");
 const http = require("http");
 
 // Project
@@ -91,6 +91,7 @@ function parseCommand(name, req, res) {
 	});
 }
 
+console.log("here");
 http.createServer(function (req, res) {
 	let fragments = req.url.substring(1).split("/");
 	let query = fragments.splice(0, 2);
@@ -120,6 +121,9 @@ http.createServer(function (req, res) {
 	}
 }).listen(3872);
 
+
+console.log("here 2");
+
 /*** noBLE Callbacks ***/
 noble.on("stateChange", function (state) {
 	if (state === "poweredOn") {
@@ -128,6 +132,8 @@ noble.on("stateChange", function (state) {
 		noble.stopScanning();
 	}
 });
+
+console.log("here 3");
 
 noble.on("discover", function(peripheral) {
 	if(peripheral.advertisement.localName === "Furby") {
@@ -145,3 +151,6 @@ noble.on("discover", function(peripheral) {
 		});
 	}
 });
+
+console.log("here 4");
+
