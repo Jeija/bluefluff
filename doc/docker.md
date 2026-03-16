@@ -15,12 +15,6 @@ No need to install any dependencies simply satisfy the requirements below and yo
                                                       ((()-()))     
 ```
 
-## Build the image
-Not really a complex build. Simply build the docker image in the same directory where the Dockerfile is.
-```
-docker build --tag bluefluff .
-```
-
 ## Requirements
 
 - A Linux host with Bluetooth Low Energy support (built-in or USB BT 4.0+ adapter)
@@ -29,7 +23,15 @@ docker build --tag bluefluff .
 
 > **macOS / Windows:** BLE hardware passthrough through Docker Desktop's VM layer is not supported. This image is intended for **Linux hosts only**.
 
-## Quick Start
+## Build the image
+Not really a complex build. Simply build the docker image in the same directory where the Dockerfile is.
+```
+IMAGE='bluefluff'
+docker build --tag ${IMAGE} .
+```
+
+## Run the container
+Once you local image is built, you can run the container.
 
 ```bash
 IMAGE='bluefluff'
