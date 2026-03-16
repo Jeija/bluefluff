@@ -1,6 +1,26 @@
 # bluefluff - dockerized
 No need to install any dependencies simply satisfy the requirements below and you can run bluefluff!
 
+```
+                                                          ,
+                    ##        .                          ),\
+              ## ## ##       ==                         ( ) )
+           ## ## ## ##      ===                  |'-.  .-"""-.  .-'|
+       /""""""""""""""""\___/ ===                |.-.`/,, - ,,\'.-.|
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~         '._ | (@) (@) | _.'
+       \______ o          __/                       `|   (-)   |`
+         \    \        __/                           > .'   '. <
+          \____\______/                              | |     | |
+                                                 jgs \ \     / /
+                                                      ((()-()))     
+```
+
+# Build the image
+Not really a complex build. Simply build the docker image in the same directory where the Dockerfile is.
+```
+docker build --tag bluefluff .
+```
+
 # Run the container
 ## Requirements
 
@@ -48,23 +68,3 @@ The web UI will automatically scan for nearby Furby Connect devices advertising 
 | `8000` | `fluffd-client` static web UI (served via `http-server`) |
 | `3872` | `fluffd` HTTP API |
 
-
-## Furby's Emotional State
-
-Furby's mood is a vector of five values (each 0–100):
-
-- **Wellness** — overall health
-- **Fullness** — how recently fed
-- **Displeasedness** — grumpiness level
-- **Tiredness** — sleepiness
-- **Excitedness** — energy and enthusiasm
-
-These can all be set directly from the web UI.
-
----
-
-# Build the image
-Not really a complex build. Simply build the docker image in the same directory where the Dockerfile is.
-```
-docker build --tag bluefluff .
-```
