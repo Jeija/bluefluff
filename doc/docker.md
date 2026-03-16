@@ -15,13 +15,12 @@ No need to install any dependencies simply satisfy the requirements below and yo
                                                       ((()-()))     
 ```
 
-# Build the image
+## Build the image
 Not really a complex build. Simply build the docker image in the same directory where the Dockerfile is.
 ```
 docker build --tag bluefluff .
 ```
 
-# Run the container
 ## Requirements
 
 - A Linux host with Bluetooth Low Energy support (built-in or USB BT 4.0+ adapter)
@@ -33,13 +32,14 @@ docker build --tag bluefluff .
 ## Quick Start
 
 ```bash
+IMAGE='bluefluff'
 docker run -it \
   --network host \
   --device /dev/bus/usb \
   --cap-add NET_ADMIN \
   --cap-add NET_RAW \
   --volume /var/run/dbus:/var/run/dbus
-  erezbinyamin/bluefluff
+  ${IMAGE}
 ```
 
 > **Note:** `--network host` is required so that [noble](https://github.com/sandeepmistry/noble) (the BLE library) can access raw HCI sockets. If your Bluetooth adapter hasn't initialized yet, ensure `hciconfig` shows your adapter on the host before running.
