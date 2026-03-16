@@ -19,7 +19,7 @@ No need to install any dependencies simply satisfy the requirements below and yo
 
 - A Linux host with Bluetooth Low Energy support (built-in or USB BT 4.0+ adapter)
 - A **Furby Connect** toy (not compatible with older Furby models)
-- Docker
+- [Docker](https://docs.docker.com/engine/install/)
 
 > **macOS / Windows:** BLE hardware passthrough through Docker Desktop's VM layer is not supported. This image is intended for **Linux hosts only**.
 
@@ -31,7 +31,7 @@ docker build --tag ${IMAGE} .
 ```
 
 ## Run the container
-Once you local image is built, you can run the container.
+Once your local image is built, you can run the container.
 
 ```bash
 IMAGE='bluefluff'
