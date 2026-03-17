@@ -10,29 +10,26 @@ RUN apt-get update && apt-get install -y \
     git \
     dbus \
     rfkill \
-    && rm -rf /var/lib/apt/lists/*
-
-# Install simple static web server
-RUN npm install -g http-server
+    tini \
+  && npm install -g http-server \
+  && rm -rf /var/lib/apt/lists/*
 
 # Prevent bluez from taking exclusive control of adapter
 ENV NOBLE_HCI_DEVICE_ID=0
 ENV NOBLE_REPORT_ALL_HCI_EVENTS=1
 
-# Create app directory
+# Create app directory and copy project in
 WORKDIR /opt
-
-# Clone repo
-RUN git clone https://github.com/Jeija/bluefluff.git
+COPY . /opt/bluefluff
 
 # Install Node dependencies
 WORKDIR /opt/bluefluff/fluffd
 RUN npm install
 
-# Expose fluffd HTTP API
-EXPOSE 3872
-EXPOSE 8000
+# Expose fluffd HTTP API and webui
+EXPOSE 3872 8000
 
 # Start UI server + fluff daemon
 WORKDIR /opt/bluefluff
-CMD sh -c "http-server fluffd-client -p 8000 & node fluffd/fluffd.js"
+ENTRYPOINT ["/usr/bin/tini","--"]
+CMD ["sh","-c","http-server fluffd-client -p 8000 & exec node fluffd/fluffd.js"]
