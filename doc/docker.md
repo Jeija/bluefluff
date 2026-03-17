@@ -31,32 +31,31 @@ docker build --tag ${IMAGE} .
 ```
 ### Expected build output
 ```
-[+] Building 8.9s (12/12) FINISHED                                                                               docker:default
+[+] Building 63.5s (13/13) FINISHED                                                                              docker:default
  => [internal] load build definition from Dockerfile                                                                       0.0s
- => => transferring dockerfile: 833B                                                                                       0.0s
- => [internal] load metadata for docker.io/library/node:16-bullseye                                                        0.3s
+ => => transferring dockerfile: 832B                                                                                       0.0s
+ => [internal] load metadata for docker.io/library/node:16-bullseye                                                        1.3s
+ => [auth] library/node:pull token for registry-1.docker.io                                                                0.0s
  => [internal] load .dockerignore                                                                                          0.0s
  => => transferring context: 2B                                                                                            0.0s
- => [1/8] FROM docker.io/library/node:16-bullseye@sha256:cd59a61258b82b86c1ff0ead50c8a689f6c3483c5ed21036e11ee741add419eb  0.1s
+ => [1/7] FROM docker.io/library/node:16-bullseye@sha256:cd59a61258b82b86c1ff0ead50c8a689f6c3483c5ed21036e11ee741add419eb  0.1s
  => => resolve docker.io/library/node:16-bullseye@sha256:cd59a61258b82b86c1ff0ead50c8a689f6c3483c5ed21036e11ee741add419eb  0.1s
- => CACHED [2/8] RUN apt-get update && apt-get install -y     bluetooth     bluez     libbluetooth-dev     libudev-dev     0.0s
- => CACHED [3/8] RUN npm install -g http-server                                                                            0.0s
- => CACHED [4/8] WORKDIR /opt                                                                                              0.0s
- => CACHED [5/8] RUN git clone https://github.com/Jeija/bluefluff.git                                                      0.0s
- => CACHED [6/8] WORKDIR /opt/bluefluff/fluffd                                                                             0.0s
- => CACHED [7/8] RUN npm install                                                                                           0.0s
- => CACHED [8/8] WORKDIR /opt/bluefluff                                                                                    0.0s
- => exporting to image                                                                                                     8.3s
- => => exporting layers                                                                                                    0.0s
- => => exporting manifest sha256:5e103357148afd19991fa484c16af049fec47520d92738b332ab5eeab8e0da6a                          0.0s
- => => exporting config sha256:99caad1d55c60a7119cd89ee5ee9b51e7e444c52366f09465eff545aff937b2c                            0.0s
- => => exporting attestation manifest sha256:8489818debfba4d890de6f5fee6d63688f3fdd48a04603600684624afb6cc461              0.0s
- => => exporting manifest list sha256:60e81eed49a171aaf8ab353b1c64c903f746efcbd562e4ed24e94b8d13741e7e                     0.0s
+ => [internal] load build context                                                                                          0.0s
+ => => transferring context: 7.19kB                                                                                        0.0s
+ => CACHED [2/7] RUN apt-get update && apt-get install -y     bluetooth     bluez     libbluetooth-dev     libudev-dev     0.0s
+ => CACHED [3/7] WORKDIR /opt                                                                                              0.0s
+ => [4/7] COPY . /opt/bluefluff                                                                                            0.1s
+ => [5/7] WORKDIR /opt/bluefluff/fluffd                                                                                    0.1s
+ => [6/7] RUN npm install                                                                                                 45.8s
+ => [7/7] WORKDIR /opt/bluefluff                                                                                           0.3s 
+ => exporting to image                                                                                                    15.5s 
+ => => exporting layers                                                                                                    7.2s 
+ => => exporting manifest sha256:746160d22fca925d59082c2dbf2651e870c4c30bfa510f839636e7a1de1552e1                          0.0s 
+ => => exporting config sha256:bac7f2ec9107f65ebf8b7574da3a50532b3ad023b7310cbad9b06b66503e31b9                            0.0s 
+ => => exporting attestation manifest sha256:c3aea3a7060dd2b018610c8807a8edb7ccf3669a5aa6ba35aaa6fc4518ecdb8d              0.1s 
+ => => exporting manifest list sha256:e4403e343d051bafdb7625bfc99249d3fc999f2ad039ea7905e097165ff75cab                     0.0s
  => => naming to docker.io/library/bluefluff:latest                                                                        0.0s
  => => unpacking to docker.io/library/bluefluff:latest                                                                     8.1s
-
- 1 warning found (use docker --debug to expand):
- - JSONArgsRecommended: JSON arguments recommended for CMD to prevent unintended behavior related to OS signals (line 38)
 ```
 
 ## Run the container
@@ -101,6 +100,8 @@ Available on:
   http://192.168.0.196:8000
 Hit CTRL-C to stop the server
 ```
+> **Note:** If you see a warning like `noble: Initialization of USB device failed: ENODEV, No such device` this means there may be an issue with your bluetooth adapter. It may not be turned on or may be soft-blocked.
+
 
 ## Accessing the Web UI
 
