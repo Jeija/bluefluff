@@ -50,6 +50,7 @@ This project contains reverse-engineered documentation for different elements of
 * [**Names**](doc/names.md): A list of the 129 different possible names for Furby.
 * [**DLC Files**](doc/dlcformat.md): Some information about the update packages and their content for Furby Connect containing LCD animations and audio.
 * [**How to flash your own DLC**](doc/flashdlc.md): How to create and flash your own updates to Furby
+* [**Run bluefluff in a container**](doc/docker.md): Quick and easy method of running this project in an isolated docker container _without_ having to install any local dependencies
 
 ## fluffd and fluffd-client
 "fluffd" exists to make interacting with and controlling Furby Connect via BLE from your Linux, macOS, FreeBSD or Windows computer simpler. Thanks to its client-server model, it can also easily be used on something like a Raspberry Pi. fluffd requires either builtin Bluetooth Low Energy (e.g. the one integrated into Raspberry Pi 3) or a USB Bluetooth 4.0 (or higher) adapter.
