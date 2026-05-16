@@ -1871,8 +1871,77 @@ _Note: DO NOT GO ABOVE 128, furby will loop glitch, 131 is a hard crash, must pu
 |71 | 0 | 0 | 6 | "Ti" |
 |71 | 0 | 0 | 7 | "Do" |
 
-## 71 - Video Notifications
+## 72 - Video Notifications
 May vary based on DLC installed
+| Input | Index | SubIndex | specific | Action | 
+|-------|-------|----------|----------|--------|
+|72| 0 | 0 | 0 | "Ooh, how about" |
+|72| 1 | 0 | 0 | "Okay, pick up baby" |
+|72| 1 | 0 | 1 | "Pick up the little furb, oh, gently now" |
+|72| 2 | 0 | 0 | "Ooh, oo-nye get super friendship stamp of approval!" |
+|72| 2 | 0 | 1 | "Oh, oo-nye kah favorite human!" |
+|72| 2 | 0 | 2 | "Uh, you? Kah best friend... forever!" |
+|72| 3 | 0 | 0 | "Oh wow, that looks so much better" |
+|72| 3 | 0 | 1 | "Oh, that way cooler now, dee-doh" |
+|72| 4 | 0 | 0 | "Let's add furbling here" |
+|72| 5 | 0 | 0 | "Aw yeah, kah getting the hang of this" |
+|72| 5 | 0 | 1 | "Kah learrrrrrrrrning" |
+|72| 5 | 0 | 2 | "Oh, like this" |
+|72| 5 | 1 | 0 | "Knowledge acquired" |
+|72| 5 | 1 | 1 | "Kah am learning all the things" |
+|72| 5 | 1 | 2 | "Oh, kah got it, kah totally got it" |
+|72| 5 | 2 | 0 | "Oh, kah no learn yet, try again?" |
+|72| 5 | 3 | 0 | "Now this way" |
+|72| 5 | 3 | 1 | "And now, we do this" |
+|72| 5 | 3 | 2 | "All the little furblings join in" |
+|72| 5 | 4 | 0 | "Okay furbling, gather round" |
+|72| 5 | 4 | 1 | "Gather round and get ready, little furbs" |
+|72| 6 | 0 | 0 | "Whoa, what happening?" |
+|72| 6 | 1 | 0 | "GASP, kah have new power!" |
+|72| 6 | 1 | 1 | "Whoa, epic Furby powers ready!" |
+|72| 6 | 1 | 2 | "Powered up, unleash kah abilities! |
+|72| 7 | 0 | 0 | "Oh, it worked!" |
+|72| 8 | 0 | 0 | "brain freeze!"|
+|72| 9 | 0 | 0 | "Ooh, ooh, hey, let's collect them aaaaaaaaaaaaaallllll! Huh? Huh?" |
+|72| 9 | 1 | 0 | "Woohoo! Collection complete" |
+|72| 10 | 0 | 0 | "Aw, baby look hungry" |
+|72| 10 | 0 | 1 | "What-di-di-di-di-di-di-doo, little furb starving" |
+|72| 10 | 0 | 2 | "Someone's a hungry furbling, that guy, the one over there, hungry" |
+|72| 10 | 1 | 0 | "sniff sniff, ooh, baby need shower" |
+|72| 10 | 1 | 1 | "sniff, ugh, stinky baby need shower" |
+|72| 10 | 2 | 0 | "Uh-oh, furbling no look so good" |
+|72| 10 | 2 | 1 | "Aw, furbling needs some tender-loving care" |
+|72| 10 | 3 | 0 | "Oh, they like it" |
+|72| 10 | 3 | 1 | "Huh, the little furb likes it" |
+|72| 10 | 4 | 0 | "Huh, furbling no likey" |
+|72| 10 | 4 | 1 | "eh-huh-huh, furbling all like, bleh" |
+|72| 10 | 5 | 0 | "furbling loves it!" |
+|72| 10 | 5 | 1 | "Aw, baby loves it!" |
+|72| 10 | 6 | 0 | "Ah, all better" |
+|72| 10 | 6 | 1 | "sigh, all good now" |
+|72| 11 | 0 | 0 | "Oh kah furb, must have" |
+|72| 12 | 0 | 0 | "Ooh, we could name baby" |
+|72| 12 | 1 | 0 | "Or..." |
+|72| 13 | 0 | 0 | "Is kah most favorite furbling!" |
+|72| 14 | 0 | 0 | "Ooh, furbling level up" |
+|72| 14 | 0 | 1 | "Yeah! Friendship level up!" |
+|72| 15 | 0 | 0 | "ahem, um kah waiting" |
+|72| 15 | 0 | 1 | "Hey! don't forget about kah" |
+|72| 16 | 0 | 0 | "Can we use this, please?" |
+|72| 16 | 0 | 1 | "Oh, can we use that?" |
+|72| 17 | 0 | 0 | "The egg machine" |
+|72| 17 | 0 | 1 | "The epic egg machine" |
+|72| 17 | 1 | 0 | "The food cannon" |
+|72| 17 | 1 | 1 | "The cannon of food" |
+|72| 17 | 2 | 0 | "The place of the egg hatching place" |
+|72| 17 | 2 | 1 | "The hatching station" |
+|72| 17 | 3 | 0 | "The movie theater" |
+|72| 17 | 4 | 0 | "The mighty totem pole" |
+|72| 17 | 5 | 0 | "The dance floor" |
+|72| 17 | 6 | 0 | "Let's go to" |
+|72| 17 | 6 | 1 | "Hey! let's check out" |
+|72| 17 | 6 | 2 | "Oh, something happening at" |
+
 
 ## 73 - Empty
 
