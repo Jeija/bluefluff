@@ -5,7 +5,7 @@ let commands = {};
 /*** GeneralPlus Actions ***/
 commands["antenna"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x14, params.red, params.green, params.blue]), callback);
+		fluff.generalPlusWrite(Buffer.from([0x14, params.red, params.green, params.blue]), callback);
 	},
 	readable: "Antenna Color",
 	description: "Set Antenna Color",
@@ -18,7 +18,7 @@ commands["antenna"] = {
 
 commands["debug"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0xdb]), callback);
+		fluff.generalPlusWrite(Buffer.from([0xdb]), callback);
 	},
 	readable: "Debug Screen",
 	description: "Cycle through LCD eye debug menus"
@@ -26,7 +26,7 @@ commands["debug"] = {
 
 commands["lcd"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0xcd, params.state]), callback);
+		fluff.generalPlusWrite(Buffer.from([0xcd, params.state]), callback);
 	},
 	readable: "LCD Light",
 	description: "Set LCD Eyes Background Light",
@@ -37,7 +37,7 @@ commands["lcd"] = {
 
 commands["action"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
+		fluff.generalPlusWrite(Buffer.from([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
 	},
 	readable: "Action",
 	description: "Furby move / talk action",
@@ -53,8 +53,8 @@ commands["setname"] = {
 	run: function (fluff, params, callback) {
 		// 0x21: Actually set name, 0x13: action to say name afterwards
 		fluff.generalPlusWriteSequence([
-			new Buffer([0x21, params.name]),
-			new Buffer([0x13, 0x00, 0x21, 0x00, 0x00, params.name])
+			Buffer.from([0x21, params.name]),
+			Buffer.from([0x13, 0x00, 0x21, 0x00, 0x00, params.name])
 		], callback);
 	},
 	readable: "Set Name",
@@ -66,7 +66,7 @@ commands["setname"] = {
 
 commands["custom"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer(params.cmd, "hex"), callback);
+		fluff.generalPlusWrite(Buffer.from(params.cmd, "hex"), callback);
 	},
 	readable: "Custom Command",
 	description: "Send arbitrary command to GeneralPlus",
@@ -91,7 +91,7 @@ commands["setidle"] = {
 
 commands["moodmeter"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x23, params.action, params.type, params.value]), callback);
+		fluff.generalPlusWrite(Buffer.from([0x23, params.action, params.type, params.value]), callback);
 	},
 	readable: "Set Moodmeter",
 	description: "Enable or disable keeping Furby quiet",
@@ -105,7 +105,7 @@ commands["moodmeter"] = {
 /*** Nordic Actions ***/
 commands["nordic_custom"] = {
 	run: function (fluff, params, callback) {
-		fluff.nordicWrite(new Buffer(params.cmd, "hex"), callback);
+		fluff.nordicWrite(Buffer.from(params.cmd, "hex"), callback);
 	},
 	readable: "Custom Nordic",
 	description: "Send arbitrary command to Nordic",
@@ -116,7 +116,7 @@ commands["nordic_custom"] = {
 
 commands["nordic_packetack"] = {
 	run: function (fluff, params, callback) {
-		fluff.nordicWrite(new Buffer([0x09, params.state, 0x00]), callback);
+		fluff.nordicWrite(Buffer.from([0x09, params.state, 0x00]), callback);
 	},
 	readable: "Set Nordic Packet ACK",
 	description: "Enable / disable nordic packet ACK messages for file writing",
@@ -128,7 +128,7 @@ commands["nordic_packetack"] = {
 /*** DLC-related Actions ***/
 commands["dlc_delete"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x74, params.slot]), callback);
+		fluff.generalPlusWrite(Buffer.from([0x74, params.slot]), callback);
 	},
 	readable: "Delete DLC",
 	description: "Delete DLC from slot with ID",
@@ -146,7 +146,7 @@ commands["flashdlc"] = {
 		let buf_size = Buffer.from([dlcsize >> 16 & 0xff, dlcsize >> 8 & 0xff, dlcsize & 0xff]);
 		let buf_slot = Buffer.from([0x02]);
 		let buf_filename = Buffer.from(params.filename);
-		let buf_end = Buffer([0x00, 0x00]);
+		let buf_end = Buffer.from([0x00, 0x00]);
 		let cmd_prepare = Buffer.concat([buf_cmd, buf_size, buf_slot, buf_filename, buf_end]);
 
 		fluff.generalPlusWrite(cmd_prepare, callback);
@@ -187,7 +187,7 @@ commands["flashdlc"] = {
 
 commands["dlc_load"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x60, params.slot]), callback);
+		fluff.generalPlusWrite(Buffer.from([0x60, params.slot]), callback);
 	},
 	readable: "Load DLC",
 	description: "Load DLC for activation",
@@ -198,7 +198,7 @@ commands["dlc_load"] = {
 
 commands["dlc_activate"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x61]), callback);
+		fluff.generalPlusWrite(Buffer.from([0x61]), callback);
 	},
 	readable: "Activate DLC",
 	description: "Activate loaded DLC - use after 'Load DLC'"
@@ -206,7 +206,7 @@ commands["dlc_activate"] = {
 
 commands["dlc_deactivate"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x62, params.slot]), callback);
+		fluff.generalPlusWrite(Buffer.from([0x62, params.slot]), callback);
 	},
 	readable: "Deactivate DLC",
 	description: "Deactivate DLC slot without deleting it",
@@ -218,7 +218,7 @@ commands["dlc_deactivate"] = {
 /*** Preprogrammed buttons that you can add yourself ***/
 commands["other"] = {
 	run: function (fluff, params, callback) {
-		fluff.generalPlusWrite(new Buffer([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
+		fluff.generalPlusWrite(Buffer.from([0x13, 0x00, params.input, params.index, params.subindex, params.specific]), callback);
 	},
 	readable: "Preprogrammed Actions",
 	description: "Furby move / talk buttons",

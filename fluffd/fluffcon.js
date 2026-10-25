@@ -190,7 +190,7 @@ class Fluff {
 		// Therefore, we can just feed it some empty 0x00 commands so that it doesn't start talking.
 		// The app does this with 20:06 packets that trigger SendImHereSignal answers in 3 second interval,
 		// but we can just use whatever we want.
-		this.idleInterval = setInterval(this.generalPlusWrite.bind(this, new Buffer([0x00])), 3000);
+		this.idleInterval = setInterval(this.generalPlusWrite.bind(this, Buffer.from([0x00])), 3000);
 	}
 
 	stopIdle() {
