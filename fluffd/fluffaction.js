@@ -139,7 +139,14 @@ commands["dlc_delete"] = {
 
 commands["flashdlc"] = {
 	run : function (fluff, params, callback) {
-		const dlcsize = fs.statSync(params.dlcfile)["size"];
+		let dlcsize;
+		try {
+			dlcsize = fs.statSync(params.dlcfile)["size"];
+		} catch (error) {
+			winston.error("FlashDLC: Error accessing file: " + error);
+			if (callback) callback("Error accessing file: " + error);
+			return;
+		}
 
 		// Not sure what buf_slot does?? Is it really the DLC slot??
 		let buf_cmd = Buffer.from([0x50, 0x00]);
@@ -149,32 +156,93 @@ commands["flashdlc"] = {
 		let buf_end = Buffer([0x00, 0x00]);
 		let cmd_prepare = Buffer.concat([buf_cmd, buf_size, buf_slot, buf_filename, buf_end]);
 
-		fluff.generalPlusWrite(cmd_prepare, callback);
+		let flashint = null;
+		let started = false;
+		let finished = false;
 
-		// Wait until GeneralPlus is ready to receive (sends 24:02 response)
-		fluff.addGeneralPlusCallback(function (data) {
-			if (!(data[0] == 0x24 && data[1] == 0x02))
+		// Stop writing, remove our callbacks and report the result, exactly once
+		const finish = function (error) {
+			if (finished)
 				return;
-			winston.info("FlashDLC: Got Ready to Receive");
+			finished = true;
+			clearInterval(flashint);
+			clearTimeout(flashTimeout);
+			fluff.removeGeneralPlusCallback(onNotification);
+			if (error)
+				winston.error("FlashDLC: " + error);
+			else
+				winston.info("FlashDLC: Flash completed successfully");
+			if (callback) callback(error);
+		};
 
+		// The whole flash takes 3-5 minutes, so give up after 10
+		const flashTimeout = setTimeout(function () {
+			finish("Timed out waiting for flash to complete");
+		}, 600000);
+
+		const startWriting = function () {
 			fs.readFile(params.dlcfile, function (error, dlc) {
-				if (error)
-					throw error;
+				if (finished)
+					return;
+				if (error) {
+					finish("Error reading file: " + error);
+					return;
+				}
 
 				// Write DLC piece by piece
 				let offset = 0;
+				const totalChunks = Math.ceil(dlc.length / 20);
+				let lastProgressReport = 0;
 
-				let flashint = setInterval(function () {
+				flashint = setInterval(function () {
 					const piece = dlc.slice(offset, offset + 20);
-					fluff.writeToSlot(piece);
 
 					// End of buffer: Stop writing
-					if (piece.length < 20)
+					if (piece.length === 0) {
 						clearInterval(flashint);
+						winston.info("FlashDLC: All data sent, waiting for completion notification");
+						return;
+					}
+
+					fluff.writeToSlot(piece, function (error) {
+						if (error)
+							finish("Error writing to slot: " + error);
+					});
+
+					// Progress reporting every 10%
+					const progress = Math.floor((Math.floor(offset / 20) / totalChunks) * 100);
+					if (progress >= lastProgressReport + 10 && progress < 100) {
+						winston.info("FlashDLC: Progress " + progress + "%");
+						lastProgressReport = progress;
+					}
 
 					offset += 20;
 				}, 5);
 			});
+		};
+
+		// GeneralPlus sends 24:02 when ready to receive, 24:05 once the DLC is stored,
+		// and 24:03 (transfer timeout) or 24:06 (receive error) if it fails
+		const onNotification = function (data) {
+			if (data[0] != 0x24)
+				return;
+			if (data[1] == 0x02 && !started) {
+				started = true;
+				winston.info("FlashDLC: Got Ready to Receive");
+				startWriting();
+			} else if (data[1] == 0x05) {
+				finish(false);
+			} else if (data[1] == 0x03) {
+				finish("Furby reported a file transfer timeout (24:03)");
+			} else if (data[1] == 0x06) {
+				finish("Furby reported a file receive error (24:06)");
+			}
+		};
+		fluff.addGeneralPlusCallback(onNotification);
+
+		fluff.generalPlusWrite(cmd_prepare, function (error) {
+			if (error)
+				finish(error);
 		});
 	},
 	readable: "Flash DLC file",

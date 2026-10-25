@@ -23,7 +23,11 @@ For actually downloading the DLC, you have to choose "Flash DLC file" in fluffd-
 
 After hitting send, fluffd should send a `0x50` command with your file's parameters to the Furby, to which Furby will respond with a GeneralPlus notification `2402` when ready to receive. After that, you will see a stream of data interrupted by Furby's Nordic ACK packets. Depending on your DLC file size, this process will take **3-5 Minutes**. Furby should display a `1` in the debug menu.
 
+fluffd logs progress every 10% while it sends the file. The flash request only returns once Furby sends `2405`, or with an error if the file can't be read, a write fails, or 10 minutes pass without `2405`.
+
 When uploading your DLC has finished, Furby should display a `2` on the debug screen and you should see a GeneralPlus (GP) notification `2405`.
+
+If flashing fails or times out, check the fluffd log for the error, delete the partial DLC from Furby and try again.
 
 ### Loading and activating
 You can now load the DLC file using the "Load DLC" command in fluffd-client and then activate it using the "Activate DLC" command. After this, Furby's debug screen should show a `3` for the respective slot. The actions / songs in the DLC file should now be available through action input `75`, e.g. input 75, index 0, subindex 0 and specific 0. See [Action Sequences](actions.md) for information on how to trigger those songs and reactions.

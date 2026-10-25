@@ -161,7 +161,8 @@ class Fluff {
 
 		this.gpListen.on("data", (data) => {
 			winston.verbose("GP notification: " + data.toString("hex"));
-			for (let c of this.gpCallbacks)
+			// Copy, since a callback may remove itself
+			for (let c of this.gpCallbacks.slice())
 				c(data);
 		});
 
@@ -199,6 +200,13 @@ class Fluff {
 
 	addGeneralPlusCallback(callback) {
 		this.gpCallbacks.push(callback);
+	}
+
+	removeGeneralPlusCallback(callback) {
+		const index = this.gpCallbacks.indexOf(callback);
+		if (index > -1) {
+			this.gpCallbacks.splice(index, 1);
+		}
 	}
 
 	addNordicCallback(callback) {
