@@ -31,6 +31,9 @@ const fluffcon = require("./fluffcon");
 // List of connected Furby Connects
 let furbies = {};
 
+// Every Furby peripheral we've connected to (or are connecting to), so Ctrl+C can disconnect them all
+let peripherals = {};
+
 /*** HTTP Server ***/
 function startCommand(name, post_data, res) {
 	// Respond with success / failure
@@ -133,6 +136,7 @@ noble.on("stateChange", function (state) {
 noble.on("discover", function(peripheral) {
 	if(peripheral.advertisement.localName === "Furby") {
 		winston.info("Discovered Furby: " + peripheral.uuid);
+		peripherals[peripheral.uuid] = peripheral;
 
 		// Introspection mode
 		if (process.argv[2] === "introspect") {
@@ -145,4 +149,37 @@ noble.on("discover", function(peripheral) {
 			furbies[peripheral.uuid] = fluff;
 		});
 	}
+});
+
+// Disconnect every Furby before exiting. Otherwise, Furby will remain in a state where it doesn't
+// accept any connection attempts. (On Linux, noble's hci-socket backend also disconnects on exit.)
+let shuttingDown = false;
+process.on("SIGINT", function () {
+	if (shuttingDown)
+		process.exit();
+	shuttingDown = true;
+
+	winston.info("\nClosing connections...");
+	noble.stopScanning();
+
+	let remaining = Object.keys(peripherals).length;
+	if (remaining === 0)
+		process.exit();
+
+	for (let uuid in peripherals) {
+		peripherals[uuid].disconnect(function (error) {
+			if (error)
+				winston.error("Error while disconnecting " + uuid + ": " + error);
+			if (--remaining === 0) {
+				winston.info("Disconnected, exiting.");
+				process.exit();
+			}
+		});
+	}
+
+	// Don't wait forever if a disconnect never calls back
+	setTimeout(function () {
+		winston.warn("Timed out disconnecting, exiting.");
+		process.exit();
+	}, 3000);
 });

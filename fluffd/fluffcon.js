@@ -20,23 +20,6 @@ const FURBY = {
 	}
 };
 
-// Handle Ctrl+C or other SIGINT events and make sure we close our connection
-// Otherwise, Furby will remain in a state where it doesn't accept any connection attempts.
-function exitHandler(furby) {
-	process.on("SIGINT", function () {
-		winston.info("\nClosing connection...");
-		furby.disconnect(function(error) {
-			if (error)
-				winston.error("Error while disconnecting: " + error);
-			else
-				winston.info("Disconnected, exiting.");
-
-			// TODO: This does not work with multiple furbies connect
-			process.exit();
-		});
-	});
-}
-
 // Get GATT characterstic matching serviceUUID and characteristicUUID from furby peripheral.
 // callback is a function(characteristic), where characteristic is a noBLE characteristic.
 function getFurbyCharacteristics(furby, serviceUUID, characteristicUUIDs, callback) {
@@ -217,7 +200,7 @@ class Fluff {
 
 
 /*
- * Functions to be exported TODO: disconnect
+ * Functions to be exported
  */
 module.exports = {};
 
@@ -227,8 +210,6 @@ module.exports.connect = function (furby, callback) {
 			winston.error("Error while connecting: " + error);
 			return;
 		}
-
-		exitHandler(furby);
 
 		let characteristicUUIDs = Object.values(FURBY.CHARACTERISTIC);
 		getFurbyCharacteristics(furby, FURBY.SERVICE.FLUFF, characteristicUUIDs, function (characteristics) {
@@ -247,8 +228,6 @@ module.exports.connect = function (furby, callback) {
 };
 
 module.exports.introspect = function (furby) {
-	exitHandler(furby);
-
 	furby.connect(function (error) {
 		if (error) {
 			winston.error("Error while connecting for introspection: " + error);
